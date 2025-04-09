@@ -106,6 +106,21 @@
     latitude: 52.520778408127605
     longitude: 13.416401868537298
 
+- conference: PyData Amsterdam
+  year: 2025
+  link: https://amsterdam.pydata.org/
+  cfp_link: https://cfp.pydata.org/pydata-amsterdam-2025/cfp
+  cfp: '2025-05-11 23:59:59'
+  timezone: Europe/Amsterdam
+  place: Amsterdam, Netherlands
+  start: 2025-09-24
+  end: 2025-09-26
+  sub: DATA
+  location:
+  - title: PyData Amsterdam 2025
+    latitude: 52.38331772938018
+    longitude: 4.920446388368758
+
 - conference: PyCamp España
   year: 2025
   link: https://pycamp.es/
