@@ -430,6 +430,22 @@
     latitude: 38.6968919
     longitude: -9.4204495
 
+- conference: PyCaxias
+  year: 2025
+  link: https://pycaxias.com.br/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSeywxIgGFa6okFjhAPQrcD202ll-My_UMHhDunJBzs0FxHe9Q/
+  cfp: '2025-03-31 23:59:00'
+  place: Caxias do Sul, Brazil
+  start: 2025-05-17
+  end: 2025-05-18
+  sponsor: https://pycaxias.com.br/theme/pdf/sponsorship_package.pdf
+  sub: PY,WEB
+  note: The 18th is a DjangoGirls workshop.
+  location:
+  - title: PyCaxias 2025
+    latitude: -29.1685045
+    longitude: -51.1796385
+
 - conference: EuroSciPy
   year: 2025
   link: https://euroscipy.org/2025/
@@ -884,22 +900,6 @@
   - title: AfroPython Conf 2023
     latitude: -5.7944777
     longitude: -35.2119324
-
-- conference: PyCaxias
-  year: 2025
-  link: https://pycaxias.com.br/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSeywxIgGFa6okFjhAPQrcD202ll-My_UMHhDunJBzs0FxHe9Q/
-  cfp: TBA
-  place: Caxias do Sul, Brazil
-  start: 2025-05-17
-  end: 2025-05-18
-  sponsor: https://pycaxias.com.br/theme/pdf/sponsorship_package.pdf
-  sub: PY,WEB
-  note: The 18th is a DjangoGirls workshop.
-  location:
-  - title: PyCaxias 2025
-    latitude: -29.1685045
-    longitude: -51.1796385
 
 - conference: PyCamp Argentina
   year: 2025
