@@ -60,6 +60,22 @@
     latitude: 32.7174202
     longitude: -117.1627728
 
+- conference: PyCon Thailand
+  year: 2025
+  link: https://th.pycon.org/
+  cfp_link: https://sessionize.com/pycon-thailand-2025
+  cfp: '2025-06-14 23:59:00'
+  place: Bangkok, Thailand
+  start: 2025-10-17
+  end: 2025-10-18
+  sponsor: https://www.canva.com/design/DAGaN7XThGo/UlApQVOhDU5j0U2hXk9Q7g/view
+  twitter: pyconthailand
+  sub: PY
+  location:
+  - title: PyCon Thailand 2025
+    latitude: 13.7524938
+    longitude: 100.4935089
+
 - conference: PyBay
   year: 2025
   link: https://pybay.org/
