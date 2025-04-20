@@ -366,6 +366,24 @@
     latitude: 22.6203348
     longitude: 120.3120375
 
+- conference: PyCon Portugal
+  year: 2024
+  link: https://2025.pycon.pt/
+  cfp_link: https://pretalx.evolutio.pt/pycon-portugal-2025/cfp
+  cfp: '2025-04-01 11:59:00'
+  timezone: Europe/Lisbon
+  place: Cascais, Portugal
+  start: 2025-07-24
+  end: 2025-07-26
+  sponsor: https://2024.pycon.pt/sponsors/sponsorship/
+  finaid: https://2025.pycon.pt/information/grants/
+  twitter: PyConPT
+  sub: PY
+  location:
+  - title: PyCon Portugal 2024
+    latitude: 38.6968919
+    longitude: -9.4204495
+
 - conference: EuroSciPy
   year: 2025
   link: https://euroscipy.org/2025/
