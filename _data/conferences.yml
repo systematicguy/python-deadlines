@@ -19,8 +19,8 @@
   place: San Diego, USA
   start: 2025-11-03
   end: 2025-11-05
-  twitter: jupyterCon
   sponsor: https://events.linuxfoundation.org/jupytercon/sponsor/
+  twitter: jupyterCon
   sub: DATA
   location:
   - title: JupyterCon 2025
@@ -571,6 +571,23 @@
   - title: PyTexas 2025
     latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: Kiwi PyCon
+  alt_name: Kiwi PyCon XIV
+  year: 2025
+  link: https://kiwipycon.nz/
+  cfp: TBA
+  timezone: Pacific/Auckland
+  place: Te Whanganui-a-Tara Wellington, New Zealand
+  start: 2025-11-21
+  end: 2025-11-23
+  mastodon: https://mastodon.social/@kiwipycon
+  bluesky: https://bsky.app/profile/kiwipycon.nz
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2025
+    latitude: -41.2887953
+    longitude: 174.7772114
 
 - conference: PyCon Sweden
   alt_name: PyCon SE
