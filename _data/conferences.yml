@@ -27,6 +27,22 @@
     latitude: 62.2417066
     longitude: 25.7495727
 
+- conference: PyCon Finland
+  alt_name: PyCon FI
+  year: 2025
+  link: https://2025.ploneconf.org/pyconfi-2025
+  cfp_link: https://2025.ploneconf.org/call-for-papers
+  cfp: '2025-08-01 23:59:00'
+  place: Helsinki, Finland
+  start: 2025-10-17
+  end: 2025-10-17
+  sub: PY
+  note: Part of Plone Conf
+  location:
+  - title: PyCon Finland 2025
+    latitude: 60.1674881
+    longitude: 24.9427473
+
 - conference: JupyterCon
   year: 2025
   link: https://events.linuxfoundation.org/jupytercon/
