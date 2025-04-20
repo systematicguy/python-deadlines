@@ -10,6 +10,23 @@
   sponsor: https://xtremepython.dev/2025/sponsors/
   sub: PY
 
+- conference: Plone Conference
+  year: 2025
+  link: https://2025.ploneconf.org/
+  cfp_link: https://2025.ploneconf.org/call-for-papers
+  cfp: '2025-08-01 23:59:00'
+  place: Jyväskylä, Finland
+  start: 2025-10-13
+  end: 2025-10-19
+  twitter: ploneconf
+  mastodon: https://plone.social/@ploneconf
+  bluesky: https://bsky.app/profile/plone.org
+  sub: WEB
+  location:
+  - title: Plone Conference 2025
+    latitude: 62.2417066
+    longitude: 25.7495727
+
 - conference: JupyterCon
   year: 2025
   link: https://events.linuxfoundation.org/jupytercon/
