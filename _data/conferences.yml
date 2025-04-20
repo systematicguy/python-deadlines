@@ -749,6 +749,20 @@
     latitude: -41.2887953
     longitude: 174.7772114
 
+- conference: Python Sul
+  alt_name: Python Sul (Brazil)
+  year: 2025
+  link: https://sul.python.org.br/
+  cfp: TBA
+  place: Porto Alegre, Brazil
+  start: 2025-11-21
+  end: 2025-11-23
+  sub: PY
+  location:
+  - title: Python Sul 2025
+    latitude: -30.0324999
+    longitude: -51.2303767
+
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2025
