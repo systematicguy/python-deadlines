@@ -10,6 +10,23 @@
   sponsor: https://xtremepython.dev/2025/sponsors/
   sub: PY
 
+- conference: JupyterCon
+  year: 2025
+  link: https://events.linuxfoundation.org/jupytercon/
+  cfp_link: https://sessionize.com/jupytercon25/
+  cfp: '2025-07-13 23:59:00'
+  timezone: America/Los_Angeles
+  place: San Diego, USA
+  start: 2025-11-03
+  end: 2025-11-05
+  twitter: jupyterCon
+  sponsor: https://events.linuxfoundation.org/jupytercon/sponsor/
+  sub: DATA
+  location:
+  - title: JupyterCon 2025
+    latitude: 32.7174202
+    longitude: -117.1627728
+
 - conference: PyTorch Conference
   year: 2025
   link: https://events.linuxfoundation.org/pytorch-conference-2025/
