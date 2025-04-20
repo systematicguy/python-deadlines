@@ -3811,6 +3811,7 @@
     longitude: 12.3747329
 
 - conference: PyCon Kyushu Kumamoto
+  alt_name: PyCon Kyushu
   year: 2022
   link: https://kyushu.pycon.jp/2022/
   cfp: '2021-11-21 14:59:00'
