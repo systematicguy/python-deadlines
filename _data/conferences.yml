@@ -143,6 +143,20 @@
     latitude: 50.294113
     longitude: 18.6657306
 
+- conference: PyCon Russia
+  year: 2025
+  link: https://www.pycon.ru/
+  cfp_link: https://www.pycon.ru/cfp
+  cfp: '2025-05-15 23:59:00'
+  place: Moscow, Russia
+  start: 2025-07-25
+  end: 2025-07-26
+  sub: PY
+  location:
+  - title: PyCon Russia 2025
+    latitude: 55.625578
+    longitude: 37.6063916
+
 - conference: PyCon UK
   year: 2025
   link: https://2025.pyconuk.org/
