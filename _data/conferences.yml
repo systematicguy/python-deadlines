@@ -169,6 +169,22 @@
     latitude: 41.8755616
     longitude: -87.6244212
 
+- conference: Flask Con
+  year: 2025
+  link: https://flaskcon.com/2025/
+  cfp_link: https://www.papercall.io/flaskcon-pyconus2025
+  cfp: '2025-04-24 23:59:00'
+  timezone: America/New_York
+  place: Pittsburgh, USA
+  start: 2025-05-16
+  end: 2025-05-16
+  sub: WEB
+  note: Alongside PyCon US
+  location:
+  - title: Flask Con 2025
+    latitude: 40.4416941
+    longitude: -79.9900861
+
 - conference: PyCon Greece
   year: 2025
   link: https://2025.pycon.gr/en/
