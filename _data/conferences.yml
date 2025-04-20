@@ -220,6 +220,22 @@
     latitude: 52.38331772938018
     longitude: 4.920446388368758
 
+- conference: PyCon South Korea
+  alt_name: PyCon KR
+  year: 2025
+  link: https://2025.pycon.kr/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScNJaiMQkEGS9GypzCiAF_w8Z5KhPXxmUSyAJtjASS08_H9Ag/viewform
+  cfp: '2025-05-11 23:59:00'
+  timezone: Asia/Seoul
+  place: Seoul, South Korea
+  start: 2025-08-15
+  end: 2025-08-17
+  sub: PY
+  location:
+  - title: PyCon South Korea 2025
+    latitude: 37.5666791
+    longitude: 126.9782914
+
 - conference: PyData Berlin
   year: 2025
   link: https://pydata.org/berlin2025/
@@ -871,20 +887,6 @@
   - title: PyCon Latin America 2025
     latitude: 9.0953279
     longitude: -84.2003038
-
-- conference: PyCon South Korea
-  alt_name: PyCon KR
-  year: 2025
-  link: https://2025.pycon.kr/
-  cfp: TBA
-  place: Seoul, South Korea
-  start: 2025-08-15
-  end: 2025-08-17
-  sub: PY
-  location:
-  - title: PyCon South Korea 2025
-    latitude: 37.5666791
-    longitude: 126.9782914
 
 - conference: AfroPython Conf
   year: 2025
