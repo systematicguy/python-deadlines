@@ -891,6 +891,21 @@
     latitude: 34.3917241
     longitude: 132.4517589
 
+- conference: Pythoncamp Rügen
+  year: 2025
+  link: https://barcamps.eu/pyr2025/
+  cfp_link: https://barcamps.eu/pyr2025/sessions
+  cfp: None
+  place: Rügen, Germany
+  start: 2025-09-20
+  end: 2025-09-21
+  sponsor: https://barcamps.eu/pyr2025/sponsoren
+  sub: CAMP
+  location:
+  - title: Pythoncamp Rügen 2025
+    latitude: 54.4529015
+    longitude: 13.3882344
+
 - conference: PyCamp Czechia
   year: 2025
   link: https://pycamp.cz/
