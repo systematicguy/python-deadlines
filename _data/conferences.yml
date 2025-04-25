@@ -764,6 +764,21 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyCon Germany & PyData Conference
+  alt_name: PyCon Germany
+  year: 2026
+  link: https://2026.pycon.de/
+  cfp: TBA
+  timezone: Europe/Berlin
+  place: Darmstadt, Germany
+  start: 2026-04-13
+  end: 2026-04-17
+  sub: PY,DATA
+  location:
+  - title: PyCon Germany & PyData Conference 2026
+    latitude: 49.872775
+    longitude: 8.651177
+
 - conference: Kiwi PyCon
   alt_name: Kiwi PyCon XIV
   year: 2025
@@ -931,14 +946,3 @@
   - title: PyCamp Argentina 2025
     latitude: -33.8120471
     longitude: -59.5051759
-
-- conference: PyCon Germany & PyData Conference
-  alt_name: PyCon Germany
-  year: 2026
-  link: https://2026.pycon.de/
-  cfp: TBA
-  timezone: Europe/Berlin
-  place: Darmstadt, Germany
-  start: 2026-04-13
-  end: 2026-04-17
-  sub: PY,DATA
