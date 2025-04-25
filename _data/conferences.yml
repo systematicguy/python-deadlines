@@ -764,6 +764,21 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyTexas
+  year: 2026
+  link: https://www.pytexas.org/2026/
+  cfp: TBA
+  timezone: America/Chicago
+  place: Austin, USA
+  start: 2026-04-17
+  end: 2026-04-19
+  sponsor: https://www.pytexas.org/2026/sponsors/sponsor-us/
+  sub: PY
+  location:
+  - title: PyTexas 2026
+    latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: PyCon Germany & PyData Conference
   alt_name: PyCon Germany
   year: 2026
