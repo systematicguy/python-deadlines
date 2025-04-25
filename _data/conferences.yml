@@ -918,6 +918,20 @@
     latitude: 9.0953279
     longitude: -84.2003038
 
+- conference: PyCamp Leipzig
+  year: 2025
+  link: https://barcamps.eu/python-barcamp-leipzig-2025/
+  cfp_link: https://barcamps.eu/python-barcamp-leipzig-2025/sessions
+  cfp: None
+  place: Leipzig, Germany
+  start: 2025-06-21
+  end: 2025-06-24
+  sub: CAMP
+  location:
+  - title: PyCamp Leipzig 2025
+    latitude: 51.3406321
+    longitude: 12.3747329
+
 - conference: AfroPython Conf
   year: 2025
   link: https://afropythonconf.org/
