@@ -43,6 +43,24 @@
     latitude: 60.1674881
     longitude: 24.9427473
 
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2025
+  link: https://pycon.fr/2025/
+  cfp_link: https://cfp.pycon.fr/pyconfr-2025/cfp
+  cfp: '2025-07-20 23:59:00'
+  timezone: Europe/Paris
+  place: Lyon, France
+  start: 2025-10-30
+  end: 2025-11-02
+  sponsor: https://www.pycon.fr/2025/en/sponsors.html
+  mastodon: https://mamot.fr/@AFPy
+  sub: PY
+  location:
+  - title: PyCon France 2025
+    latitude: 45.7578137
+    longitude: 4.8320114
+
 - conference: JupyterCon
   year: 2025
   link: https://events.linuxfoundation.org/jupytercon/
@@ -841,24 +859,6 @@
   - title: PyCon Sweden 2025
     latitude: 59.3251172
     longitude: 18.0710935
-
-- conference: PyCon France
-  alt_name: PyCon FR
-  year: 2025
-  link: https://pycon.fr/2025/
-  cfp_link: https://cfp-2023.pycon.fr/cfp/
-  cfp: TBA
-  timezone: Europe/Paris
-  place: Lyon, France
-  start: 2025-10-30
-  end: 2025-11-02
-  sponsor: https://www.pycon.fr/2025/en/sponsors.html
-  mastodon: https://mamot.fr/@AFPy
-  sub: PY
-  location:
-  - title: PyCon France 2025
-    latitude: 45.7578137
-    longitude: 4.8320114
 
 - conference: PyCon Spain
   alt_name: PyCon ES
