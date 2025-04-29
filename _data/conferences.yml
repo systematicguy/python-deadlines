@@ -162,6 +162,22 @@
     latitude: 47.223987
     longitude: 8.8173
 
+- conference: Python Norte
+  year: 2025
+  link: https://2025.pythonnorte.org/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScA5GtsphzUrkVqvIeOwjZ2utON8LVlM3pfjMXmhBRoclDFcg/viewform
+  cfp: '2025-05-22 23:59:00'
+  timezone: America/Fortaleza
+  place: Belém, Brazil
+  start: 2025-06-04
+  end: 2025-06-06
+  twitter: pythonnortebr
+  sub: PY
+  location:
+  - title: Python Norte 2025
+    latitude: -1.438875529
+    longitude: -48.4782039189
+
 - conference: PyCon India
   year: 2025
   link: https://in.pycon.org/2025/
