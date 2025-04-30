@@ -43,6 +43,22 @@
     latitude: 60.1674881
     longitude: 24.9427473
 
+- conference: PyCon Togo
+  year: 2025
+  link: https://pycontg.pytogo.org/
+  cfp_link: https://pycontg.pytogo.org/proposal
+  cfp: '2025-08-01 23:59:00'
+  timezone: Africa/Lome
+  place: Lome, Togo
+  start: 2025-08-23
+  end: 2025-08-23
+  sponsor: https://pycontg.pytogo.org/sponsor
+  sub: PY
+  location:
+  - title: PyCon Togo 2025
+    latitude: 6.130419
+    longitude: 1.215829
+
 - conference: PyCon France
   alt_name: PyCon FR
   year: 2025
