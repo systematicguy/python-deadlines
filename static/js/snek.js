@@ -88,9 +88,9 @@ function getSeasonStyles() {
 		return { month, day };
 	}
 
-	// Check if it's Easter season (2 weeks around Easter Sunday)
+	// Check if it's Easter season (1 week around Easter Sunday)
 	const easter = getEaster(today.getFullYear());
-	const twoWeeksInMs = 14 * 24 * 60 * 60 * 1000;
+	const twoWeeksInMs = 7 * 24 * 60 * 60 * 1000;
 	const easterDate = new Date(today.getFullYear(), easter.month, easter.day);
 	const diff = Math.abs(today - easterDate);
 
