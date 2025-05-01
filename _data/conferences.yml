@@ -829,6 +829,20 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyCon Latin America
+  alt_name: PyCon LatAm
+  year: 2025
+  link: https://www.pylatam.org/
+  cfp: '2024-05-30 23:59:00'
+  place: Puntarenas, Costa Rica
+  start: 2025-08-21
+  end: 2025-08-24
+  sub: PY
+  location:
+  - title: PyCon Latin America 2025
+    latitude: 9.0953279
+    longitude: -84.2003038
+
 - conference: PyTexas
   year: 2026
   link: https://www.pytexas.org/2026/
@@ -965,20 +979,6 @@
   - title: PyCamp Czechia 2025
     latitude: 49.2457818
     longitude: 15.4508988
-
-- conference: PyCon Latin America
-  alt_name: PyCon LatAm
-  year: 2025
-  link: https://www.pylatam.org/
-  cfp: TBA
-  place: Puntarenas, Costa Rica
-  start: 2025-08-21
-  end: 2025-08-24
-  sub: PY
-  location:
-  - title: PyCon Latin America 2025
-    latitude: 9.0953279
-    longitude: -84.2003038
 
 - conference: PyCamp Leipzig
   year: 2025
