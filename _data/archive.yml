@@ -1,5 +1,20 @@
 ---
 
+- conference: PyCamp Argentina
+  year: 2025
+  link: https://pyar.discourse.group/t/pycamp-2025/1373
+  cfp_link: https://pyar.discourse.group/t/propuestas-de-actividades-pycamp-2025/1386/3
+  cfp: None
+  place: Baradero, Argentina
+  start: 2025-03-21
+  end: 2025-03-24
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSeZUex12ZrNqBPF65eeH0Hcc2hUNjE9HHZbCu6AGSLxJLARFA/viewform
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2025
+    latitude: -33.8120471
+    longitude: -59.5051759
+
 - conference: PyCon Asia Pacific
   alt_name: PyCon Philippines
   year: 2025
