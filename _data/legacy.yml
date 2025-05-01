@@ -1,5 +1,19 @@
 ---
 
+- conference: Wagtail Space Netherlands
+  year: 2017
+  link: https://web.archive.org/web/20161222235503/https://www.wagtail.space/
+  cfp: None
+  place: Arnhem, Netherlands
+  start: 2017-03-21
+  end: 2017-03-25
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
+  location:
+  - title: Wagtail Space Netherlands 2017
+    latitude: 51.984257
+    longitude: 5.9108573
+
 - conference: Swiss Python Summit
   year: 2017
   link: https://web.archive.org/web/20170214143104/http://www.python-summit.ch/

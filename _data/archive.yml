@@ -1305,7 +1305,7 @@
     latitude: -27.5406034
     longitude: -70.4441348
 
-- conference: Wagtail Space NL
+- conference: Wagtail Space Netherlands
   year: 2024
   link: https://nl.wagtail.space/
   cfp_link: https://nl.wagtail.space/call-for-participation
@@ -1319,7 +1319,7 @@
   mastodon: https://fosstodon.org/@wagtail
   sub: WEB
   location:
-  - title: Wagtail Space NL 2024
+  - title: Wagtail Space Netherlands 2024
     latitude: 51.984257
     longitude: 5.9108573
 
@@ -3635,6 +3635,20 @@
     latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: Wagtail Space Netherlands
+  year: 2022
+  link: https://web.archive.org/web/20220622065405/https://www.wagtail.space/2022/
+  cfp: '2022-05-30 23:59:00'
+  place: Arnhem, Netherlands
+  start: 2022-06-15
+  end: 2022-06-17
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
+  location:
+  - title: Wagtail Space Netherlands 2022
+    latitude: 51.984257
+    longitude: 5.9108573
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2022
@@ -3748,6 +3762,21 @@
   - title: PyTexas 2022
     latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: Wagtail Space US
+  year: 2022
+  link: https://web.archive.org/web/20220521162958/https://us.wagtail.space/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSf_sI1IhJEeYzKthm56bL0MjGIdFUaeMHrclVYd1LnG5x78LQ/closedform
+  cfp: '2022-02-28 23:59:00'
+  place: Cleveland, USA
+  start: 2022-03-24
+  end: 2022-03-26
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
+  location:
+  - title: Wagtail Space US 2022
+    latitude: 41.4996574
+    longitude: -81.6936772
 
 - conference: PyCamp Argentina
   year: 2022
@@ -4910,6 +4939,16 @@
   start: 2020-08-03
   end: 2020-08-06
   sub: PY
+
+- conference: Wagtail Space US
+  year: 2020
+  link: https://web.archive.org/web/20200617195844/https://us.wagtail.space/
+  cfp: None
+  place: Online
+  start: 2020-07-30
+  end: 2020-08-01
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
 
 - conference: EuroSciPy
   year: 2020
@@ -6080,6 +6119,20 @@
     latitude: 39.9622601
     longitude: -83.0007065
 
+- conference: Wagtail Space US
+  year: 2019
+  link: https://web.archive.org/web/20190617195844/https://us.wagtail.space/
+  cfp: None
+  place: Philadelphia, USA
+  start: 2019-07-25
+  end: 2019-07-26
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
+  location:
+  - title: Wagtail Space US 2019
+    latitude: 39.9533
+    longitude: -75.198
+
 - conference: Python Nordeste
   year: 2019
   link: https://web.archive.org/web/20210414205846/https://2019.pythonnordeste.org/
@@ -6507,6 +6560,20 @@
     latitude: 46.4843023
     longitude: 30.7322878
 
+- conference: Wagtail Space Netherlands
+  year: 2019
+  link: https://web.archive.org/web/20180830234810/https://www.wagtail.space/
+  cfp: None
+  place: Arnhem, Netherlands
+  start: 2019-03-13
+  end: 2019-03-15
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
+  location:
+  - title: Wagtail Space Netherlands 2019
+    latitude: 51.984257
+    longitude: 5.9108573
+
 - conference: Python Pizza Berlin
   alt_name: Berlin Python Pizza
   year: 2019
@@ -6929,6 +6996,20 @@
   - title: MUPy 2018
     latitude: 13.347776849999999
     longitude: 74.79299358008947
+
+- conference: Wagtail Space Minsk
+  year: 2018
+  link: https://minsk.wagtail.space/
+  cfp: None
+  place: Minsk, Belarus
+  start: 2018-10-27
+  end: 2018-10-28
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
+  location:
+  - title: Wagtail Space Minsk 2018
+    latitude: 53.8901239
+    longitude: 27.5693855
 
 - conference: PyDay Cali
   year: 2018
@@ -7556,6 +7637,20 @@
     latitude: 13.7263574
     longitude: 100.4891324
 
+- conference: Wagtail Space US
+  year: 2018
+  link: https://web.archive.org/web/20180531043322/https://us.wagtail.space/
+  cfp: None
+  place: Philadelphia, USA
+  start: 2018-06-14
+  end: 2018-06-16
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
+  location:
+  - title: Wagtail Space US 2018
+    latitude: 39.9533
+    longitude: -75.198
+
 - conference: Python Serbia
   year: 2018
   link: https://web.archive.org/web/20180326165724/https://pyser.org
@@ -7818,6 +7913,20 @@
   - title: FEniCS 2018
     latitude: 51.7520131
     longitude: -1.2578499
+
+- conference: Wagtail Space Netherlands
+  year: 2018
+  link: https://web.archive.org/web/20171219231516/http://www.wagtail.space/
+  cfp: None
+  place: Arnhem, Netherlands
+  start: 2018-03-14
+  end: 2018-03-16
+  mastodon: https://fosstodon.org/@wagtail
+  sub: WEB
+  location:
+  - title: Wagtail Space Netherlands 2018
+    latitude: 51.984257
+    longitude: 5.9108573
 
 - conference: PyCon Slovakia
   alt_name: PyCon SK
