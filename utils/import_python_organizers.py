@@ -1,4 +1,3 @@
-import re
 import sys
 import urllib
 from datetime import datetime
@@ -14,8 +13,8 @@ from tidy_conf import load_conferences
 from tidy_conf import merge_conferences
 from tidy_conf.deduplicate import deduplicate
 from tidy_conf.schema import get_schema
+from tidy_conf.titles import tidy_df_names
 from tidy_conf.utils import fill_missing_required
-from tidy_conf.yaml import load_title_mappings
 from tidy_conf.yaml import write_df_yaml
 
 
@@ -54,8 +53,10 @@ def map_columns(df, reverse=False):
 
 def write_csv(df, year, csv_location):
     """Write the CSV files for the conferences."""
-    df["cfp"] = df["cfp"].str.slice(stop=10).str.replace("TBA", "")
-    df["tutorial_deadline"] = df["tutorial_deadline"].apply(str).str.slice(stop=10).str.replace("TBA", "")
+    df["cfp"] = df["cfp"].str.slice(stop=10).str.replace(r"\b(TBA|None)\b", "", regex=True)
+    df["tutorial_deadline"] = (
+        df["tutorial_deadline"].fillna("").apply(str).str.slice(stop=10).str.replace(r"\b(TBA|None)\b", "", regex=True)
+    )
     df = map_columns(df, reverse=True)
     for y in range(year, datetime.now(tz=timezone.utc).year + 10):
         if y in df["year"].unique():
@@ -116,8 +117,7 @@ def main(year=None, base=""):
         df_csv_old = pd.DataFrame(columns=df_csv.columns)
 
     # Load and apply the title mappings, remove years from conference names
-    _, known_mappings = load_title_mappings(reverse=True)
-    df_csv = df_csv.replace(re.compile(r"\b\s+(19|20)\d{2}\s*\b"), "", regex=True).replace(known_mappings)
+    df_csv = tidy_df_names(df_csv)
 
     # Store the new ics dataframe to cache
     df_cache = df_csv.copy()
@@ -130,8 +130,8 @@ def main(year=None, base=""):
 
     if df_csv.empty:
         print("No new conferences found in Python organiser source.")
-        return
 
+    # Adjust deduplication and merging logic to retain valid data
     for y in range(year, datetime.now(tz=timezone.utc).year + 10):
         if df_csv.loc[df_csv["year"] == y].empty or df_yml[df_yml["year"] == y].empty:
             # Concatenate the new data with the existing data
@@ -141,6 +141,7 @@ def main(year=None, base=""):
             )
             continue
 
+        # Perform fuzzy matching and merge
         df_merged, df_remote = fuzzy_match(df_yml[df_yml["year"] == y], df_csv.loc[df_csv["year"] == y])
         df_merged["year"] = y
         df_merged = df_merged.drop(["conference"], axis=1)
@@ -155,18 +156,20 @@ def main(year=None, base=""):
     write_df_yaml(df_new, target_file)
 
     # Write the new data to the CSV file
-    df_csv.loc[:, "Location"] = df_csv.place
+    df_new.loc[:, "Location"] = df_new.place
     try:
-        df_csv.loc[:, "Country"] = (
-            df_csv.place.str.split(",")
+        df_new.loc[:, "Country"] = (
+            df_new.place.str.split(",")
             .str[-1]
             .str.strip()
             .apply(lambda x: iso3166.countries_by_name.get(x.upper(), iso3166.Country("", "", "", "", "")).alpha3)
         )
     except AttributeError as e:
         df_csv.loc[:, "Country"] = ""
-        print(f"Error: Country iso3 not found for {df_csv.place} - {e}")
-    write_csv(df_csv, year, csv_location)
+        print(f"Error: Country iso3 not found for {df_new.place} - {e}")
+
+    print(f"Writing {len(df_new)} conferences to CSV file")
+    write_csv(df_new, year, csv_location)
 
     # Save the new ics dataframe to cache
     df_cache.to_csv(cache_file, index=False)

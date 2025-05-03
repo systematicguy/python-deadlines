@@ -41,6 +41,13 @@ def clean_dates(data):
             except ValueError:
                 continue
 
+        if datetimes != "cfp" and data[datetimes] == data["cfp"]:
+            # If the deadline is equal to the cfp, we don't need to add it
+            # to the list of deadlines
+
+            del data[datetimes]
+            continue
+
     return data
 
 

@@ -1,6 +1,6 @@
 def merge_near_duplicates(group):
     # Fill missing values with the next value then take the first row
-    group = group.bfill().ffill()
+    group = group.bfill().ffill().infer_objects(copy=False)
     return group.iloc[0]
 
 

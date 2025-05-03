@@ -1,116 +1,145 @@
 alt_name:
   DjangoCon Australia:
-  - DjangoCon AU
+    global: DjangoCon AU
+  DjangoCongress Japan:
+    variations:
+    - DjangoCongress JP
   FOSDEM:
-  - Python Devroom @ FOSDEM
-  - Python devroom @ FOSDEM
+    variations:
+    - Python Devroom @ FOSDEM
+    - Python devroom @ FOSDEM
   Kiwi PyCon:
-  - PyCon NZ
-  - Kiwi PyCon I
-  - Kiwi PyCon II
-  - Kiwi PyCon III
-  - Kiwi PyCon IV
-  - Kiwi PyCon V
-  - Kiwi PyCon VI
-  - Kiwi PyCon VII
-  - Kiwi PyCon VIII
-  - Kiwi PyCon IX
-  - Kiwi PyCon X
-  - Kiwi PyCon XI
-  - Kiwi PyCon XII
-  - Kiwi PyCon XIII
-  - Kiwi PyCon XIV
-  - Kiwi PyCon XV
+    global: PyCon NZ
+    regexes:
+    - Kiwi PyCon [IVX]+
+    variations:
+    - Kiwi PyCon I
+    - Kiwi PyCon II
+    - Kiwi PyCon III
+    - Kiwi PyCon IV
+    - Kiwi PyCon V
+    - Kiwi PyCon VI
+    - Kiwi PyCon VII
+    - Kiwi PyCon VIII
+    - Kiwi PyCon IX
+    - Kiwi PyCon X
+    - Kiwi PyCon XI
+    - Kiwi PyCon XII
+    - Kiwi PyCon XIII
+    - Kiwi PyCon XIV
+    - Kiwi PyCon XV
   Moscow Python Conf++:
-  - MoscowPythonConf++
-  - MoscowPythonConf
-  Piter Py:
-  - PiterPy
+    variations:
+    - MoscowPythonConf
+  Plone Conference:
+    variations:
+    - Plone Conference & PyCon Finland
+  PyCamp Czechia:
+    global: PyCamp CZ
   PyCon Asia Pacific:
-  - PyCon APAC
+    global: PyCon APAC
   PyCon Australia:
-  - PyCon AU
+    global: PyCon AU
   PyCon Austria:
-  - PyCon AT
-  - Python Conference Austria
+    global: PyCon AT
+    variations:
+    - Python Conference Austria
+    - Python Austria
   PyCon Czechia:
-  - PyCon CZ
-  - PyCon Czech Republic
+    global: PyCon CZ
+    variations:
+    - PyCon Czech Republic
   PyCon Estonia:
-  - PyCon EE
+    global: PyCon EE
   PyCon Finland:
-  - PyCon FI
+    global: PyCon FI
+    variations:
+    - Plone Conference & PyCon Finland
   PyCon France:
-  - PyCon FR
+    global: PyCon FR
   PyCon Germany:
-  - PyCon DE
-  - PyCon.DE
+    global: PyCon DE
   PyCon Germany & PyData Berlin:
-  - PyCon DE & PyData Berlin
+    global: PyCon DE & PyData Berlin
   PyCon Germany & PyData Conference:
-  - PyCon DE & PyData
+    global: PyCon DE & PyData
   PyCon Hong Kong:
-  - PyCon HK
+    global: PyCon HK
   PyCon Indonesia:
-  - PyCon ID
+    global: PyCon ID
   PyCon Iran:
-  - Iran PyCon
+    global: Iran PyCon
   PyCon Ireland:
-  - PyCon IE
-  PyCon Italia:
-  - PyCon Italy
+    global: PyCon IE
+  PyCon Italy:
+    global: PyCon Italia
   PyCon Japan:
-  - PyCon JP
+    global: PyCon JP
   PyCon Latin America:
-  - PyCon LatAm
+    global: PyCon LatAm
   PyCon Lithuania:
-  - PyCon LT
-  PyCon MEA:
-  - PyCon MEA @ GlobalDevSlam
-  - PyCon MEA & Data Science
+    global: PyCon LT
+  PyCon Middle East and Africa:
+    global: PyCon MEA
+    variations:
+    - PyCon MEA @ GlobalDevSlam
+    - PyCon MEA & Data Science
   PyCon Namibia:
-  - PyCon NA
+    global: PyCon NA
   PyCon Netherlands:
-  - PyCon NL
+    global: PyCon NL
   PyCon Philippines:
-  - PyCon PH
+    global: PyCon PH
   PyCon Poland:
-  - PyCon PL
+    global: PyCon PL
   PyCon Slovakia:
-  - PyCon SK
+    global: PyCon SK
   PyCon South Africa:
-  - PyCon ZA
-  - PyConZA
-  - PyConZA (South Africa)
+    global: PyCon ZA
+    variations:
+    - PyConZA (South Africa)
   PyCon South Korea:
-  - PyCon KR
-  - PyCon Korea
+    global: PyCon KR
+    variations:
+    - PyCon Korea
   PyCon Spain:
-  - PyCon ES
-  - PyCon España
+    global: PyCon ES
+    variations:
+    - PyCon España
   PyCon Sweden:
-  - PyCon SE
+    global: PyCon SE
   PyCon Taiwan:
-  - PyCon TW
+    global: PyCon TW
   PyCon Tanzania:
-  - Python Tanzania Conference
+    variations:
+    - Python Tanzania Conference
   PyCon Ukraine:
-  - PyCon UA
+    global: PyCon UA
+  PyCon Web:
+    variations:
+    - PyCon+Web
+    - PyConWeb
   Python Brasil:
-  - PythonBrasil
-  - Python Brazil
+    variations:
+    - Python Brazil
   Python Ho:
-  - PyHo
-  - PythonHo
+    variations:
+    - PyHo
   Python Niger:
-  - Launching Python Niger
-  Python Pizza Prague:
-  - Prague Python Pizza
+    variations:
+    - Python Niger (Niger)
+  Python Pizza:
+    global: null
+    regexes:
+    - Python Pizza \w+
+    - \w+ Python Pizza
   Python Sul:
-  - Python Sul (Brazil)
+    variations:
+    - Python Sul (Brazil)
   SciPy US:
-  - Scipy
-  - SciPy
+    variations:
+    - Scipy
+    - SciPy
 spelling:
 - DjangoCon
 - EuroPython

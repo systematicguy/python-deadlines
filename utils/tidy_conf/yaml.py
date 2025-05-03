@@ -86,14 +86,33 @@ def load_title_mappings(reverse=False, path="utils/tidy_conf/data/titles.yml"):
 
     with path.open(encoding="utf-8") as file:
         data = yaml.safe_load(file)
-    spellings = data["spelling"]
 
-    alt_names = data["alt_name"]
-    if reverse:
-        alt_names = {}
-        for key, values in data["alt_name"].items():
-            for value in values:
-                alt_names[value] = key
+    spellings = data.get("spelling", [])
+    alt_names = {}
+
+    for key, values in data.get("alt_name", {}).items():
+        global_name = values.get("global")
+        variations = values.get("variations", [])
+        regexes = values.get("regexes", [])
+
+        if reverse:
+            # Reverse mapping: map variations and regexes back to the global name
+            if global_name:
+                alt_names[global_name] = key
+            for variation in variations:
+                alt_names[variation] = key
+            for regex in regexes:
+                alt_names[regex] = key
+        else:
+            # Forward mapping: map the key to its global name, variations, and regexes
+            if global_name:
+                variations = [global_name, *variations]
+            alt_names[key] = {
+                "global": global_name,
+                "variations": variations,
+                "regexes": regexes,
+            }
+
     return spellings, alt_names
 
 
@@ -114,10 +133,10 @@ def update_title_mappings(data, path="utils/tidy_conf/data/titles.yml"):
             if key in title_data["alt_name"].values():
                 continue
             if key not in title_data["alt_name"]:
-                title_data["alt_name"][key] = []
+                title_data["alt_name"][key] = {"variations": []}
             for value in values:
-                if value not in title_data["alt_name"][key]:
-                    title_data["alt_name"][key].append(value)
+                if value not in title_data["alt_name"][key]["variations"]:
+                    title_data["alt_name"][key]["variations"].append(value)
         with path.open(
             "w",
             encoding="utf-8",

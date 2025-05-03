@@ -12,6 +12,7 @@ from tidy_conf import load_conferences
 from tidy_conf import merge_conferences
 from tidy_conf.date import create_nice_date
 from tidy_conf.deduplicate import deduplicate
+from tidy_conf.titles import tidy_df_names
 from tidy_conf.utils import fill_missing_required
 from tidy_conf.yaml import load_title_mappings
 from tidy_conf.yaml import write_df_yaml
@@ -117,8 +118,7 @@ def main(year=None, base=""):
         df_ics_old = pd.DataFrame(columns=df_ics.columns)
 
     # Load and apply the title mappings, remove years from conference names
-    _, known_mappings = load_title_mappings(reverse=True)
-    df_ics = df_ics.replace(re.compile(r"\b\s+(19|20)\d{2}\s*\b"), "", regex=True).replace(known_mappings)
+    df_ics = tidy_df_names(df_ics)
 
     # Store the new ics dataframe to cache
     df_cache = df_ics.copy()
@@ -131,7 +131,6 @@ def main(year=None, base=""):
 
     if df_ics.empty:
         print("No new conferences found in official Python source.")
-        return
 
     _, reverse_titles = load_title_mappings(reverse=False)
 
@@ -158,7 +157,18 @@ def main(year=None, base=""):
         # Concatenate the new data with the existing data
         df_new = pd.concat([df_new, df_merged], ignore_index=True)
         for _index, row in df_missing.iterrows():
-            reverse_title = f"""{reverse_titles.get(row["conference"], [row["conference"]])[0]} {row["year"]}"""
+
+            reverse_title_data = reverse_titles.get(row["conference"])
+            if reverse_title_data is None:
+                reverse_title = f"{row['conference']} {row['year']}"
+            else:
+                # Get the first variation from the reverse title data
+                reverse_title_data = reverse_title_data.get("variations")
+                if reverse_title_data:
+                    reverse_title = f"{reverse_title_data[0]} {row['year']}"
+                else:
+                    reverse_title = f"{row['conference']} {row['year']}"
+
             dates = f'{create_nice_date(row)["date"]} ({row["timezone"] if isinstance(row["timezone"], str) else "UTC"}'
             link = f'<a href="{row["link"]}">{row["conference"]}</a>'
             out = f""" * name of the event: {reverse_title}

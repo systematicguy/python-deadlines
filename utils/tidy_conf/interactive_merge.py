@@ -1,4 +1,3 @@
-import re
 import sys
 from collections import defaultdict
 
@@ -9,6 +8,7 @@ sys.path.append(".")
 import contextlib
 
 from tidy_conf.schema import get_schema
+from tidy_conf.titles import tidy_df_names
 from tidy_conf.utils import query_yes_no
 from tidy_conf.yaml import load_title_mappings
 from tidy_conf.yaml import update_title_mappings
@@ -23,20 +23,15 @@ def fuzzy_match(df_yml, df_remote):
     Keeps temporary track of rejections to avoid asking the same question multiple
     times.
     """
-    # Load known title mappings
-    _, known_mappings = load_title_mappings(reverse=True)
+    df_yml = tidy_df_names(df_yml)
+    df_remote = tidy_df_names(df_remote)
+
     _, known_rejections = load_title_mappings(path="utils/tidy_conf/data/.tmp/rejections.yml")
-    regex_year = re.compile(r"\b\s+(19|20)\d{2}\s*\b")
-    df_remote.loc[:, "conference"] = (
-        df_remote.conference.str.replace(regex_year, "", regex=True).str.strip().replace(known_mappings)
-    )
-    df_yml.loc[:, "conference"] = (
-        df_yml.conference.str.replace(regex_year, "", regex=True).str.strip().replace(known_mappings)
-    )
+
     new_mappings = defaultdict(list)
     new_rejections = defaultdict(list)
 
-    # Make Title the index
+    # Set index for remote dataframe
     df_remote = df_remote.set_index("conference", drop=False)
     df_remote.index.rename("title_match", inplace=True)
 
@@ -47,40 +42,41 @@ def fuzzy_match(df_yml, df_remote):
         lambda x: process.extract(x, df_remote["conference"], limit=1),
     )
 
-    # Get first match if it's over 90
-    for i, row in df.copy().iterrows():
+    # Process matches
+    for i, row in df.iterrows():
         if isinstance(row["title_match"], str):
             continue
-        if len(row["title_match"]) == 0:
+        if not row["title_match"]:
             continue
+
         title, prob, _ = row["title_match"][0]
         if prob == 100:
-            title = title
-        elif prob >= 70:
+            df.at[i, "title_match"] = title
+        elif prob >= 90:
             if (title in known_rejections and i in known_rejections[title]) or (
                 i in known_rejections and title in known_rejections[i]
             ):
-                title = i
+                df.at[i, "title_match"] = i
             else:
                 if not query_yes_no(f"Do '{row['conference']}' and '{title}' match? (y/n): "):
-                    # Code for non-matching case
                     new_rejections[title].append(i)
                     new_rejections[i].append(title)
-                    title = i
+                    df.at[i, "title_match"] = i
                 else:
                     new_mappings[i].append(title)
+                    df.at[i, "title_match"] = title
         else:
-            title = i
-        df.loc[i, "title_match"] = title
+            df.at[i, "title_match"] = i
 
+    # Update mappings and rejections
     update_title_mappings(new_mappings)
     update_title_mappings(new_rejections, path="utils/tidy_conf/data/.tmp/rejections.yml")
 
+    # Combine dataframes
     df.set_index("title_match", inplace=True)
-
-    # Update missing data in existing records
     df_new = df.combine_first(df_remote)
 
+    # Fill missing CFPs with "TBA"
     df_new.loc[df_new["cfp"].isna(), "cfp"] = "TBA"
 
     return df_new, df_remote

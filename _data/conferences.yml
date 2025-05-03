@@ -10,39 +10,6 @@
   sponsor: https://xtremepython.dev/2025/sponsors/
   sub: PY
 
-- conference: Plone Conference
-  year: 2025
-  link: https://2025.ploneconf.org/
-  cfp_link: https://2025.ploneconf.org/call-for-papers
-  cfp: '2025-08-01 23:59:00'
-  place: Jyväskylä, Finland
-  start: 2025-10-13
-  end: 2025-10-19
-  twitter: ploneconf
-  mastodon: https://plone.social/@ploneconf
-  bluesky: https://bsky.app/profile/plone.org
-  sub: WEB
-  location:
-  - title: Plone Conference 2025
-    latitude: 62.2417066
-    longitude: 25.7495727
-
-- conference: PyCon Finland
-  alt_name: PyCon FI
-  year: 2025
-  link: https://2025.ploneconf.org/pyconfi-2025
-  cfp_link: https://2025.ploneconf.org/call-for-papers
-  cfp: '2025-08-01 23:59:00'
-  place: Helsinki, Finland
-  start: 2025-10-17
-  end: 2025-10-17
-  sub: PY
-  note: Part of Plone Conf
-  location:
-  - title: PyCon Finland 2025
-    latitude: 60.1674881
-    longitude: 24.9427473
-
 - conference: PyCon Togo
   year: 2025
   link: https://pycontg.pytogo.org/
@@ -58,6 +25,42 @@
   - title: PyCon Togo 2025
     latitude: 6.130419
     longitude: 1.215829
+
+- conference: Plone Conference
+  alt_name: Plone Conference & PyCon Finland
+  year: 2025
+  link: https://2025.ploneconf.org/
+  cfp_link: https://2025.ploneconf.org/call-for-papers
+  cfp: '2025-07-31 23:59:00'
+  place: Jyväskylä, Finland
+  start: 2025-10-13
+  end: 2025-10-19
+  sponsor: https://2025.ploneconf.org/sponsors
+  twitter: ploneconf
+  mastodon: https://plone.social/@ploneconf
+  bluesky: https://bsky.app/profile/plone.org
+  sub: WEB
+  location:
+  - title: Plone Conference 2025
+    latitude: 62.2417066
+    longitude: 25.7495727
+
+- conference: PyCon Finland
+  alt_name: PyCon FI
+  year: 2025
+  link: https://2025.ploneconf.org/pyconfi-2025
+  cfp_link: https://2025.ploneconf.org/call-for-papers
+  cfp: '2025-07-31 23:59:00'
+  place: Jyväskylä, Finland
+  start: 2025-10-17
+  end: 2025-10-17
+  sponsor: https://2025.ploneconf.org/sponsors
+  sub: PY
+  note: Part of Plone Conf
+  location:
+  - title: PyCon Finland 2025
+    latitude: 60.1674881
+    longitude: 24.9427473
 
 - conference: PyCon France
   alt_name: PyCon FR
@@ -248,6 +251,7 @@
   place: Moscow, Russia
   start: 2025-07-25
   end: 2025-07-26
+  sponsor: https://pycon.ru/partneram
   sub: PY
   location:
   - title: PyCon Russia 2025
@@ -263,6 +267,7 @@
   place: Manchester, UK
   start: 2025-09-19
   end: 2025-09-22
+  sponsor: https://2025.pyconuk.org/sponsorship/
   mastodon: https://fosstodon.org/@PyConUK
   sub: PY
   location:
@@ -295,6 +300,7 @@
   place: Seoul, South Korea
   start: 2025-08-15
   end: 2025-08-17
+  sponsor: https://2025.pycon.kr/sponsor/prospectus
   sub: PY
   location:
   - title: PyCon South Korea 2025
@@ -351,11 +357,13 @@
 - conference: PyOhio
   year: 2025
   link: https://pyohio.org/2025/
+  cfp_link: https://pretalx.com/pyohio-2025/cfp
   cfp: '2025-04-27 23:59:00'
   timezone: America/New_York
   place: Cleveland, USA
   start: 2025-07-26
   end: 2025-07-27
+  sponsor: https://www.pyohio.org/2025/PyOhio-2025-Sponsorship-Prospectus.pdf
   sub: PY
   location:
   - title: PyOhio 2025
@@ -372,6 +380,7 @@
   place: Sao Paulo, Brazil
   start: 2025-10-21
   end: 2025-10-27
+  sponsor: https://www.canva.com/design/DAGe_yZ0SdI/myPIGUAEQAnrwKhJE_7Bag/view?utm_content=DAGe_yZ0SdI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7f3e8c2330
   mastodon: https://pynews.com.br/@pythonbrasil
   sub: PY
   location:
@@ -429,7 +438,7 @@
 - conference: PyGrunn
   year: 2025
   link: https://pygrunn.org/
-  cfp_link: https://forms.gle/6DCCKqcQmXZJkBLu5
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdjbpV9Ump8dcAKkN0R0hYpxd8-L5eyekvz3NxbtJLK1g-PPA
   cfp: '2025-04-16 23:59:00'
   place: Groningen, Netherlands
   start: 2025-05-16
@@ -469,6 +478,7 @@
   place: Medellín, Colombia
   start: 2025-07-04
   end: 2025-07-06
+  sponsor: https://2025.pycon.co/#/sponsors
   twitter: PyConColombia
   sub: PY
   location:
@@ -482,7 +492,7 @@
   link: https://tw.pycon.org/2025/
   cfp_link: https://tw.pycon.org/2025/en-us/speaking/cfp
   cfp: '2025-04-05 23:59:59'
-  place: Kaohsiung, Taiwan
+  place: Taiwan
   start: 2025-09-05
   end: 2025-09-07
   sponsor: https://tw.pycon.org/2024/en-us/sponsor
@@ -493,24 +503,6 @@
     latitude: 22.6203348
     longitude: 120.3120375
 
-- conference: PyCon Portugal
-  year: 2025
-  link: https://2025.pycon.pt/
-  cfp_link: https://pretalx.evolutio.pt/pycon-portugal-2025/cfp
-  cfp: '2025-04-01 11:59:00'
-  timezone: Europe/Lisbon
-  place: Cascais, Portugal
-  start: 2025-07-24
-  end: 2025-07-26
-  sponsor: https://2025.pycon.pt/sponsors/sponsorship/
-  finaid: https://2025.pycon.pt/information/grants/
-  twitter: PyConPT
-  sub: PY
-  location:
-  - title: PyCon Portugal 2024
-    latitude: 38.6968919
-    longitude: -9.4204495
-
 - conference: PyCaxias
   year: 2025
   link: https://pycaxias.com.br/
@@ -518,7 +510,7 @@
   cfp: '2025-03-31 23:59:00'
   place: Caxias do Sul, Brazil
   start: 2025-05-17
-  end: 2025-05-18
+  end: 2025-05-17
   sponsor: https://pycaxias.com.br/theme/pdf/sponsorship_package.pdf
   sub: PY,WEB
   note: The 18th is a DjangoGirls workshop.
@@ -551,7 +543,7 @@
   cfp_link: https://pretalx.com/djangocon-africa-2025/cfp
   cfp: '2025-03-31 23:59:00'
   timezone: Africa/Dar_es_Salaam
-  place: Zanzibar, Tanzania
+  place: Arusha, Tanzania
   start: 2025-08-11
   end: 2025-08-15
   sponsor: https://2025.djangocon.africa/sponsor_us
@@ -562,6 +554,24 @@
   - title: DjangoCon Africa 2025
     latitude: -6.09994425
     longitude: 39.32094431715264
+
+- conference: PyCon Portugal
+  year: 2025
+  link: https://2025.pycon.pt/
+  cfp_link: https://pretalx.evolutio.pt/pycon-portugal-2025/cfp
+  cfp: '2025-03-31 11:59:00'
+  timezone: Europe/Lisbon
+  place: Cascais, Portugal
+  start: 2025-07-24
+  end: 2025-07-26
+  sponsor: https://2025.pycon.pt/sponsors/sponsorship/
+  finaid: https://2025.pycon.pt/information/grants/
+  twitter: PyConPT
+  sub: PY
+  location:
+  - title: PyCon Portugal 2024
+    latitude: 38.6968919
+    longitude: -9.4204495
 
 - conference: Python Nordeste
   year: 2025
@@ -579,8 +589,21 @@
     latitude: -5.0874608
     longitude: -42.8049571
 
+- conference: Web Summer Camp
+  year: 2025
+  link: https://websummercamp.com/
+  cfp: '2025-03-15 23:59:00'
+  place: Opatija, Croatia
+  start: 2025-07-03
+  end: 2025-07-05
+  sub: WEB
+  location:
+  - title: Web Summer Camp 2025
+    latitude: 45.3349238
+    longitude: 14.3067834
+
 - conference: PyCon Austria
-  alt_name: PyDays Vienna
+  alt_name: Python Conference Austria
   year: 2025
   link: https://at.pycon.org/
   cfp_link: https://www.papercall.io/pycon-austria
@@ -621,6 +644,7 @@
   place: Tacoma, USA
   start: 2025-07-07
   end: 2025-07-13
+  sponsor: https://www.scipy2025.scipy.org/s/SciPy-2025-Sponsorship-Prospectus.pdf
   mastodon: https://mastodon.social/@SciPyConf
   sub: SCIPY
   location:
@@ -651,6 +675,7 @@
   place: Petaluma, USA
   start: 2025-04-26
   end: 2025-04-27
+  sponsor: https://2025.northbaypython.org/sponsor
   mastodon: https://social.northbaypython.org/@NorthBayPython
   sub: PY
   location:
@@ -756,8 +781,8 @@
     latitude: 53.3498006
     longitude: -6.2602964
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
+- conference: PyCon Italy
+  alt_name: PyCon Italia
   year: 2025
   link: https://2025.pycon.it/en
   cfp_link: https://2025.pycon.it/en/call-for-proposals
@@ -766,6 +791,7 @@
   place: Bologna, Italy
   start: 2025-05-28
   end: 2025-05-31
+  sponsor: https://2025.pycon.it/en/sponsor
   finaid: https://2025.pycon.it/en/grants-info/
   twitter: PyConIT
   mastodon: https://social.python.it/@pycon
@@ -803,7 +829,7 @@
   timezone: America/New_York
   place: Pittsburgh, USA
   start: 2025-05-14
-  end: 2025-05-21
+  end: 2025-05-22
   sponsor: https://us.pycon.org/2025/sponsorship/why-sponsor/
   mastodon: https://fosstodon.org/@pycon
   sub: PY

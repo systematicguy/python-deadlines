@@ -9,4 +9,4 @@ if __name__ == "__main__":
     official_updater()
     sort_data(skip_links=True)
     organizer_updater()
-    sort_data()
+    sort_data(skip_links=True)

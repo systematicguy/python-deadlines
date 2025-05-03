@@ -32,6 +32,21 @@
     latitude: 14.6510546
     longitude: 121.0486254
 
+- conference: GeoPython
+  year: 2025
+  link: https://2025.geopython.net/
+  cfp_link: https://submit.geopython.net/geopython-2025/cfp
+  cfp: '2024-11-15 23:59:00'
+  place: Basel, Switzerland
+  start: 2025-02-24
+  end: 2025-02-26
+  twitter: GeoPythonConf
+  sub: GEO
+  location:
+  - title: GeoPython 2025
+    latitude: 47.3615882
+    longitude: 7.354445
+
 - conference: PyCon Namibia
   alt_name: PyCon NA
   year: 2025
@@ -50,20 +65,18 @@
     latitude: -22.611456150000002
     longitude: 17.05860104184979
 
-- conference: GeoPython
+- conference: DjangoCongress Japan
   year: 2025
-  link: https://2025.geopython.net/
-  cfp_link: https://submit.geopython.net/geopython-2025/cfp
-  cfp: '2024-11-15 23:59:00'
-  place: Basel, Switzerland
-  start: 2025-02-24
-  end: 2025-02-26
-  twitter: GeoPythonConf
-  sub: GEO
+  link: https://djangocongress.jp/
+  cfp: None
+  place: Tokyo, Japan
+  start: 2025-02-22
+  end: 2025-02-22
+  sub: WEB
   location:
-  - title: GeoPython 2025
-    latitude: 47.3615882
-    longitude: 7.354445
+  - title: DjangoCongress Japan 2025
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
 
 - conference: PyConf Hyderabad
   year: 2025
@@ -79,19 +92,6 @@
   - title: PyConf Hyderabad 2025
     latitude: 17.4454957
     longitude: 78.34854697544472
-
-- conference: DjangoCongress Japan
-  year: 2025
-  link: https://djangocongress.jp/
-  cfp: None
-  place: Tokyo, Japan
-  start: 2025-02-22
-  end: 2025-02-22
-  sub: WEB
-  location:
-  - title: DjangoCongress JP 2025
-    latitude: 35.718741949999995
-    longitude: 139.73118058112317
 
 - conference: Python BarCamp Karlsruhe
   year: 2024
@@ -134,7 +134,7 @@
   place: Brussels, Belgium
   start: 2025-02-02
   end: 2025-02-02
-  sponsor: https://fosdem.org/2025/about/sponsors
+  sponsor: https://fosdem.org/2025/about/sponsors/
   sub: PY
   location:
   - title: FOSDEM 2025
@@ -1403,8 +1403,8 @@
     latitude: 31.521587
     longitude: 130.5474077
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
+- conference: PyCon Italy
+  alt_name: PyCon Italia
   year: 2024
   link: https://pycon.it/en
   cfp_link: https://2024.pycon.it/cfp
@@ -2677,8 +2677,8 @@
     latitude: 53.2190652
     longitude: 6.5680077
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
+- conference: PyCon Italy
+  alt_name: PyCon Italia
   year: 2023
   link: https://pycon.it/en
   cfp_link: https://pycon.it/cfp
@@ -3649,8 +3649,8 @@
     latitude: 51.984257
     longitude: 5.9108573
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
+- conference: PyCon Italy
+  alt_name: PyCon Italia
   year: 2022
   link: https://pycon.it/en
   cfp: '2022-01-16 23:59:59'
@@ -4584,8 +4584,8 @@
     latitude: 22.2793278
     longitude: 114.1628131
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
+- conference: PyCon Italy
+  alt_name: PyCon Italia
   year: 2020
   link: http://pycon.it/
   cfp: Cancelled
@@ -6420,8 +6420,8 @@
     latitude: -34.6126025
     longitude: -68.330514
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
+- conference: PyCon Italy
+  alt_name: PyCon Italia
   year: 2019
   link: https://web.archive.org/web/20190415234356/https://www.pycon.it/en/
   cfp_link: https://web.archive.org/web/20190603095459/https://www.pycon.it/en/call-for-proposals/
@@ -7886,8 +7886,8 @@
     latitude: 51.5074456
     longitude: -0.1277653
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
+- conference: PyCon Italy
+  alt_name: PyCon Italia
   year: 2018
   link: https://web.archive.org/web/20180407235829/https://www.pycon.it/en/
   cfp: '2018-01-07 23:59:00'
