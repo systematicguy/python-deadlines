@@ -249,15 +249,14 @@ description: Summary of the conference and its instances throughout the years.
     </div>
     {% endif %}
   </div>
-    <footer>
-      {% include_cached footer.html %}
-      {% assign title_length = page.title | size | minus: 27 %}
-      {% assign sliced_title = page.title | slice: 0, title_length %}
+</div>
+<footer>
+  {% include_cached footer.html %}
+  {% assign title_length = page.title | size | minus: 27 %}
+  {% assign sliced_title = page.title | slice: 0, title_length %}
 
-      {% include_cached trademarks.html title=sliced_title %}
-    </footer>
-    <br><br>
-  </div>
+  {% include_cached trademarks.html title=sliced_title %}
+</footer>
   <script type="text/javascript" charset="utf-8">
     $(function () {
 

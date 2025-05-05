@@ -222,15 +222,8 @@ description: Countdown for the Call for Participation of this conference includi
         {% google_map zoom="6" width="100%" %}
         {% endif %}
       </div>
-    <footer>
-      {% include_cached footer.html %}
-
-      {% assign title_length = page.title | size | minus: 26 %}
-      {% assign sliced_title = page.title | slice: 0, title_length %}
-
-      {% include_cached trademarks.html title=sliced_title %}
-    </footer>
-  </div>
+    </div>
+    </div>
   <script type="text/javascript" charset="utf-8">
     $(function () {
       // Timezone deadline shenanigans
@@ -309,7 +302,19 @@ description: Countdown for the Call for Participation of this conference includi
     });
   </script>
 
-    {% include sneks.html %}
+{% include sneks.html %}
+    <footer>
+      {% include_cached footer.html %}
+
+      {% assign title_length = page.title | size | minus: 26 %}
+      {% assign sliced_title = page.title | slice: 0, title_length %}
+
+      <div class="container">
+	<div class="row">
+      {% include_cached trademarks.html title=sliced_title %}
+      </div>
+      </div>
+    </footer>
 </body>
 
 </html>

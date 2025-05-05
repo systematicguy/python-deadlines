@@ -1,1 +1,1 @@
-Any use of trademarks or logos established by events listed on this site is for informational purposes only and does not imply association with the respective trademark holders. If you are a trademark holder and would like your trademark to be removed from this site, please contact us.
+<p>Any use of trademarks or logos established by events listed on this site is for informational purposes only and does not imply association with the respective trademark holders. If you are a trademark holder and would like your trademark to be removed from this site, please contact us.</p>
