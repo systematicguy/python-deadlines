@@ -7,19 +7,19 @@
   color: "#70163C"
 - name: Python for Data
   sub: DATA
-  color: "#849324"
+  color: "#341f97"
 - name: Python for Web
   sub: WEB
-  color: "#0D0A0B"
+  color: "#ee5253"
 - name: Python for Business
   sub: BIZ
-  color: "#A8B9CC"
+  color: "#ff9f43"
 - name: Python for Earth
   sub: GEO
   color: "#310c0c"
 - name: Python Camps
   sub: CAMP
-  color: "#303030"
+  color: "#511868"
 - name: Python Day
   sub: DAY
-  color: "#3C1670"
+  color: "#10ac84"

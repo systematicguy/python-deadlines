@@ -1,264 +1,130 @@
 ---
-title: 'About Python Deadlines'
+title: 'Python Deadlines'
 author: Jesper Dramsch
 namespace: about
 permalink: /about/
 ---
 
+{% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		{% include head.html %}
-		<style>
-			body {
-				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-				line-height: 1.6;
-				color: #333;
-				max-width: 1200px;
-				margin: 0 auto;
-				padding: 2rem;
-				background-color: #f8f9fa;
-			}
-
-			.presentation-header {
-				text-align: center;
-				margin-bottom: 3rem;
-			}
-
-			.logo {
-				font-size: 3rem;
-				font-weight: bold;
-				color: #343a40;
-				margin-bottom: 0.5rem;
-			}
-
-			.tagline {
-				font-size: 1.5rem;
-				color: #6c757d;
-				margin-bottom: 2rem;
-			}
-
-			.features {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-				gap: 2rem;
-				margin-bottom: 3rem;
-			}
-
-			.feature {
-				background: white;
-				padding: 1.5rem;
-				border-radius: 8px;
-				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-			}
-
-			.feature h3 {
-				color: #007bff;
-				margin-top: 0;
-			}
-
-			.stats {
-				display: flex;
-				justify-content: center;
-				gap: 3rem;
-				margin: 3rem 0;
-				flex-wrap: wrap;
-			}
-
-			.stat {
-				text-align: center;
-			}
-
-			.stat-number {
-				font-size: 2.5rem;
-				font-weight: bold;
-				color: #007bff;
-			}
-
-			.stat-label {
-				color: #6c757d;
-			}
-
-			.cta-section {
-				text-align: center;
-				margin: 3rem 0;
-			}
-
-			.qr-code {
-				margin: 2rem auto;
-				max-width: 300px;
-			}
-
-			.qr-code img {
-				width: 100%;
-				height: auto;
-			}
-
-			.buttons {
-				display: flex;
-				gap: 1rem;
-				justify-content: center;
-				margin-top: 2rem;
-				flex-wrap: wrap;
-			}
-
-			.button {
-				display: inline-block;
-				padding: 0.75rem 1.5rem;
-				border-radius: 4px;
-				text-decoration: none;
-				font-weight: bold;
-				transition: background-color 0.2s;
-			}
-
-			.button-primary {
-				background-color: #007bff;
-				color: white;
-			}
-
-			.button-primary:hover {
-				background-color: #0056b3;
-			}
-
-			.button-secondary {
-				background-color: #6c757d;
-				color: white;
-			}
-
-			.button-secondary:hover {
-				background-color: #545b62;
-			}
-
-			.footer {
-				text-align: center;
-				margin-top: 3rem;
-				color: #6c757d;
-			}
-
-			.conference-types {
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: center;
-				gap: 1rem;
-				margin: 2rem 0;
-			}
-
-			.conf-type {
-				background: #f8f9fa;
-				padding: 0.5rem 1rem;
-				border-radius: 20px;
-				font-size: 0.9rem;
-			}
-
-			.python-colors {
-				background: linear-gradient(45deg, #ffde57, #4584b6);
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-				background-clip: text;
-			}
-		</style>
+		{% include head.html %} <link rel="stylesheet" type="text/css" href="{{ "/static/css/about.css" |
+		prepend:site.baseurl_root }}">
 	</head>
 	<body>
-		{% include header.html %}
-		<div class="presentation-header">
-			<div class="logo">pythondeadlin.es</div>
-			<div class="tagline">Never miss another Python conference deadline!</div>
+		<div class="container">
+			<button class="presentation-mode" onclick="toggleFullScreen()" title="Toggle fullscreen presentation mode">
+				⛶
+			</button>
+
+			<div class="presentation-header">
+				<div class="logo">pythondeadlin.es</div>
+				<div class="tagline">Never miss another Python conference deadline!</div>
+			</div>
+
+			<div class="features">
+				<div class="feature">
+					<h3>📅 Comprehensive Tracking</h3>
+					<p>
+						Track Call for Proposals (CfP) deadlines for Python conferences worldwide. Get all dates in your
+						local timezone with countdown timers.
+					</p>
+				</div>
+
+				<div class="feature">
+					<h3>🔔 Multiple Reminders</h3>
+					<p>
+						Subscribe via iCal, Google Calendar, or RSS feed. Get notifications for upcoming deadlines and
+						never miss a submission opportunity again.
+					</p>
+				</div>
+
+				<div class="feature">
+					<h3>🗺️ Global Coverage</h3>
+					<p>
+						From PyCon to PyData, covering conferences worldwide. Interactive map view and comprehensive
+						calendar overview available.
+					</p>
+				</div>
+
+				<div class="feature">
+					<h3>🌍 Multi-language Support</h3>
+					<p>
+						Available in English, Spanish, and German. Making Python conferences accessible to the global
+						community.
+					</p>
+				</div>
+
+				<div class="feature">
+					<h3>🤝 Community Driven</h3>
+					<p>
+						Open source and community maintained. Anyone can contribute by adding conferences or submitting
+						corrections via GitHub.
+					</p>
+				</div>
+
+				<div class="feature">
+					<h3>📱 Mobile Friendly</h3>
+					<p>
+						Fully responsive design works on all devices. Access conference deadlines on the go from your
+						phone or tablet.
+					</p>
+				</div>
+			</div>
+
+			<div class="conference-types">
+				{% assign types = site.data.types | sort: 'name' %} {% for type in types %}
+				<div class="conf-type" style="color: {{ type.color }}">{{ type.name }}</div>
+				{% endfor %}
+			</div>
+
+			<div class="stats">
+				<div class="stat">
+					<div class="stat-number">{{ confs | size | divided_by: 100 | floor | times: 100 }}+</div>
+					<div class="stat-label">Conferences Tracked</div>
+				</div>
+				<div class="stat">
+					<div class="stat-number">{{ site.data.types | size }}</div>
+					<div class="stat-label">Conference Categories</div>
+				</div>
+				<div class="stat">
+					<div class="stat-number">{{ site.languages | size }}</div>
+					<div class="stat-label">Languages</div>
+				</div>
+			</div>
+
+			<div class="cta-section">
+				<h2>Start Tracking Conference Deadlines Today</h2>
+				<p>Scan the QR code or visit pythondeadlin.es</p>
+
+				<div class="qr-code">
+					<img src="/static/img/domain.svg" alt="QR code for pythondeadlin.es" />
+				</div>
+
+				<div class="buttons">
+					<a href="https://pythondeadlin.es" class="button button-primary">Visit Website</a>
+					<a href="https://github.com/JesperDramsch/python-deadlines" class="button button-secondary"
+						>Contribute on GitHub</a
+					>
+				</div>
+			</div>
 		</div>
 
-		<div class="features">
-			<div class="feature">
-				<h3>📅 Comprehensive Tracking</h3>
-				<p>
-					Track Call for Proposals (CfP) deadlines for Python conferences worldwide. Get all dates in your
-					local timezone with countdown timers.
-				</p>
-			</div>
+		<footer>{% include_cached footer.html %}</footer>
 
-			<div class="feature">
-				<h3>🔔 Multiple Reminders</h3>
-				<p>
-					Subscribe via iCal, Google Calendar, or RSS feed. Get notifications for upcoming deadlines and never
-					miss a submission opportunity again.
-				</p>
-			</div>
-
-			<div class="feature">
-				<h3>🗺️ Global Coverage</h3>
-				<p>
-					From PyCon to PyData, covering conferences worldwide. Interactive map view and comprehensive
-					calendar overview available.
-				</p>
-			</div>
-
-			<div class="feature">
-				<h3>🌍 Multi-language Support</h3>
-				<p>
-					Available in English, Spanish, and German. Making Python conferences accessible to the global
-					community.
-				</p>
-			</div>
-
-			<div class="feature">
-				<h3>🤝 Community Driven</h3>
-				<p>
-					Open source and community maintained. Anyone can contribute by adding conferences or submitting
-					corrections via GitHub.
-				</p>
-			</div>
-
-			<div class="feature">
-				<h3>📱 Mobile Friendly</h3>
-				<p>
-					Fully responsive design works on all devices. Access conference deadlines on the go from your phone
-					or tablet.
-				</p>
-			</div>
-		</div>
-
-		<div class="conference-types">
-			<div class="conf-type" style="color: #341f97">General Python</div>
-			<div class="conf-type" style="color: #ee5253">Scientific Python</div>
-			<div class="conf-type" style="color: #2e86de">Python for Data</div>
-			<div class="conf-type" style="color: #ff9f43">Python for Web</div>
-			<div class="conf-type" style="color: #10ac84">Python for Business</div>
-			<div class="conf-type" style="color: #222f3e">Python for Earth</div>
-			<div class="conf-type" style="color: #646464">Python Camps</div>
-			<div class="conf-type" style="color: #646464">Python Day</div>
-		</div>
-
-		<div class="stats">
-			<div class="stat">
-				<div class="stat-number">1,000+</div>
-				<div class="stat-label">Conferences Tracked</div>
-			</div>
-			<div class="stat">
-				<div class="stat-number">8</div>
-				<div class="stat-label">Conference Categories</div>
-			</div>
-			<div class="stat">
-				<div class="stat-number">3</div>
-				<div class="stat-label">Languages</div>
-			</div>
-		</div>
-
-		<div class="cta-section">
-			<h2>Start Tracking Conference Deadlines Today</h2>
-			<p>Scan the QR code or visit pythondeadlin.es</p>
-
-			<div class="qr-code">
-				<img src="/static/img/domain.svg" alt="QR code for pythondeadlin.es" />
-			</div>
-
-			<div class="buttons">
-				<a href="https://pythondeadlin.es" class="button button-primary">Visit Website</a>
-				<a href="https://github.com/JesperDramsch/python-deadlines" class="button button-secondary"
-					>Contribute on GitHub</a
-				>
-			</div>
-		</div>
-
-		{% include sneks.html %}
-
-		<div class="footer">{% include footer.html %}</div>
+		<script>
+			function toggleFullScreen() {
+				if (!document.fullscreenElement) {
+					document.documentElement.requestFullscreen().catch((err) => {
+						console.log(`Error attempting to enable full-screen mode: ${err.message}`);
+					});
+				} else {
+					if (document.exitFullscreen) {
+						document.exitFullscreen();
+					}
+				}
+			}
+		</script>
 	</body>
 </html>

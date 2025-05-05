@@ -1,2 +1,4 @@
 {% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy %}
-<a href="{{site.baseurl_root}}">{{ site.domain }}</a> wird seit 2022 von <a href="https://dramsch.net/">Jesper Dramsch</a> gepflegt und archiviert {{confs | size}} Konferenzen. <br>Es wurde inspiriert (und ursprünglich geschrieben) von der fantastischen <a href="https://aideadlin.es">aideadlin.es</a>. Keine Gewähr für die Richtigkeit, Fehler bitte korrigieren durch <a href="https://github.com/JesperDramsch/python-deadlines/pulls/">Senden eines Pull-Requests</a>.
+
+<p>Maintained von <a href="https://dramsch.net">Jesper Dramsch</a> • Open-source • Community-orientiert</p>
+<p>Inspiriert von aideadlin.es • Archiviert seit 2022 {{confs | size}} Python Konferenzen.</p>

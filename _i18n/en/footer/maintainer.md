@@ -1,2 +1,4 @@
 {% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy %}
-<a href="{{site.baseurl_root}}">{{ site.domain }}</a> is maintained by <a href="https://dramsch.net/">Jesper Dramsch</a> since 2022 archiving {{confs | size}} conferences. <br>It was inspired (and originally coded) by the fantastic <a href="https://aideadlin.es">aideadlin.es</a>. No guarantee for correctness, please correct mistakes by <a href="https://github.com/JesperDramsch/python-deadlines/">submitting a pull request</a>.
+
+<p>Created by <a href="https://dramsch.net">Jesper Dramsch</a> • Open Source • Community Driven</p>
+<p>Inspired by aideadlin.es • Archiving {{confs | size}} Python conferences since 2022</p>
