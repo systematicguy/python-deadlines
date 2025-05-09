@@ -123,25 +123,51 @@ permalink: /about/
         </div>
 
         <!-- Slide 5: Statistics -->
+{% assign countries = "" | split: "," %}
+{% for conf in confs %}
+  {% assign country = conf.place | split: ", " | last | strip %}
+  {% assign countries = countries | push: country %}
+{% endfor %}
         <div class="slide" id="slide-5">
             <div class="slide-content">
                 <h2 class="section-title">By The Numbers</h2>
                 <div class="stats">
                     <div class="stat">
+						<a href="{{ site.baseurl }}/archive/">
                         <div class="stat-number">{{ confs | size | divided_by: 100 | floor | times: 100 }}+</div>
                         <div class="stat-label">Conferences Tracked</div>
                         <div class="stat-description">Comprehensive database of Python events worldwide</div>
-                    </div>
+						</a>
+					</div>
                     <div class="stat">
+						<a href="{{ site.baseurl }}/">
                         <div class="stat-number">{{ site.data.types | size }}</div>
                         <div class="stat-label">Conference Categories</div>
                         <div class="stat-description">From general Python to specialized niches</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">{{ site.languages | size }}</div>
-                        <div class="stat-label">Languages</div>
-                        <div class="stat-description">Making Python conferences globally accessible</div>
-                    </div>
+						</a>
+					</div>
+					<div class="stat">
+						<a href="{{ site.baseurl }}/resources/">
+						<div class="stat-number">{{ site.posts | size }}</div>
+						<div class="stat-label">Resource Guides</div>
+						<div class="stat-description">Comprehensive guides for first-time and experienced speakers</div>
+						</a>
+					</div>
+					<div class="stats">
+						<div class="stat">
+							<a href="{{ site.baseurl }}/map/">
+							<div class="stat-number">{{ countries | uniq | size }}</div>
+							<div class="stat-label">Distinct Countries</div>
+							<div class="stat-description">>Python conferences from around the world</div>
+							</a>
+						</div>
+						<div class="stat">
+							<a href="{{ site.baseurl }}/">
+							<div class="stat-number">{{ site.languages | size }}</div>
+							<div class="stat-label">Languages</div>
+							<div class="stat-description">Making Python conferences globally accessible</div>
+							</a>
+						</div>
                 </div>
 			</div>
 		</div>
