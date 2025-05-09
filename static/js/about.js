@@ -1,5 +1,5 @@
 // Constants and variables
-const TOTAL_SLIDES = 7;
+const TOTAL_SLIDES = 8;
 let currentSlide = 1;
 let isPresentation = false;
 
