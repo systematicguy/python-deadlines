@@ -273,6 +273,10 @@ p {
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 2rem;
 	margin-bottom: 3rem;
+	justify-items: center;
+	align-items: center;
+	overflow: hidden;
+	max-width: 100%;
 }
 
 .stat {
