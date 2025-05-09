@@ -1,6 +1,8 @@
 ---
 title: 'Python Deadlines'
 author: Jesper Dramsch
+description: 'Never miss another Python conference deadline!'
+keywords: 'Python, conferences, deadlines, community-driven, tracking, reminders'
 namespace: about
 permalink: /about/
 ---
@@ -9,122 +11,205 @@ permalink: /about/
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		{% include head.html %} <link rel="stylesheet" type="text/css" href="{{ "/static/css/about.css" |
-		prepend:site.baseurl_root }}">
+		{% include head.html %}
+		<link rel="stylesheet" type="text/css" href="{{ "/static/css/about.css" | prepend:site.baseurl_root }}">
 	</head>
 	<body>
-		<div class="container">
-			<button class="presentation-mode" onclick="toggleFullScreen()" title="Toggle fullscreen presentation mode">
-				⛶
-			</button>
 
-			<div class="presentation-header">
-				<div class="logo">pythondeadlin.es</div>
-				<div class="tagline">Never miss another Python conference deadline!</div>
-			</div>
+	<div class="container">
+        <button class="presentation-mode-btn" id="presentation-toggle" title="Toggle fullscreen presentation mode">
+            ⛶
+        </button>
+        <div class="slide-navigation">
+            <button class="nav-btn prev-slide" id="prev-slide" title="Previous slide">◀</button>
+            <span class="slide-indicator" id="slide-indicator">1/7</span>
+            <button class="nav-btn next-slide" id="next-slide" title="Next slide">▶</button>
+        </div>
 
-			<div class="features">
-				<div class="feature">
-					<h3>📅 Comprehensive Tracking</h3>
-					<p>
-						Track Call for Proposals (CfP) deadlines for Python conferences worldwide. Get all dates in your
-						local timezone with countdown timers.
-					</p>
-				</div>
+        <!-- Slide 1: Hero Section -->
+        <div class="slide" id="slide-1">
+            <div class="slide-content">
+                <div class="hero-section">
+                    <div class="logo">pythondeadlin.es</div>
+                    <h1 class="tagline">Never miss another Python conference deadline!</h1>
+                    <p class="hero-description">The community-driven platform that helps Python developers discover, track, and submit to conferences worldwide.</p>
+                </div>
+            </div>
+        </div>
 
-				<div class="feature">
-					<h3>🔔 Multiple Reminders</h3>
-					<p>
-						Subscribe via iCal, Google Calendar, or RSS feed. Get notifications for upcoming deadlines and
-						never miss a submission opportunity again.
-					</p>
-				</div>
+        <!-- Slide 2: Problem-Solution -->
+        <div class="slide" id="slide-2">
+            <div class="slide-content">
+                <div class="problem-solution">
+                    <div class="problem">
+                        <h2>The Challenge</h2>
+                        <p>Keeping track of Python conference deadlines across different websites, timezones, and formats is time-consuming and error-prone. Many developers miss opportunities to share their knowledge because they discover CFPs too late.</p>
+                    </div>
+                    <div class="solution">
+                        <h2>Our Solution</h2>
+                        <p>Pythondeadlin.es consolidates all Python conference deadlines in one place, with automatic timezone conversion, multiple reminder options, and comprehensive details to help you plan your submissions effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-				<div class="feature">
-					<h3>🗺️ Global Coverage</h3>
-					<p>
-						From PyCon to PyData, covering conferences worldwide. Interactive map view and comprehensive
-						calendar overview available.
-					</p>
-				</div>
+        <!-- Slide 3: Features -->
+        <div class="slide" id="slide-3">
+            <div class="slide-content">
+                <h2 class="section-title">Key Features</h2>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-icon">📅</div>
+                        <h3>Comprehensive Tracking</h3>
+                        <p>
+                            Stay on top of every Call for Proposals (CfP) deadline for Python conferences worldwide with personalized countdown timers in your local timezone.
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🔔</div>
+                        <h3>Flexible Notifications</h3>
+                        <p>
+                            Choose how you want to be reminded—subscribe via iCal, Google Calendar, or RSS feed to receive timely alerts that fit your workflow.
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🗺️</div>
+                        <h3>Global Coverage</h3>
+                        <p>
+                            Discover Python events from PyCon to PyData across six continents with our interactive map view and comprehensive calendar overview.
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Multi-language Support</h3>
+                        <p>
+                            Access the platform in English, Spanish, or German, making Python conferences accessible to developers from diverse language backgrounds.
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Community Driven</h3>
+                        <p>
+                            Benefit from our open-source approach where the Python community collaboratively maintains up-to-date and accurate conference information.
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📱</div>
+                        <h3>Mobile Friendly</h3>
+                        <p>
+                            Check deadlines on the go with our responsive design that adapts seamlessly to any device—perfect for busy developers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-				<div class="feature">
-					<h3>🌍 Multi-language Support</h3>
-					<p>
-						Available in English, Spanish, and German. Making Python conferences accessible to the global
-						community.
-					</p>
-				</div>
+        <!-- Slide 4: Conference Categories -->
+        <div class="slide" id="slide-4">
+            <div class="slide-content">
+                <h2 class="section-title">Conference Categories</h2>
+                <div class="conference-types-container">
+                    <p class="conference-intro">We track Python conferences across multiple specializations:</p>
+                    <div class="conference-types">
+						{% assign types = site.data.types | sort: 'name' %} {% for type in types %}
+                        <div class="conf-type" style="background-color: #ffde5720; border-left: 4px solid {{ type.color }}">
+                            <span class="conf-type-icon" style="color: {{ type.color }}">●</span>
+                            <span class="conf-type-name">{{ type.name }}</span>
+                        </div>
+						{% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
 
-				<div class="feature">
-					<h3>🤝 Community Driven</h3>
-					<p>
-						Open source and community maintained. Anyone can contribute by adding conferences or submitting
-						corrections via GitHub.
-					</p>
-				</div>
+        <!-- Slide 5: Statistics -->
+        <div class="slide" id="slide-5">
+            <div class="slide-content">
+                <h2 class="section-title">By The Numbers</h2>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number">{{ confs | size | divided_by: 100 | floor | times: 100 }}+</div>
+                        <div class="stat-label">Conferences Tracked</div>
+                        <div class="stat-description">Comprehensive database of Python events worldwide</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">{{ site.data.types | size }}</div>
+                        <div class="stat-label">Conference Categories</div>
+                        <div class="stat-description">From general Python to specialized niches</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">{{ site.languages | size }}</div>
+                        <div class="stat-label">Languages</div>
+                        <div class="stat-description">Making Python conferences globally accessible</div>
+                    </div>
+                </div>
 
-				<div class="feature">
-					<h3>📱 Mobile Friendly</h3>
-					<p>
-						Fully responsive design works on all devices. Access conference deadlines on the go from your
-						phone or tablet.
-					</p>
-				</div>
-			</div>
+                <!-- Testimonials on same slide -->
+                <div class="testimonials-section">
+                    <h2 class="section-title">What Users Say</h2>
+                    <div class="testimonials">
+                        <div class="testimonial">
+                            <p class="quote">"Thanks to Pythondeadlin.es, I was able to submit my first conference talk proposal with plenty of time to prepare. The site has become an essential tool in my professional development."</p>
+                            <p class="author">— Python Developer from Berlin</p>
+                        </div>
+                        <div class="testimonial">
+                            <p class="quote">"As a conference organizer, I appreciate that our event is accurately represented. The platform has helped us reach a wider audience of potential speakers."</p>
+                            <p class="author">— PyCon Organizer</p>
+                        </div>
+						<div class="testimonial">
+                            <p class="quote">"We now regularly show PythonDeadlin.es at our Meetup to keep track of conferences our participants might be interested in."</p>
+                            <p class="author">— Meetup Organizer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-			<div class="conference-types">
-				{% assign types = site.data.types | sort: 'name' %} {% for type in types %}
-				<div class="conf-type" style="color: {{ type.color }}">{{ type.name }}</div>
-				{% endfor %}
-			</div>
+        <!-- Slide 6: Use Cases -->
+        <div class="slide" id="slide-6">
+            <div class="slide-content">
+                <h2 class="section-title">How People Use Pythondeadlin.es</h2>
+                <div class="use-cases">
+                    <div class="use-case">
+                        <h3>First-time Speakers</h3>
+                        <p>Discover beginner-friendly conferences with enough lead time to prepare a compelling proposal and use the resource section for inspiration and guidance.</p>
+                    </div>
+                    <div class="use-case">
+                        <h3>Frequent Presenters</h3>
+                        <p>Plan your annual speaking schedule and prioritize submission deadlines across multiple events.</p>
+                    </div>
+                    <div class="use-case">
+                        <h3>Conference Organizers</h3>
+                        <p>Ensure your event reaches potential speakers by adding your conference to our database.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-			<div class="stats">
-				<div class="stat">
-					<div class="stat-number">{{ confs | size | divided_by: 100 | floor | times: 100 }}+</div>
-					<div class="stat-label">Conferences Tracked</div>
-				</div>
-				<div class="stat">
-					<div class="stat-number">{{ site.data.types | size }}</div>
-					<div class="stat-label">Conference Categories</div>
-				</div>
-				<div class="stat">
-					<div class="stat-number">{{ site.languages | size }}</div>
-					<div class="stat-label">Languages</div>
-				</div>
-			</div>
-
-			<div class="cta-section">
-				<h2>Start Tracking Conference Deadlines Today</h2>
-				<p>Scan the QR code or visit pythondeadlin.es</p>
-
-				<div class="qr-code">
-					<img src="/static/img/domain.svg" alt="QR code for pythondeadlin.es" />
-				</div>
-
-				<div class="buttons">
-					<a href="https://pythondeadlin.es" class="button button-primary">Visit Website</a>
-					<a href="https://github.com/JesperDramsch/python-deadlines" class="button button-secondary"
-						>Contribute on GitHub</a
-					>
-				</div>
-			</div>
-		</div>
+        <!-- Slide 7: CTA -->
+        <div class="slide" id="slide-7">
+            <div class="slide-content">
+                <div class="cta-section">
+                    <h2>Start Tracking Conference Deadlines Today</h2>
+                    <div class="cta-content">
+						<div class="qr-code">
+							<img src="/static/img/domain.svg" alt="QR code for pythondeadlin.es" />
+						</div>
+                        <div class="cta-text">
+                            <p>Join the Python community in staying on top of conference opportunities. Scan the QR code or visit pythondeadlin.es to get started.</p>
+                            <div class="buttons">
+                                <a href="https://pythondeadlin.es" class="button button-primary">Visit Website</a>
+                                <a href="https://github.com/JesperDramsch/python-deadlines" class="button button-secondary">Contribute on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 		<footer>{% include_cached footer.html %}</footer>
 
-		<script>
-			function toggleFullScreen() {
-				if (!document.fullscreenElement) {
-					document.documentElement.requestFullscreen().catch((err) => {
-						console.log(`Error attempting to enable full-screen mode: ${err.message}`);
-					});
-				} else {
-					if (document.exitFullscreen) {
-						document.exitFullscreen();
-					}
-				}
-			}
-		</script>
+		<script src="{{ "/static/js/about.js" | prepend: site.baseurl_root }}"></script>
 	</body>
 </html>
