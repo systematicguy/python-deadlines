@@ -141,7 +141,12 @@ function handleKeyPress(e) {
 			case 'ArrowDown':
 			case ' ':
 			case 'Enter':
-				nextSlide();
+				if (currentSlide === TOTAL_SLIDES) {
+					exitPresentationMode();
+					toggleFullScreen();
+				} else {
+					nextSlide();
+				}
 				break;
 			case 'ArrowLeft':
 			case 'ArrowUp':
@@ -154,12 +159,8 @@ function handleKeyPress(e) {
 				showSlide(TOTAL_SLIDES);
 				break;
 			case 'Escape':
-				if (document.exitFullscreen) {
-					document
-						.exitFullscreen()
-						.then(() => exitPresentationMode())
-						.catch((err) => console.error(`Error exiting fullscreen: ${err.message}`));
-				}
+				exitPresentationMode();
+				toggleFullScreen();
 				break;
 		}
 	}

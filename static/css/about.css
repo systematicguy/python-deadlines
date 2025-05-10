@@ -1,4 +1,4 @@
-/* Base styles */
+/* Base styles - working with Bootstrap */
 :root {
 	--primary-color: #4584b6;
 	--secondary-color: #ffde57;
@@ -11,18 +11,14 @@
 	--transition-normal: all 0.3s ease;
 }
 
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
 body {
-	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
-	line-height: 1.6;
 	color: var(--text-color);
 	background-color: var(--bg-color);
 	transition: var(--transition-normal);
+}
+
+nav {
+	line-height: normal !important;
 }
 
 a {
@@ -34,32 +30,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin-bottom: 1rem;
-	line-height: 1.2;
-}
-
-p {
-	margin-bottom: 1rem;
-}
-
-/* Layout */
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 2rem;
-	transition: var(--transition-normal);
-}
-
 /* Presentation controls */
-.presentation-controls {
-	position: fixed;
-	z-index: 1000;
-}
-
 .presentation-mode-btn {
 	position: fixed;
-	top: 1rem;
+	top: 5rem;
 	right: 1rem;
 	font-size: 1.5rem;
 	background-color: rgba(255, 255, 255, 0.8);
@@ -126,13 +100,13 @@ p {
 
 /* Hero Section */
 .hero-section {
-	text-align: center;
-	padding: 4rem 2rem;
 	background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 	border-radius: var(--border-radius);
 	color: var(--white);
-	margin-bottom: 3rem;
 	box-shadow: var(--shadow-medium);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .logo {
@@ -151,26 +125,19 @@ p {
 .hero-description {
 	font-size: 1.2rem;
 	max-width: 700px;
-	margin: 0 auto 2rem;
+	margin-bottom: 2rem;
 	opacity: 0.9;
 }
 
-/* Problem solution section */
-.problem-solution {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 2rem;
-	margin-bottom: 3rem;
-}
-
-.problem, .solution {
+/* Problem-solution section - now using Bootstrap grid */
+.problem,
+.solution {
 	background-color: var(--white);
-	padding: 2rem;
-	border-radius: var(--border-radius);
 	box-shadow: var(--shadow-light);
 }
 
-.problem h2, .solution h2 {
+.problem h2,
+.solution h2 {
 	color: var(--primary-color);
 	margin-top: 0;
 }
@@ -184,7 +151,7 @@ p {
 }
 
 .section-title::after {
-	content: "";
+	content: '';
 	display: block;
 	width: 80px;
 	height: 4px;
@@ -192,19 +159,9 @@ p {
 	margin: 0.5rem auto 0;
 }
 
-/* Features */
-.features {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	gap: 2rem;
-	margin-bottom: 3rem;
-}
-
+/* Features - using Bootstrap row/col */
 .feature {
 	background: var(--white);
-	padding: 2rem;
-	border-radius: var(--border-radius);
-	box-shadow: var(--shadow-light);
 	transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease;
 	opacity: 0;
 	transform: translateY(20px);
@@ -226,36 +183,19 @@ p {
 }
 
 .feature h3 {
-	margin-top: 0;
 	color: var(--primary-color);
 }
 
 /* Conference types section */
 .conference-types-container {
 	background-color: var(--white);
-	padding: 2rem;
-	border-radius: var(--border-radius);
 	box-shadow: var(--shadow-light);
-	margin-bottom: 3rem;
-}
-
-.conference-intro {
-	text-align: center;
-	margin-bottom: 2rem;
-}
-
-.conference-types {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	gap: 1rem;
 }
 
 .conf-type {
-	padding: 1rem;
-	border-radius: 6px;
+	transition: transform 0.2s ease;
 	display: flex;
 	align-items: center;
-	transition: transform 0.2s ease;
 }
 
 .conf-type:hover {
@@ -267,22 +207,9 @@ p {
 	font-size: 1.2rem;
 }
 
-/* Stats section */
-.stats {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	gap: 2rem;
-	margin-bottom: 3rem;
-	justify-items: center;
-	align-items: center;
-	overflow: hidden;
-	max-width: 100%;
-}
-
+/* Stats section - Using Bootstrap row/col */
 .stat {
 	background-color: var(--white);
-	padding: 2rem;
-	border-radius: var(--border-radius);
 	text-align: center;
 	box-shadow: var(--shadow-light);
 	transition: transform 0.3s ease, opacity 0.5s ease;
@@ -297,6 +224,7 @@ p {
 
 .stat:hover {
 	transform: translateY(-5px);
+	box-shadow: var(--shadow-medium);
 }
 
 .stat-number {
@@ -317,21 +245,9 @@ p {
 	color: #666;
 }
 
-/* Testimonials */
-.testimonials-section {
-	margin-bottom: 3rem;
-}
-
-.testimonials {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	gap: 2rem;
-}
-
+/* Testimonials - using Bootstrap row/col */
 .testimonial {
 	background-color: var(--white);
-	padding: 2rem;
-	border-radius: var(--border-radius);
 	box-shadow: var(--shadow-light);
 	position: relative;
 	transition: opacity 0.5s ease, transform 0.3s ease;
@@ -345,7 +261,7 @@ p {
 }
 
 .testimonial::before {
-	content: """;
+	content: '"';
 	position: absolute;
 	top: 0;
 	left: 1.5rem;
@@ -366,18 +282,9 @@ p {
 	color: var(--primary-color);
 }
 
-/* Use cases */
-.use-cases {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	gap: 2rem;
-	margin-bottom: 3rem;
-}
-
+/* Use cases - using Bootstrap row/col */
 .use-case {
 	background-color: var(--white);
-	padding: 2rem;
-	border-radius: var(--border-radius);
 	box-shadow: var(--shadow-light);
 	transition: opacity 0.5s ease, transform 0.3s ease;
 	opacity: 0;
@@ -397,93 +304,18 @@ p {
 /* CTA section */
 .cta-section {
 	background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-	padding: 3rem;
-	border-radius: var(--border-radius);
-	color: var(--white);
-	text-align: center;
-	margin-bottom: 3rem;
 	box-shadow: var(--shadow-medium);
 }
 
-.cta-section h2 {
-	margin-top: 0;
-	font-size: 2rem;
-}
-
-.cta-content {
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-	gap: 2rem;
-	align-items: center;
-}
-
-.buttons {
-	margin-top: 2rem;
-	display: flex;
-	gap: 1rem;
-	justify-content: center;
-}
-
-.button {
-	display: inline-block;
-	padding: 0.8rem 1.5rem;
-	border-radius: 6px;
-	font-weight: 600;
-	text-decoration: none;
-	transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.button:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.button-primary {
-	background-color: var(--white);
-	color: var(--primary-color);
-}
-
-.button-secondary {
-	background-color: transparent;
-	color: var(--white);
-	border: 2px solid var(--white);
-}
-
 .qr-code {
-	background-color: var(--white);
-	padding: 1rem;
-	border-radius: var(--border-radius);
-	display: inline-block;
-}
-
-.qr-code img {
-	max-width: 180px;
-	height: auto;
-}
-
-/* Footer styles */
-footer {
-	background-color: #333;
-	color: var(--white);
-	padding: 2rem 0;
-	text-align: center;
-}
-
-footer a {
-	color: var(--secondary-color);
-	text-decoration: none;
-}
-
-footer a:hover {
-	text-decoration: underline;
+	max-width: 200px;
 }
 
 /* Presentation mode specific styles */
 body.presentation-mode {
 	overflow: hidden;
 	background-color: var(--bg-color);
-	/*increase font size during presentation*/
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 }
 
 body.presentation-mode .container {
@@ -525,33 +357,60 @@ body.presentation-mode .slide.active {
 }
 
 body.presentation-mode .slide-content {
+	min-width: 50%;
+	min-height: 50%;
 	max-width: 90%;
 	max-height: 90vh;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	overflow: auto;
+	padding: 2rem;
 }
 
-body.presentation-mode .hero-section,
-body.presentation-mode .problem-solution,
-body.presentation-mode .section-title,
-body.presentation-mode .features,
-body.presentation-mode .conference-types-container,
-body.presentation-mode .stats,
-body.presentation-mode .testimonials-section,
-body.presentation-mode .testimonials,
-body.presentation-mode .use-cases,
-body.presentation-mode .cta-section {
-	max-width: 90%;
-	width: 100%;
-	margin: 0 auto;
+body.presentation-mode h1 {
+	font-size: 3.5rem;
+}
+
+body.presentation-mode h2 {
+	font-size: 2.8rem;
+}
+
+body.presentation-mode h3 {
+	font-size: 2.2rem;
+}
+
+body.presentation-mode .feature-icon {
+	font-size: 3rem;
+}
+
+body.presentation-mode .stat-number {
+	font-size: 4rem;
+}
+
+body.presentation-mode p,
+body.presentation-mode .quote,
+body.presentation-mode .stat-description,
+body.presentation-mode .conf-type-name,
+body.presentation-mode .author {
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+body.presentation-mode h1,
+body.presentation-mode h2,
+body.presentation-mode h3,
+body.presentation-mode .stat-number {
+	font-weight: 700;
+	line-height: 1.3;
+}
+
+body.presentation-mode nav,
+body.presentation-mode footer {
+	display: none;
 }
 
 /* Progress indicator */
 body.presentation-mode::after {
-	content: "";
+	content: '';
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -560,61 +419,29 @@ body.presentation-mode::after {
 	transition: width 0.3s ease;
 }
 
-body.presentation-mode[data-slide="1"]::after { width: calc(100% / 8 * 1); }
-body.presentation-mode[data-slide="2"]::after { width: calc(100% / 8 * 2); }
-body.presentation-mode[data-slide="3"]::after { width: calc(100% / 8 * 3); }
-body.presentation-mode[data-slide="4"]::after { width: calc(100% / 8 * 4); }
-body.presentation-mode[data-slide="5"]::after { width: calc(100% / 8 * 5); }
-body.presentation-mode[data-slide="6"]::after { width: calc(100% / 8 * 6); }
-body.presentation-mode[data-slide="7"]::after { width: calc(100% / 8 * 7); }
-body.presentation-mode[data-slide="8"]::after { width: calc(100% / 8 * 8); }
-
-/* Responsive styles */
-@media (max-width: 768px) {
-	.problem-solution,
-	.cta-content {
-		grid-template-columns: 1fr;
-	}
-
-	.hero-section {
-		padding: 3rem 1rem;
-	}
-
-	.logo {
-		font-size: 2rem;
-	}
-
-	.tagline {
-		font-size: 1.5rem;
-	}
-
-	.buttons {
-		flex-direction: column;
-	}
-
-	.button {
-		width: 100%;
-	}
-
-	body.presentation-mode .slide {
-		padding: 2rem;
-	}
-
-	body.presentation-mode .slide-content {
-		max-width: 95%;
-	}
+body.presentation-mode[data-slide='1']::after {
+	width: calc(100% / 8 * 1);
 }
-
-/* Animation sequence for elements */
-@keyframes fadeInUp {
-	from {
-		opacity: 0;
-		transform: translateY(20px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
+body.presentation-mode[data-slide='2']::after {
+	width: calc(100% / 8 * 2);
+}
+body.presentation-mode[data-slide='3']::after {
+	width: calc(100% / 8 * 3);
+}
+body.presentation-mode[data-slide='4']::after {
+	width: calc(100% / 8 * 4);
+}
+body.presentation-mode[data-slide='5']::after {
+	width: calc(100% / 8 * 5);
+}
+body.presentation-mode[data-slide='6']::after {
+	width: calc(100% / 8 * 6);
+}
+body.presentation-mode[data-slide='7']::after {
+	width: calc(100% / 8 * 7);
+}
+body.presentation-mode[data-slide='8']::after {
+	width: calc(100% / 8 * 8);
 }
 
 /* Custom scrollbar */
