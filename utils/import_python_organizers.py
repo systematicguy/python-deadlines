@@ -1,3 +1,4 @@
+import re
 import sys
 import urllib
 from datetime import datetime
@@ -13,8 +14,8 @@ from tidy_conf import load_conferences
 from tidy_conf import merge_conferences
 from tidy_conf.deduplicate import deduplicate
 from tidy_conf.schema import get_schema
-from tidy_conf.titles import tidy_df_names
 from tidy_conf.utils import fill_missing_required
+from tidy_conf.yaml import load_title_mappings
 from tidy_conf.yaml import write_df_yaml
 
 
@@ -98,7 +99,7 @@ def main(year=None, base=""):
     df_yml = load_conferences()
     df_schema = get_schema()
     df_new = pd.DataFrame(columns=df_schema.columns)
-    df_csv = pd.DataFrame(columns=df_schema.columns)
+    df_csv_raw = pd.DataFrame(columns=df_schema.columns)
 
     # Parse your csv file and iterate through year by year
     for y in range(year, datetime.now(tz=timezone.utc).year + 10):
@@ -107,42 +108,52 @@ def main(year=None, base=""):
             df["year"] = y
         except urllib.error.HTTPError:
             break
-        df_csv = pd.concat([df_csv, df], ignore_index=True)
+        df_csv_raw = pd.concat([df_csv_raw, df], ignore_index=True)
 
-    # Load old ics dataframe from cached data
-    try:
-        # Load the old ics dataframe from cache
-        df_csv_old = pd.read_csv(cache_file)
-    except FileNotFoundError:
-        df_csv_old = pd.DataFrame(columns=df_csv.columns)
+    # Load old csv dataframe from cached data
+    # try:
+    #     df_csv_old = pd.read_csv(cache_file)
+    # except FileNotFoundError:
+    #     df_csv_old = pd.DataFrame(columns=df_csv_raw.columns)
 
-    # Load and apply the title mappings, remove years from conference names
-    df_csv = tidy_df_names(df_csv)
+    # Create a copy for processing with standardized names
+    df_csv_standardized = df_csv_raw.copy()
 
-    # Store the new ics dataframe to cache
-    df_cache = df_csv.copy()
+    # Load and apply the title mappings
+    _, known_mappings = load_title_mappings(reverse=True)
+    df_csv_standardized["conference"] = (
+        df_csv_standardized["conference"]
+        .replace(re.compile(r"\b\s+(19|20)\d{2}\s*\b"), "", regex=True)
+        .replace(known_mappings)
+    )
+
+    # Store the new csv dataframe to cache (with original names)
+    df_cache = df_csv_raw.copy()
 
     # Get the difference between the old and new dataframes
-    df_diff = pd.concat([df_csv_old, df_csv]).drop_duplicates(keep=False)
+    # _ = pd.concat([df_csv_old, df_csv_raw]).drop_duplicates(keep=False)
 
-    # Deduplicate the new dataframe
-    df_csv = deduplicate(df_diff, "conference")
+    # Deduplicate the new dataframe (with standardized names for merging)
+    df_csv_for_merge = deduplicate(df_csv_standardized, "conference")
 
-    if df_csv.empty:
+    if df_csv_for_merge.empty:
         print("No new conferences found in Python organiser source.")
+        return
 
-    # Adjust deduplication and merging logic to retain valid data
+    # Process year by year
     for y in range(year, datetime.now(tz=timezone.utc).year + 10):
-        if df_csv.loc[df_csv["year"] == y].empty or df_yml[df_yml["year"] == y].empty:
+        if df_csv_for_merge.loc[df_csv_for_merge["year"] == y].empty or df_yml[df_yml["year"] == y].empty:
             # Concatenate the new data with the existing data
             df_new = pd.concat(
-                [df_new, df_yml[df_yml["year"] == y], df_csv.loc[df_csv["year"] == y]],
+                [df_new, df_yml[df_yml["year"] == y], df_csv_for_merge.loc[df_csv_for_merge["year"] == y]],
                 ignore_index=True,
             )
             continue
 
-        # Perform fuzzy matching and merge
-        df_merged, df_remote = fuzzy_match(df_yml[df_yml["year"] == y], df_csv.loc[df_csv["year"] == y])
+        df_merged, df_remote = fuzzy_match(
+            df_yml[df_yml["year"] == y],
+            df_csv_for_merge.loc[df_csv_for_merge["year"] == y],
+        )
         df_merged["year"] = y
         df_merged = df_merged.drop(["conference"], axis=1)
         df_merged = deduplicate(df_merged)
@@ -151,27 +162,50 @@ def main(year=None, base=""):
 
         df_new = pd.concat([df_new, df_merged], ignore_index=True)
 
-    # Write the new data to the YAML file
+    # Fill in missing required fields
     df_new = fill_missing_required(df_new)
+
+    # Write the new data to the YAML file
     write_df_yaml(df_new, target_file)
 
-    # Write the new data to the CSV file
-    df_new.loc[:, "Location"] = df_new.place
+    # Prepare CSV output with original names
+    df_csv_output = df_csv_raw.copy()
+
+    # Map from the standardized data back to original
+    mapping_dict = {}
+    for idx, row in df_csv_raw.iterrows():
+        standardized_conf = re.sub(r"\b\s+(19|20)\d{2}\s*\b", "", row["conference"])
+        if standardized_conf in known_mappings:
+            standardized_conf = known_mappings[standardized_conf]
+        mapping_key = (standardized_conf, row["year"])
+        mapping_dict[mapping_key] = idx
+
+    # Update the CSV output with information from the merged data
+    for _, row in df_new.iterrows():
+        key = (row["conference"], row["year"])
+        if key in mapping_dict:
+            original_idx = mapping_dict[key]
+            # Update only fields that were potentially enriched during merge
+            for col in ["start", "end", "cfp", "link", "cfp_link", "sponsor", "finaid"]:
+                if col in row and pd.notna(row[col]):
+                    df_csv_output.at[original_idx, col] = row[col]
+
+    # Write the CSV with original names
+    df_csv_output.loc[:, "Location"] = df_csv_output.place
     try:
-        df_new.loc[:, "Country"] = (
-            df_new.place.str.split(",")
+        df_csv_output.loc[:, "Country"] = (
+            df_csv_output.place.str.split(",")
             .str[-1]
             .str.strip()
             .apply(lambda x: iso3166.countries_by_name.get(x.upper(), iso3166.Country("", "", "", "", "")).alpha3)
         )
     except AttributeError as e:
-        df_csv.loc[:, "Country"] = ""
-        print(f"Error: Country iso3 not found for {df_new.place} - {e}")
+        df_csv_output.loc[:, "Country"] = ""
+        print(f"Error: Country iso3 not found for {df_csv_output.place} - {e}")
 
-    print(f"Writing {len(df_new)} conferences to CSV file")
-    write_csv(df_new, year, csv_location)
+    write_csv(df_csv_output, year, csv_location)
 
-    # Save the new ics dataframe to cache
+    # Save the new dataframe to cache
     df_cache.to_csv(cache_file, index=False)
 
 

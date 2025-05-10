@@ -1,3 +1,4 @@
+import re
 import sys
 
 import yaml
@@ -92,8 +93,24 @@ def load_title_mappings(reverse=False, path="utils/tidy_conf/data/titles.yml"):
 
     for key, values in data.get("alt_name", {}).items():
         global_name = values.get("global")
-        variations = values.get("variations", [])
+        variations_raw = values.get("variations", [])
         regexes = values.get("regexes", [])
+
+        variations = []
+        for current_variation in (global_name, *variations_raw):
+            if not current_variation:
+                continue
+            current_variations = set(current_variation.strip())
+            current_variations.update(
+                variation.replace("Conference", "").strip().replace("Conf", "")
+                for variation in current_variations.copy()
+            )
+            current_variations.update(re.sub(r"\s+", "", variation).strip() for variation in current_variations.copy())
+            current_variations.update(re.sub(r"\W", "", variation).strip() for variation in current_variations.copy())
+            current_variations.update(
+                re.sub(r"\b\s+(19|20)\d{2}\s*\b", "", variation).strip() for variation in current_variations.copy()
+            )
+            variations.extend(current_variations)
 
         if reverse:
             # Reverse mapping: map variations and regexes back to the global name
