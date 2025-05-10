@@ -22,6 +22,7 @@ titles:
   past_events: 'Vergangene Konferenzen'
   past_cfps: 'Vergangene CfPs'
   search: 'Suche'
+  about: 'Über Python-Konferenz-Deadlines'
 buttons:
   ical: Lade iCal runter
   google: Zu Google Kalender hinzufügen
@@ -100,3 +101,83 @@ social:
 search:
   no-results: "Keine Suchergebnisse für gefunden."
   error: 'Fehler beim Laden des Suchindex. Bitte probiere es später erneut.'
+about:
+  toggle_fullscreen: "Vollbildpräsentationsmodus umschalten"
+  previous_slide: "Vorherige Folie"
+  next_slide: "Nächste Folie"
+  tagline: "Verpasse nie wieder eine Python-Konferenz-Deadline!"
+  hero_description: "Die gemeinschaftlich betriebene Plattform, die Python-Entwicklern hilft, Konferenzen weltweit zu entdecken, zu verfolgen und Beiträge einzureichen."
+  problem:
+    title: "Die Herausforderung"
+    description: "Das Verfolgen von Python-Konferenzfristen über verschiedene Websites, Zeitzonen und Formate hinweg ist zeitaufwendig und fehleranfällig. Viele Entwickler verpassen Gelegenheiten, ihr Wissen zu teilen, weil sie CfPs zu spät entdecken."
+  solution:
+    title: "Unsere Lösung"
+    description: "Pythondeadlin.es konsolidiert alle Python-Konferenzfristen an einem Ort, mit automatischer Zeitzonenumrechnung, mehreren Erinnerungsoptionen und umfassenden Details, um deine Einreichungen effektiv zu planen."
+  features:
+    title: "Hauptfunktionen"
+    tracking:
+      title: "Umfassendes Verfolgen"
+      description: "Behalte den Überblick über jede Call for Proposals (CfP)-Frist für Python-Konferenzen weltweit mit personalisierten Countdown-Timern in deiner lokalen Zeitzone."
+    notifications:
+      title: "Flexible Benachrichtigungen"
+      description: "Wähle aus, wie du erinnert werden möchtest—abonniere via iCal, Google Kalender oder RSS-Feed, um zeitnahe Benachrichtigungen zu erhalten, die zu deinem Workflow passen."
+    coverage:
+      title: "Globale Abdeckung"
+      description: "Entdecke Python-Events von PyCon bis PyData auf sechs Kontinenten mit unserer interaktiven Kartenansicht und umfassender Kalenderübersicht."
+    language:
+      title: "Mehrsprachige Unterstützung"
+      description: "Greife auf die Plattform in Englisch, Spanisch oder Deutsch zu, was Python-Konferenzen für Entwickler mit unterschiedlichem sprachlichen Hintergrund zugänglich macht."
+    community:
+      title: "Gemeinschaftlich Betrieben"
+      description: "Profitiere von unserem Open-Source-Ansatz, bei dem die Python-Community gemeinsam aktuelle und genaue Konferenzinformationen pflegt."
+    mobile:
+      title: "Mobilfreundlich"
+      description: "Überprüfe Fristen unterwegs mit unserem responsiven Design, das sich nahtlos an jedes Gerät anpasst—perfekt für vielbeschäftigte Entwickler."
+  categories:
+    title: "Konferenzkategorien"
+    intro: "Wir verfolgen Python-Konferenzen in verschiedenen Spezialisierungen:"
+  stats:
+    title: "In Zahlen"
+    conferences:
+      label: "Verfolgte Konferenzen"
+      description: "Umfassende Datenbank von Python-Events weltweit"
+    categories:
+      label: "Konferenzkategorien"
+      description: "Von allgemeinem Python bis zu spezialisierten Nischen"
+    guides:
+      label: "Ressourcen-Leitfäden"
+      description: "Umfassende Leitfäden für Erst- und erfahrene Redner"
+    countries:
+      label: "Verschiedene Länder"
+      description: "Python-Konferenzen aus der ganzen Welt"
+    languages:
+      label: "Sprachen"
+      description: "Python-Konferenzen global zugänglich machen"
+  testimonials:
+    title: "Was User sagen"
+    first:
+      quote: "\"Dank Pythondeadlin.es konnte ich meinen ersten Konferenzvortrag mit genügend Zeit zur Vorbereitung einreichen. Die Seite ist zu einem unverzichtbaren Werkzeug in meiner beruflichen Entwicklung geworden.\""
+      author: "— Python-Entwickler"
+    second:
+      quote: "\"Als Konferenzorganisator schätze ich, dass unser Event genau dargestellt wird. Die Plattform hat uns geholfen, ein breiteres Publikum potenzieller Redner zu erreichen.\""
+      author: "— PyCon-Organisator"
+    third:
+      quote: "\"Wir zeigen jetzt regelmäßig PythonDeadlin.es bei unserem Meetup, um Konferenzen im Blick zu behalten, die für unsere Teilnehmer interessant sein könnten.\""
+      author: "— Meetup-Organisator"
+  use_cases:
+    title: "Wie Menschen Pythondeadlin.es nutzen"
+    first_time:
+      title: "Erstredner"
+      description: "Entdecke anfängerfreundliche Konferenzen mit genügend Vorlaufzeit, um einen überzeugenden Vorschlag vorzubereiten, und nutze den Ressourcenbereich für Inspiration und Anleitung."
+    frequent:
+      title: "Häufige Präsentatoren"
+      description: "Plane deinen jährlichen Vortragsplan und priorisiere Einreichungsfristen für mehrere Veranstaltungen."
+    organizers:
+      title: "Konferenzorganisatoren"
+      description: "Stelle sicher, dass deine Veranstaltung potenzielle Redner erreicht, indem du deine Konferenz zu unserer Datenbank hinzufügst."
+  cta:
+    title: "Beginne noch heute mit dem Verfolgen von Konferenzfristen"
+    description: "Schließe dich der Python-Community an, um über Konferenzmöglichkeiten auf dem Laufenden zu bleiben. Scanne den QR-Code oder besuche pythondeadlin.es, um zu beginnen."
+    visit_button: "Website besuchen"
+    github_button: "Auf GitHub beitragen"
+    qr_alt: "QR-Code für pythondeadlin.es"

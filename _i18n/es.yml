@@ -22,6 +22,7 @@ titles:
   past_events: 'Eventos Pasados'
   past_cfps: 'Llamadas pasadas'
   search: 'Buscar'
+  about: 'Sobre las fechas de conferencias de Python'
 buttons:
   ical: Obtener el iCal
   google: Añadir al Calendario de Google
@@ -100,3 +101,83 @@ social:
 search:
   no-results: 'No ha encontrado resultados.'
   error: 'Hay un error en el indice de busca. Por favor prueba de nuevo mas tarde.'
+about:
+  toggle_fullscreen: "Alternar modo de presentación de pantalla completa"
+  previous_slide: "Diapositiva anterior"
+  next_slide: "Siguiente diapositiva"
+  tagline: "¡Nunca pierdas otra fecha límite de conferencia Python!"
+  hero_description: "La plataforma impulsada por la comunidad que ayuda a los desarrolladores de Python a descubrir, seguir y enviar propuestas a conferencias en todo el mundo."
+  problem:
+    title: "El Desafío"
+    description: "Hacer seguimiento de las fechas límite de conferencias Python en diferentes sitios web, zonas horarias y formatos consume tiempo y es propenso a errores. Muchos desarrolladores pierden oportunidades de compartir su conocimiento porque descubren las convocatorias demasiado tarde."
+  solution:
+    title: "Nuestra Solución"
+    description: "Pythondeadlin.es consolida todas las fechas límite de conferencias Python en un solo lugar, con conversión automática de zona horaria, múltiples opciones de recordatorio e información detallada para ayudarte a planificar tus propuestas de manera efectiva."
+  features:
+    title: "Características Principales"
+    tracking:
+      title: "Seguimiento Completo"
+      description: "Mantente al día con cada fecha límite de convocatoria de propuestas (CfP) para conferencias Python en todo el mundo con temporizadores de cuenta regresiva personalizados en tu zona horaria local."
+    notifications:
+      title: "Notificaciones Flexibles"
+      description: "Elige cómo quieres recibir recordatorios: suscríbete vía iCal, Google Calendar o feed RSS para recibir alertas oportunas que se adapten a tu flujo de trabajo."
+    coverage:
+      title: "Cobertura Global"
+      description: "Descubre eventos Python desde PyCon hasta PyData en seis continentes con nuestra vista de mapa interactivo y calendario completo."
+    language:
+      title: "Soporte Multilingüe"
+      description: "Accede a la plataforma en inglés, español o alemán, haciendo que las conferencias Python sean accesibles para desarrolladores de diversos orígenes lingüísticos."
+    community:
+      title: "Impulsado por la Comunidad"
+      description: "Benefíciate de nuestro enfoque de código abierto donde la comunidad Python mantiene colaborativamente información precisa y actualizada de conferencias."
+    mobile:
+      title: "Compatible con Móviles"
+      description: "Consulta las fechas límite sobre la marcha con nuestro diseño responsivo que se adapta perfectamente a cualquier dispositivo, perfecto para desarrolladores ocupados."
+  categories:
+    title: "Categorías de Conferencias"
+    intro: "Hacemos seguimiento de conferencias Python en múltiples especializaciones:"
+  stats:
+    title: "En Números"
+    conferences:
+      label: "Conferencias Seguidas"
+      description: "Base de datos completa de eventos Python en todo el mundo"
+    categories:
+      label: "Categorías de Conferencias"
+      description: "Desde Python general hasta nichos especializados"
+    guides:
+      label: "Guías de Recursos"
+      description: "Guías completas para oradores primerizos y experimentados"
+    countries:
+      label: "Países Distintos"
+      description: "Conferencias Python de todo el mundo"
+    languages:
+      label: "Idiomas"
+      description: "Haciendo las conferencias Python accesibles globalmente"
+  testimonials:
+    title: "Lo Que Dicen Los Usuarios"
+    first:
+      quote: "\"Gracias a Pythondeadlin.es, pude enviar mi primera propuesta de charla para una conferencia con tiempo suficiente para prepararme. El sitio se ha convertido en una herramienta esencial en mi desarrollo profesional.\""
+      author: "— Desarrollador Python"
+    second:
+      quote: "\"Como organizador de conferencias, agradezco que nuestro evento esté representado con precisión. La plataforma nos ha ayudado a llegar a una audiencia más amplia de potenciales ponentes.\""
+      author: "— Organizador de PyCon"
+    third:
+      quote: "\"Ahora mostramos regularmente PythonDeadlin.es en nuestro Meetup para hacer seguimiento de las conferencias que podrían interesar a nuestros participantes.\""
+      author: "— Organizador de Meetup"
+  use_cases:
+    title: "Cómo La Gente Usa Pythondeadlin.es"
+    first_time:
+      title: "Oradores Primerizos"
+      description: "Descubre conferencias amigables para principiantes con tiempo suficiente para preparar una propuesta convincente y utiliza la sección de recursos para inspiración y orientación."
+    frequent:
+      title: "Presentadores Frecuentes"
+      description: "Planifica tu agenda anual de presentaciones y prioriza las fechas límite de envío en múltiples eventos."
+    organizers:
+      title: "Organizadores de Conferencias"
+      description: "Asegúrate de que tu evento llegue a potenciales ponentes añadiendo tu conferencia a nuestra base de datos."
+  cta:
+    title: "Comienza a Seguir Las Fechas Límite de Conferencias Hoy"
+    description: "Únete a la comunidad Python para estar al día con las oportunidades de conferencias. Escanea el código QR o visita pythondeadlin.es para comenzar."
+    visit_button: "Visitar Sitio Web"
+    github_button: "Contribuir en GitHub"
+    qr_alt: "Código QR para pythondeadlin.es"
