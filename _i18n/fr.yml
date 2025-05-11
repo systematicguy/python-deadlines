@@ -1,0 +1,186 @@
+---
+global:
+  current: 'fr'
+  choose: 'Choisir la langue'
+  sub_filter: 'Filtrer par sous-catégorie:'
+  en: 'English'
+  es: 'Español'
+  de: 'Deutsch'
+  fr: 'Français'
+  pt-br: 'Português'
+  zh-cn: '中文'
+  cfp: 'Appel à participation'
+  cfp_ext: 'CfP prolongé de'
+titles:
+  default: 'Échéances des conférences Python'
+  archive: 'Conférences Python passées'
+  visit_archive: 'Visiter les archives'
+  calendar: 'Calendrier des échéances et dates des conférences Python'
+  map: 'Carte des conférences Python'
+  a404: 'Page non trouvée'
+  privacy: 'Politique de confidentialité'
+  resources: 'Ressources pour rédiger des CfP de qualité'
+  series: "Liste des séries d'événements Python"
+  impressum: 'Mentions légales'
+  past_events: 'Événements passés'
+  past_cfps: 'Appels à participation passés'
+  search: 'Rechercher'
+  about: 'À propos des échéances des conférences Python'
+buttons:
+  ical: Obtenir l'iCal
+  google: Ajouter à Google Agenda
+  github: Soumettre une conférence sur GitHub
+  all_selected: Toutes les conférences sélectionnées
+  none_selected: Aucune conférence sélectionnée
+description:
+  summary: 'Résumé de la conférence et de ses éditions au fil des ans.'
+header:
+  countdown: 'Décomptes'
+  calendar: 'Calendrier'
+  maps: 'Carte'
+  series: 'Séries'
+  resources: 'Ressources'
+conference:
+  title: 'Échéances des conférences'
+  finaid: 'Aide financière'
+  sponsor: 'Opportunité de parrainage'
+  all: 'Toutes les conférences pour'
+  download_dl: "Télécharger l'échéance de la conférence"
+  download_date: 'Télécharger les dates de la conférence'
+  deadline_tz_theirs: 'Échéance dans le fuseau horaire du site de la conférence'
+  deadline_tz_local: "Échéance dans votre fuseau horaire local <span class='local-timezone'></span>"
+summary:
+  title: 'Résumé de la conférence'
+subs:
+  PY: 'Python général'
+  SCIPY: 'Python scientifique'
+  DATA: 'Python pour les données'
+  WEB: 'Python pour le web'
+  BIZ: 'Python pour les entreprises'
+  GEO: 'Python pour la Terre'
+  CAMP: 'Camps Python'
+  DAY: 'Journée Python'
+series:
+  always: 'Toujours tenu à'
+  place:
+    last: 'Dernière conférence à'
+    next: 'Prochaine conférence à'
+  year:
+    last: 'Dernière année tenue en'
+    next: 'Prochaine année en'
+times:
+  tba: "À déterminer"
+  from: "À partir du"
+  until: "Jusqu'au"
+  normal:
+    days: 'jours'
+    hours: 'heures'
+    minutes: 'minutes'
+    seconds: 'secondes'
+  short:
+    days: 'j'
+    hours: 'h'
+    minutes: 'm'
+    seconds: 's'
+  months:
+    January: 'janvier'
+    February: 'février'
+    March: 'mars'
+    April: 'avril'
+    May: 'mai'
+    June: 'juin'
+    July: 'juillet'
+    August: 'août'
+    September: 'septembre'
+    October: 'octobre'
+    November: 'novembre'
+    December: 'décembre'
+social:
+  twitter: 'Tweeter la conférence'
+  facebook: 'Partager la conférence sur FB'
+  linkedin: 'Partager la conférence sur LinkedIn'
+  whatsapp: 'Partager la conférence sur WhatsApp'
+  email: 'Envoyer la conférence par email'
+search:
+  no-results: 'Aucun résultat trouvé.'
+  error: "Erreur lors du chargement de l'index de recherche. Veuillez réessayer plus tard."
+about:
+  toggle_fullscreen: "Basculer en mode présentation plein écran"
+  previous_slide: "Diapositive précédente"
+  next_slide: "Diapositive suivante"
+  tagline: "Ne manquez plus jamais une échéance de conférence Python !"
+  hero_description: "La plateforme communautaire qui aide les développeurs Python à découvrir, suivre et soumettre des propositions aux conférences du monde entier."
+  problem:
+    title: "Le défi"
+    description: "Suivre les échéances des conférences Python sur différents sites web, fuseaux horaires et formats est chronophage et source d'erreurs. De nombreux développeurs manquent des opportunités de partager leurs connaissances car ils découvrent les CFP trop tard."
+  solution:
+    title: "Notre solution"
+    description: "Pythondeadlin.es regroupe toutes les échéances des conférences Python en un seul endroit, avec conversion automatique des fuseaux horaires, options de rappel multiples et informations détaillées pour vous aider à planifier efficacement vos soumissions."
+  features:
+    title: "Fonctionnalités clés"
+    tracking:
+      title: "Suivi complet"
+      description: "Restez informé de chaque échéance d'appel à propositions (CfP) pour les conférences Python dans le monde entier avec des chronomètres personnalisés dans votre fuseau horaire local."
+    notifications:
+      title: "Notifications flexibles"
+      description: "Choisissez comment vous souhaitez être rappelé — abonnez-vous via iCal, Google Agenda ou flux RSS pour recevoir des alertes opportunes qui s'adaptent à votre flux de travail."
+    coverage:
+      title: "Couverture mondiale"
+      description: "Découvrez les événements Python, de PyCon à PyData, sur six continents avec notre vue cartographique interactive et notre aperçu de calendrier complet."
+    language:
+      title: "Support multilingue"
+      description: "Accédez à la plateforme en anglais, espagnol, allemand, français, portugais brésilien ou chinois simplifié, rendant les conférences Python accessibles aux développeurs de diverses origines linguistiques."
+    community:
+      title: "Piloté par la communauté"
+      description: "Bénéficiez de notre approche open source où la communauté Python maintient collaborativement des informations précises et à jour sur les conférences."
+    mobile:
+      title: "Compatible mobile"
+      description: "Vérifiez les échéances en déplacement avec notre design responsive qui s'adapte parfaitement à tout appareil — idéal pour les développeurs occupés."
+  categories:
+    title: "Catégories de conférences"
+    intro: "Nous suivons les conférences Python dans plusieurs spécialisations :"
+  stats:
+    title: "En chiffres"
+    conferences:
+      label: "Conférences suivies"
+      description: "Base de données complète d'événements Python dans le monde entier"
+    categories:
+      label: "Catégories de conférences"
+      description: "Du Python général aux niches spécialisées"
+    guides:
+      label: "Guides de ressources"
+      description: "Guides complets pour les orateurs débutants et expérimentés"
+    countries:
+      label: "Pays distincts"
+      description: "Conférences Python du monde entier"
+    languages:
+      label: "Langues"
+      description: "Rendre les conférences Python accessibles mondialement"
+  testimonials:
+    title: "Ce que disent les utilisateurs"
+    first:
+      quote: "\"Grâce à Pythondeadlin.es, j'ai pu soumettre ma première proposition de conférence avec suffisamment de temps pour me préparer. Le site est devenu un outil essentiel dans mon développement professionnel.\""
+      author: "— Développeur Python"
+    second:
+      quote: "\"En tant qu'organisateur de conférence, j'apprécie que notre événement soit représenté avec précision. La plateforme nous a aidés à atteindre un public plus large d'orateurs potentiels.\""
+      author: "— Organisateur PyCon"
+    third:
+      quote: "\"Nous montrons maintenant régulièrement PythonDeadlin.es lors de notre Meetup pour suivre les conférences qui pourraient intéresser nos participants.\""
+      author: "— Organisateur de Meetup"
+  use_cases:
+    title: "Comment les gens utilisent Pythondeadlin.es"
+    first_time:
+      title: "Orateurs débutants"
+      description: "Découvrez des conférences adaptées aux débutants avec suffisamment de temps pour préparer une proposition convaincante et utilisez la section ressources pour l'inspiration et les conseils."
+    frequent:
+      title: "Présentateurs fréquents"
+      description: "Planifiez votre calendrier annuel de présentations et priorisez les échéances de soumission pour plusieurs événements."
+    organizers:
+      title: "Organisateurs de conférences"
+      description: "Assurez-vous que votre événement atteigne des orateurs potentiels en ajoutant votre conférence à notre base de données."
+  cta:
+    title: "Commencez à suivre les échéances de conférences dès aujourd'hui"
+    description: "Rejoignez la communauté Python pour rester au courant des opportunités de conférences. Scannez le code QR ou visitez pythondeadlin.es pour commencer."
+    visit_button: "Visiter le site"
+    github_button: "Contribuer sur GitHub"
+    qr_alt: "Code QR pour pythondeadlin.es"

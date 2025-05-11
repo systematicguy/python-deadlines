@@ -42,7 +42,7 @@
 						>
 							{% for type in site.data.types %}
 							<option value="{{type.sub}}" id="{{type.sub}}-checkbox">
-								{{type.name}} ({{type.sub}})
+								{% t 'subs.{{type.sub | strip}}' %} ({{type.sub}})
 							</option>
 							{% endfor %}
 						</select>

@@ -1,0 +1,189 @@
+---
+global:
+  current: 'id'
+  choose: 'Pilih Bahasa'
+  sub_filter: 'Filter berdasarkan Subkategori:'
+  en: 'English'
+  es: 'Español'
+  de: 'Deutsch'
+  fr: 'Français'
+  pt-br: 'Português'
+  zh-cn: '中文'
+  hi: 'हिन्दी'
+  id: 'Bahasa'
+  ru: 'Русский'
+  cfp: 'Undangan Partisipasi'
+  cfp_ext: 'CFP diperpanjang dari'
+titles:
+  default: 'Tenggat Waktu Konferensi Python'
+  archive: 'Konferensi Python Sebelumnya'
+  visit_archive: 'Kunjungi Arsip'
+  calendar: 'Kalender Tenggat Waktu dan Tanggal Konferensi Python'
+  map: 'Peta Lokasi Konferensi Python'
+  a404: 'Halaman Tidak Ditemukan'
+  privacy: 'Kebijakan Privasi'
+  resources: 'Sumber Daya untuk Menulis CFP Berkualitas'
+  series: 'Daftar Seri Acara Python'
+  impressum: 'Syarat dan Ketentuan'
+  past_events: 'Acara Sebelumnya'
+  past_cfps: 'Undangan Sebelumnya'
+  search: 'Cari'
+  about: 'Tentang Tenggat Waktu Konferensi Python'
+buttons:
+  ical: Dapatkan iCal
+  google: Tambahkan ke Google Calendar
+  github: Kirim Konferensi di GitHub
+  all_selected: Semua Konferensi Dipilih
+  none_selected: Tidak Ada Konferensi Dipilih
+description:
+  summary: 'Ringkasan konferensi dan sejarahnya selama bertahun-tahun.'
+header:
+  countdown: 'Hitung Mundur'
+  calendar: 'Kalender'
+  maps: 'Peta'
+  series: 'Seri'
+  resources: 'Sumber Daya'
+conference:
+  title: 'Tenggat Waktu Konferensi'
+  finaid: 'Bantuan Keuangan'
+  sponsor: 'Kesempatan Sponsor'
+  all: 'Semua konferensi untuk'
+  download_dl: 'Unduh Tenggat Waktu Konferensi'
+  download_date: 'Unduh Tanggal Konferensi'
+  deadline_tz_theirs: 'Tenggat waktu dalam zona waktu situs konferensi'
+  deadline_tz_local: "Tenggat waktu dalam zona waktu lokal <span class='local-timezone'></span> Anda"
+summary:
+  title: 'Ringkasan Konferensi'
+subs:
+  PY: 'Python Umum'
+  SCIPY: 'Python Ilmiah'
+  DATA: 'Python untuk Data'
+  WEB: 'Python untuk Web'
+  BIZ: 'Python untuk Bisnis'
+  GEO: 'Python untuk Bumi'
+  CAMP: 'Kamp Python'
+  DAY: 'Hari Python'
+series:
+  always: 'Selalu diadakan di'
+  place:
+    last: 'Konferensi terakhir di'
+    next: 'Konferensi berikutnya di'
+  year:
+    last: 'Tahun terakhir diadakan'
+    next: 'Tahun berikutnya'
+times:
+  tba: "Akan Diumumkan"
+  from: "Dari"
+  until: "Hingga"
+  normal:
+    days: 'hari'
+    hours: 'jam'
+    minutes: 'menit'
+    seconds: 'detik'
+  short:
+    days: 'h'
+    hours: 'j'
+    minutes: 'm'
+    seconds: 'd'
+  months:
+    January: 'Januari'
+    February: 'Februari'
+    March: 'Maret'
+    April: 'April'
+    May: 'Mei'
+    June: 'Juni'
+    July: 'Juli'
+    August: 'Agustus'
+    September: 'September'
+    October: 'Oktober'
+    November: 'November'
+    December: 'Desember'
+social:
+  twitter: 'Tweet Konferensi'
+  facebook: 'Bagikan Konferensi di FB'
+  linkedin: 'Bagikan Konferensi di LinkedIn'
+  whatsapp: 'Bagikan Konferensi di WhatsApp'
+  email: 'Email Konferensi'
+search:
+  no-results: 'Tidak ditemukan hasil.'
+  error: 'Kesalahan memuat indeks pencarian. Silakan coba lagi nanti.'
+about:
+  toggle_fullscreen: "Alihkan mode presentasi layar penuh"
+  previous_slide: "Slide sebelumnya"
+  next_slide: "Slide berikutnya"
+  tagline: "Jangan pernah lewatkan tenggat waktu konferensi Python lagi!"
+  hero_description: "Platform berbasis komunitas yang membantu pengembang Python menemukan, melacak, dan mengirimkan proposal ke konferensi di seluruh dunia."
+  problem:
+    title: "Tantangan"
+    description: "Melacak tenggat waktu konferensi Python di berbagai situs web, zona waktu, dan format membutuhkan waktu dan rentan kesalahan. Banyak pengembang melewatkan kesempatan berbagi pengetahuan karena mereka menemukan CFP terlambat."
+  solution:
+    title: "Solusi Kami"
+    description: "Pythondeadlin.es mengkonsolidasikan semua tenggat waktu konferensi Python di satu tempat, dengan konversi zona waktu otomatis, berbagai opsi pengingat, dan detail komprehensif untuk membantu Anda merencanakan pengiriman secara efektif."
+  features:
+    title: "Fitur Utama"
+    tracking:
+      title: "Pelacakan Komprehensif"
+      description: "Pantau setiap tenggat waktu Call for Proposals (CfP) untuk konferensi Python di seluruh dunia dengan penghitung waktu mundur yang dipersonalisasi dalam zona waktu lokal Anda."
+    notifications:
+      title: "Notifikasi Fleksibel"
+      description: "Pilih bagaimana Anda ingin diingatkan—berlangganan melalui iCal, Google Calendar, atau feed RSS untuk menerima pengingat tepat waktu yang sesuai dengan alur kerja Anda."
+    coverage:
+      title: "Cakupan Global"
+      description: "Temukan acara Python dari PyCon hingga PyData di enam benua dengan tampilan peta interaktif dan kalender komprehensif kami."
+    language:
+      title: "Dukungan Multi-bahasa"
+      description: "Akses platform dalam bahasa Inggris, Spanyol, Jerman, Prancis, Portugis Brasil, Mandarin, Hindi, Indonesia, atau Rusia, menjadikan konferensi Python dapat diakses oleh pengembang dari berbagai latar belakang bahasa."
+    community:
+      title: "Didorong oleh Komunitas"
+      description: "Manfaatkan pendekatan open-source kami di mana komunitas Python secara kolaboratif memelihara informasi konferensi yang akurat dan terkini."
+    mobile:
+      title: "Ramah Perangkat Seluler"
+      description: "Periksa tenggat waktu saat bepergian dengan desain responsif kami yang beradaptasi dengan mulus ke perangkat apa pun—sempurna untuk pengembang yang sibuk."
+  categories:
+    title: "Kategori Konferensi"
+    intro: "Kami melacak konferensi Python di berbagai spesialisasi:"
+  stats:
+    title: "Dalam Angka"
+    conferences:
+      label: "Konferensi Terlacak"
+      description: "Database komprehensif acara Python di seluruh dunia"
+    categories:
+      label: "Kategori Konferensi"
+      description: "Dari Python umum hingga spesialisasi khusus"
+    guides:
+      label: "Panduan Sumber Daya"
+      description: "Panduan komprehensif untuk pembicara pemula dan berpengalaman"
+    countries:
+      label: "Negara Berbeda"
+      description: "Konferensi Python dari seluruh dunia"
+    languages:
+      label: "Bahasa"
+      description: "Membuat konferensi Python dapat diakses secara global"
+  testimonials:
+    title: "Apa Kata Pengguna"
+    first:
+      quote: "\"Berkat Pythondeadlin.es, saya dapat mengirimkan proposal presentasi konferensi pertama saya dengan cukup waktu untuk mempersiapkan. Situs ini telah menjadi alat penting dalam pengembangan profesional saya.\""
+      author: "— Pengembang Python"
+    second:
+      quote: "\"Sebagai penyelenggara konferensi, saya menghargai bahwa acara kami ditampilkan secara akurat. Platform ini telah membantu kami menjangkau audiens pembicara potensial yang lebih luas.\""
+      author: "— Penyelenggara PyCon"
+    third:
+      quote: "\"Kami sekarang secara rutin menampilkan PythonDeadlin.es di Meetup kami untuk melacak konferensi yang mungkin menarik bagi peserta kami.\""
+      author: "— Penyelenggara Meetup"
+  use_cases:
+    title: "Bagaimana Orang Menggunakan Pythondeadlin.es"
+    first_time:
+      title: "Pembicara Pertama Kali"
+      description: "Temukan konferensi ramah pemula dengan waktu persiapan yang cukup untuk menyusun proposal yang menarik dan gunakan bagian sumber daya untuk inspirasi dan panduan."
+    frequent:
+      title: "Presenter Rutin"
+      description: "Rencanakan jadwal presentasi tahunan Anda dan prioritaskan tenggat waktu pengiriman di berbagai acara."
+    organizers:
+      title: "Penyelenggara Konferensi"
+      description: "Pastikan acara Anda menjangkau pembicara potensial dengan menambahkan konferensi Anda ke database kami."
+  cta:
+    title: "Mulai Melacak Tenggat Waktu Konferensi Hari Ini"
+    description: "Bergabunglah dengan komunitas Python untuk tetap mengikuti peluang konferensi. Pindai kode QR atau kunjungi pythondeadlin.es untuk memulai."
+    visit_button: "Kunjungi Situs"
+    github_button: "Berkontribusi di GitHub"
+    qr_alt: "Kode QR untuk pythondeadlin.es"

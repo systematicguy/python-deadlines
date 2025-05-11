@@ -1,0 +1,49 @@
+{% if include.start == nil and include.end == nil %}
+    {% capture pretty_date %}{% t "times.tba" %}{% endcapture %}
+{% elsif include.start == nil %}
+    {% assign end_date = include.end | date: "%Y-%m-%d" %}
+    {% assign end_day = end_date | date: "%-d" %}
+    {% capture end_month %}{% t "times.months.{{ end_date | date: '%B' }}" %}{% endcapture %}
+    {% assign end_year = end_date | date: "%Y" %}
+    {% capture pretty_date %}{% t "times.until" %} {{ end_day }} de {{ end_month }} de {{ end_year }}{% endcapture %}
+{% elsif include.end == nil %}
+    {% assign start_date = include.start | date: "%Y-%m-%d" %}
+    {% assign start_day = start_date | date: "%-d" %}
+    {% capture start_month %}{% t "times.months.{{ start_date | date: '%B' }}" %}{% endcapture %}
+    {% assign start_year = start_date | date: "%Y" %}
+    {% capture pretty_date %}{% t "times.from" %} {{ start_day }} de {{ start_month }} de {{ start_year }}{% endcapture %}
+{% else %}
+    {% assign start_date = include.start | date: "%Y-%m-%d" %}
+    {% assign end_date = include.end | date: "%Y-%m-%d" %}
+    
+    {% if start_date == end_date %}
+        {% assign day = start_date | date: "%-d" %}
+        {% assign year = start_date | date: "%Y" %}
+        {% capture month %}{% t "times.months.{{ start_date | date: '%B' }}" %}{% endcapture %}
+        {% capture pretty_date %}{{ day }} de {{ month }} de {{ year }}{% endcapture %}
+    
+    {% elsif start_date | date: "%Y-%m" == end_date | date: "%Y-%m" %}
+        {% assign start_day = start_date | date: "%-d" %}
+        {% assign end_day = end_date | date: "%-d" %}
+        {% capture month %}{% t "times.months.{{ start_date | date: '%B' }}" %}{% endcapture %}
+        {% assign year = start_date | date: "%Y" %}
+        {% capture pretty_date %}{{ start_day }} a {{ end_day }} de {{ month }} de {{ year }}{% endcapture %}
+    
+    {% elsif start_date | date: "%Y" == end_date | date: "%Y" %}
+        {% assign start_day = start_date | date: "%-d" %}
+        {% assign end_day = end_date | date: "%-d" %}
+        {% capture start_month %}{% t "times.months.{{ start_date | date: '%B' }}" %}{% endcapture %}
+        {% capture end_month %}{% t "times.months.{{ end_date | date: '%B' }}" %}{% endcapture %}
+        {% assign year = start_date | date: "%Y" %}
+        {% capture pretty_date %}{{ start_day }} de {{ start_month }} a {{ end_day }} de {{ end_month }} de {{ year }}{% endcapture %}
+    
+    {% else %}
+        {% assign start_day = start_date | date: "%-d" %}
+        {% assign end_day = end_date | date: "%-d" %}
+        {% capture start_month %}{% t "times.months.{{ start_date | date: '%B' }}" %}{% endcapture %}
+        {% capture end_month %}{% t "times.months.{{ end_date | date: '%B' }}" %}{% endcapture %}
+        {% assign start_year = start_date | date: "%Y" %}
+        {% assign end_year = end_date | date: "%Y" %}
+        {% capture pretty_date %}{{ start_day }} de {{ start_month }} de {{ start_year }} a {{ end_day }} de {{ end_month }} de {{ end_year }}{% endcapture %}
+    {% endif %}
+{% endif %}{{ pretty_date | strip }}

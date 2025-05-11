@@ -1,0 +1,1 @@
+<a href="https://dramsch.net">Jesper Dramsch</a> adalah pencipta <a href="https://ml.recipes">ML.recipes</a>, <a href="https://data-science-gui.de">data-science-gui.de</a>, <a href="https://late.email">Late to the Party 🎉</a> dan <a href="https://latent.club">Komunitas Latent Space</a>.

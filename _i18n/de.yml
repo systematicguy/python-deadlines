@@ -3,9 +3,6 @@ global:
   current: 'de'
   choose: 'Wähle Sprache'
   sub_filter: 'Filter nach Unterkategorie:'
-  en: 'English'
-  es: 'Espanol'
-  de: 'Deutsch'
   cfp: 'Aufruf zur Teilnahme'
   cfp_ext: 'CfP verlängert von'
 titles:

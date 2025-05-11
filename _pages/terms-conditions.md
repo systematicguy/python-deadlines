@@ -5,6 +5,12 @@ namespace: impressum
 permalink: /legal/terms-conditions/
 permalink_es: /legal/condiciones/
 permalink_de: /legal/impressum/
+permalink_fr: /legal/mentions-legales
+permalink_pt-br: /legal/termos-e-condicoes
+permalink_zh-cn: /legal/条款和条件
+permalink_ru: /legal/условия
+permalink_id: /legal/syarat-dan-ketentuan
+permalink_hi: /legal/नियम-और-शर्तें
 layout: post
 ---
 
@@ -25,6 +31,7 @@ The following terminology applies to these Terms and Conditions, Privacy Stateme
 -   K. Mothes
 -   Schloßstraße 20
 -   06869 Coswig (Anhalt)
+-   Germany
 
 -   <a href="javascript:location='mailto:\u006a\u0065\u0073\u0070\u0065\u0072\u0040\u0064\u0072\u0061\u006d\u0073\u0063\u0068\u002e\u006e\u0065\u0074';void 0"><script type="text/javascript">document.write('\u006a\u0065\u0073\u0070\u0065\u0072\u0040\u0064\u0072\u0061\u006d\u0073\u0063\u0068\u002e\u006e\u0065\u0074')</script></a>
 

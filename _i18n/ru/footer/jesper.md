@@ -1,0 +1,1 @@
+<a href="https://dramsch.net">Йеспер Драмш</a> — создатель <a href="https://ml.recipes">ML.recipes</a>, <a href="https://data-science-gui.de">data-science-gui.de</a>, <a href="https://late.email">Late to the Party 🎉</a> и <a href="https://latent.club">Latent Space Community</a>.

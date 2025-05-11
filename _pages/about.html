@@ -1,12 +1,18 @@
 ---
+title: titles.about
 author: Jesper Dramsch
 description: 'Never miss another Python conference deadline!'
 keywords: 'Python, conferences, deadlines, community-driven, tracking, reminders'
 namespace: about
 permalink: /about/
 permalink_es: /sobre/
-permalink_de: /über/
-title: titles.about
+permalink_de: /über-uns/
+permalink_fr: /à-propos/
+permalink_pt-br: /sobre/
+permalink_zh-cn: /关于我们/
+permalink_ru: /о-нас/
+permalink_id: /tentang-kami/
+permalink_hi: /के-बारे-में/
 ---
 
 {% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy %}
@@ -135,7 +141,7 @@ title: titles.about
                         <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                             <div class="conf-type p-3 rounded" style="background-color: #ffde5720; border-left: 4px solid {{ type.color }}">
                                 <span class="conf-type-icon" style="color: {{ type.color }}">●</span>
-                                <span class="conf-type-name">{{ type.name }}</span>
+                                <span class="conf-type-name">{% t 'subs.{{type.sub | strip}}' %}</span>
                             </div>
                         </div>
 						{% endfor %}

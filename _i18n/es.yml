@@ -3,9 +3,6 @@ global:
   current: 'es'
   choose: 'Elija Idioma'
   sub_filter: 'Filtrar por Subcategoría:'
-  en: 'English'
-  es: 'Espanol'
-  de: 'Deutsch'
   cfp: 'Llamada por participación'
   cfp_ext: 'CfP extendido de'
 titles:

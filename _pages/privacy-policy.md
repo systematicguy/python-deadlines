@@ -5,6 +5,12 @@ namespace: privacy-policy
 permalink: /legal/privacy-policy/
 permalink_es: /legal/privacidad
 permalink_de: /legal/datenschutz
+permalink_fr: /legal/confidentialite
+permalink_pt-br: /legal/privacidade
+permalink_zh-cn: /legal/隐私政策
+permalink_ru: /legal/конфиденциальность
+permalink_id: /legal/privasi
+permalink_hi: /legal/गोपनीयता-नीति
 layout: post
 ---
 

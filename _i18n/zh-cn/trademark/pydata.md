@@ -1,0 +1,1 @@
+<p>NumFOCUS、PyData 和 Fiscally Sponsored Projects 是 NumFOCUS 的注册商标。本网站 pythondeadlin.es 与 NumFOCUS 或任何 PyData 或附属活动没有关联、认可或赞助关系。本网站上使用的所有商标和标志仍然是其各自所有者的财产。对 NumFOCUS、PyData 或其他商标的任何引用仅供参考，不暗示与商标持有者有任何关联。</p>

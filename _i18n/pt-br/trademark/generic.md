@@ -1,0 +1,1 @@
+<p>Qualquer uso de marcas registradas ou logotipos estabelecidos por eventos listados neste site é apenas para fins informativos e não implica associação com os respectivos detentores das marcas. Se você é proprietário de uma marca registrada e deseja que sua marca seja removida deste site, entre em contato conosco.</p>

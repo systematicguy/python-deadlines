@@ -1,0 +1,1 @@
+<p>Setiap penggunaan merek dagang atau logo yang ditetapkan oleh acara yang tercantum di situs ini hanya untuk tujuan informasi dan tidak menyiratkan hubungan dengan pemegang merek dagang masing-masing. Jika Anda adalah pemegang merek dagang dan ingin merek dagang Anda dihapus dari situs ini, silakan hubungi kami.</p>

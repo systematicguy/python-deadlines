@@ -1,0 +1,1 @@
+<p>Toute utilisation des marques commerciales ou logos établis par les événements répertoriés sur ce site est à des fins informatives uniquement et n'implique aucune association avec les détenteurs respectifs des marques. Si vous êtes titulaire d'une marque et souhaitez que votre marque soit retirée de ce site, veuillez nous contacter.</p>

@@ -15,7 +15,7 @@ markdown: kramdown
 ga_id:
 adsense_id:
 
-include: ['_pages', '\.htaccess']
+include: [ '_pages', '\.htaccess' ]
 
 defaults:
 - scope:
@@ -49,7 +49,6 @@ author:
   name: Jesper Dramsch
   url: https://dramsch.net
 
-
 social:
   name: Jesper Dramsch
   links:
@@ -59,10 +58,17 @@ social:
   - https://www.dramsch.net/github
   - https://www.dramsch.net/youtube
 
-languages:
-- en
-- es
-- de
+languages: [ "en", "es", "de", "fr", "pt-br", "zh-cn", "hi", "id", "ru" ]
+languages_available:
+  en: English
+  es: Español
+  de: Deutsch
+  fr: Français
+  pt-br: Português Brasileiro
+  zh-cn: 简体中文
+  ru: Русский
+  hi: हिन्दी
+  id: Bahasa Indonesia
 
 exclude_from_localizations:
 - 'static'

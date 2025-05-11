@@ -1,0 +1,186 @@
+---
+global:
+  current: 'zh-cn'
+  choose: '选择语言'
+  sub_filter: '按子类别筛选:'
+  en: 'English'
+  es: 'Español'
+  de: 'Deutsch'
+  fr: 'Français'
+  pt-br: 'Português'
+  zh-cn: '中文'
+  cfp: '参与征集'
+  cfp_ext: '延长的征集期'
+titles:
+  default: 'Python会议截止日期'
+  archive: '往期Python会议'
+  visit_archive: '访问存档'
+  calendar: 'Python会议截止日期和日程日历'
+  map: 'Python会议地图概览'
+  a404: '页面未找到'
+  privacy: '隐私政策'
+  resources: '撰写优质CfP的资源'
+  series: 'Python活动系列列表'
+  impressum: '条款与条件'
+  past_events: '往期活动'
+  past_cfps: '往期征集'
+  search: '搜索'
+  about: '关于Python会议截止日期'
+buttons:
+  ical: 获取iCal日历
+  google: 添加到Google日历
+  github: 在GitHub上提交会议
+  all_selected: 已选择所有会议
+  none_selected: 未选择会议
+description:
+  summary: '会议及其历年实例的摘要。'
+header:
+  countdown: '倒计时'
+  calendar: '日历'
+  maps: '地图'
+  series: '系列'
+  resources: '资源'
+conference:
+  title: '会议截止日期'
+  finaid: '财务资助'
+  sponsor: '赞助机会'
+  all: '所有会议'
+  download_dl: '下载会议截止日期'
+  download_date: '下载会议日期'
+  deadline_tz_theirs: '会议网站时区的截止日期'
+  deadline_tz_local: "您本地时区<span class='local-timezone'></span>的截止日期"
+summary:
+  title: '会议摘要'
+subs:
+  PY: '通用Python'
+  SCIPY: '科学Python'
+  DATA: '数据Python'
+  WEB: 'Web开发Python'
+  BIZ: '商业Python'
+  GEO: '地球科学Python'
+  CAMP: 'Python营会'
+  DAY: 'Python日活动'
+series:
+  always: '始终在'
+  place:
+    last: '上次会议在'
+    next: '下次会议在'
+  year:
+    last: '上次举办年份'
+    next: '下次举办年份'
+times:
+  tba: "待定"
+  from: "从"
+  until: "直到"
+  normal:
+    days: '天'
+    hours: '小时'
+    minutes: '分钟'
+    seconds: '秒'
+  short:
+    days: '天'
+    hours: '时'
+    minutes: '分'
+    seconds: '秒'
+  months:
+    January: '一月'
+    February: '二月'
+    March: '三月'
+    April: '四月'
+    May: '五月'
+    June: '六月'
+    July: '七月'
+    August: '八月'
+    September: '九月'
+    October: '十月'
+    November: '十一月'
+    December: '十二月'
+social:
+  twitter: '在Twitter上分享会议'
+  facebook: '在FB上分享会议'
+  linkedin: '在LinkedIn上分享会议'
+  whatsapp: '在WhatsApp上分享会议'
+  email: '通过电子邮件分享会议'
+search:
+  no-results: '未找到结果。'
+  error: '加载搜索索引时出错。请稍后再试。'
+about:
+  toggle_fullscreen: "切换全屏演示模式"
+  previous_slide: "上一张幻灯片"
+  next_slide: "下一张幻灯片"
+  tagline: "再也不会错过Python会议截止日期！"
+  hero_description: "这个社区驱动的平台帮助Python开发者发现、跟踪全球会议并提交演讲提案。"
+  problem:
+    title: "挑战"
+    description: "在不同网站、时区和格式中跟踪Python会议截止日期费时且容易出错。许多开发者因为太晚发现CFP而错失分享知识的机会。"
+  solution:
+    title: "我们的解决方案"
+    description: "Pythondeadlin.es将所有Python会议截止日期整合在一处，提供自动时区转换、多种提醒选项和全面详细信息，帮助您有效规划提交。"
+  features:
+    title: "主要功能"
+    tracking:
+      title: "全面跟踪"
+      description: "通过本地时区的个性化倒计时器，随时掌握全球Python会议的每个提案征集(CfP)截止日期。"
+    notifications:
+      title: "灵活通知"
+      description: "选择您希望的提醒方式——通过iCal、Google日历或RSS订阅，接收符合您工作流程的及时提醒。"
+    coverage:
+      title: "全球覆盖"
+      description: "通过我们的交互式地图视图和全面的日历概览，探索六大洲的Python活动，从PyCon到PyData。"
+    language:
+      title: "多语言支持"
+      description: "以英语、西班牙语、德语、法语、巴西葡萄牙语或简体中文访问平台，让Python会议对不同语言背景的开发者都易于理解。"
+    community:
+      title: "社区驱动"
+      description: "受益于我们的开源方式，Python社区协作维护准确、最新的会议信息。"
+    mobile:
+      title: "移动友好"
+      description: "借助我们能完美适应任何设备的响应式设计，随时随地查看截止日期——非常适合忙碌的开发者。"
+  categories:
+    title: "会议类别"
+    intro: "我们跟踪多个专业领域的Python会议："
+  stats:
+    title: "数据概览"
+    conferences:
+      label: "跟踪的会议数量"
+      description: "全球Python活动的综合数据库"
+    categories:
+      label: "会议类别"
+      description: "从通用Python到专业领域"
+    guides:
+      label: "资源指南"
+      description: "为首次和经验丰富的演讲者提供的全面指南"
+    countries:
+      label: "不同国家"
+      description: "来自世界各地的Python会议"
+    languages:
+      label: "语言"
+      description: "让Python会议全球可及"
+  testimonials:
+    title: "用户评价"
+    first:
+      quote: "\"多亏了Pythondeadlin.es，我能够有充分时间准备并提交我的第一个会议演讲提案。这个网站已成为我职业发展中不可或缺的工具。\""
+      author: "— Python开发者"
+    second:
+      quote: "\"作为会议组织者，我很欣赏我们的活动被准确呈现。这个平台帮助我们接触到更广泛的潜在演讲者。\""
+      author: "— PyCon组织者"
+    third:
+      quote: "\"我们现在定期在Meetup上展示PythonDeadlin.es，以跟踪可能对我们参与者有兴趣的会议。\""
+      author: "— Meetup组织者"
+  use_cases:
+    title: "人们如何使用Pythondeadlin.es"
+    first_time:
+      title: "首次演讲者"
+      description: "发现适合初学者的会议，有足够的准备时间来制作有说服力的提案，并使用资源部分获取灵感和指导。"
+    frequent:
+      title: "常规演讲者"
+      description: "规划您的年度演讲日程，并为多个活动的提交截止日期确定优先级。"
+    organizers:
+      title: "会议组织者"
+      description: "通过将您的会议添加到我们的数据库，确保您的活动能够接触到潜在的演讲者。"
+  cta:
+    title: "今天就开始跟踪会议截止日期"
+    description: "加入Python社区，随时了解会议机会。扫描二维码或访问pythondeadlin.es开始使用。"
+    visit_button: "访问网站"
+    github_button: "在GitHub上贡献"
+    qr_alt: "pythondeadlin.es的二维码"
