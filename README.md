@@ -1,6 +1,6 @@
 ## Python Deadlines
 
-[![pages-build-deployment](https://github.com/JesperDramsch/python-deadlines/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/JesperDramsch/python-deadlines/actions/workflows/pages/pages-build-deployment) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/jesperdramsch/python-deadlines) [![All Contributors](https://img.shields.io/github/all-contributors/jesperdramsch/python-deadlines?color=ee8449)](#contributors) ![GitHub Repo stars](https://img.shields.io/github/stars/jesperdramsch/python-deadlines)
+[![pages-build-deployment](https://github.com/JesperDramsch/python-deadlines/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/JesperDramsch/python-deadlines/actions/workflows/pages/pages-build-deployment) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/jesperdramsch/python-deadlines) [![All Contributors](https://img.shields.io/github/all-contributors/jesperdramsch/python-deadlines?color=ee8449)](#contributors) ![GitHub Repo stars](https://img.shields.io/github/stars/jesperdramsch/python-deadlines) [![Crowdin](https://badges.crowdin.net/python-deadlines/localized.svg)](https://crowdin.com/project/python-deadlines)
 
 Countdown timers to keep track of a bunch of Python conference deadlines.
 
@@ -129,6 +129,30 @@ I mainly run the `main.py` and `sort_yaml.py` to get new entries and move old en
 -   [https://deadlines.cpusec.org/ (Computer Architecture-Security conferences)][19] by @hoseinyavarzadeh
 -   [se-deadlines.github.io (Software engineering conferences)][20] by @sivanahamer and @imranur-rahman
 -   [awesome-mlss (Machine Learning Summer Schools)][21] by @sshkhr and @gmberton
+
+## Translations
+
+Python Deadlines is available in multiple languages to make Python conference information accessible to a global audience. We use [Crowdin](https://crowdin.com) to manage our translations.
+
+### Currently Supported Languages
+
+-   English (en)
+-   Spanish (es)
+-   German (de)
+-   French (fr)
+-   Portuguese (Brazilian) (pt-br)
+-   Chinese (Simplified) (zh-cn)
+-   Russian (ru)
+-   Indonesian (id)
+-   Hindi (hi)
+
+### Contributing to Translations
+
+We welcome contributions to translate Python Deadlines into more languages! You don't need to be a developer or understand Git to help with translations.
+
+For detailed instructions on how to contribute translations, please see our [Translation Guide (TRANSLATION.md)](TRANSLATION.md).
+
+If you'd like to add support for a new language, please open an issue.
 
 ## Contributors
 
