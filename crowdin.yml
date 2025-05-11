@@ -1,0 +1,5 @@
+files:
+  - source: /_i18n/en.yml
+    translation: /_i18n/%locale%.yml
+  - source: /_i18n/en/_posts/*
+    translation: /_i18n/%locale%/_posts/%original_file_name%
