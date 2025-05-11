@@ -3,3 +3,21 @@ files:
     translation: /_i18n/%locale%.yml
   - source: /_i18n/en/_posts/*
     translation: /_i18n/%locale%/_posts/%original_file_name%
+  - source: /_i18n/en/calendar
+    translation: /_i18n/%locale%/calendar/%original_file_name%
+  - source: /_i18n/en/dates
+    translation: /_i18n/%locale%/dates/%original_file_name%
+  - source: /_i18n/en/footer
+    translation: /_i18n/%locale%/footer/%original_file_name%
+  - source: /_i18n/en/frontpage
+    translation: /_i18n/%locale%/frontpage/%original_file_name%
+  - source: /_i18n/en/maps
+    translation: /_i18n/%locale%/maps/%original_file_name%
+  - source: /_i18n/en/resources
+    translation: /_i18n/%locale%/resources/%original_file_name%
+  - source: /_i18n/en/search
+    translation: /_i18n/%locale%/search/%original_file_name%
+  - source: /_i18n/en/series
+    translation: /_i18n/%locale%/series/%original_file_name%
+  - source: /_i18n/en/trademark
+    translation: /_i18n/%locale%/trademark/%original_file_name%
