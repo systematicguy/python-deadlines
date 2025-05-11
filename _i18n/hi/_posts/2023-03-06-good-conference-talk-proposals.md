@@ -1,40 +1,46 @@
 ---
-title: How to write a great Python Conference Talk Proposal
+title: पायथन कॉन्फ्रेंस टॉक प्रस्ताव कैसे लिखें
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "conference", "CfP", "audience"]
+tags: ['Python', 'conference', 'CfP', 'audience']
 ---
 
-Writing a good conference proposal can be challenging. Still, some key elements can help make your proposal stand out. Here are five essential components of a successful conference proposal.
+एक अच्छा सम्मेलन प्रस्ताव लिखना चुनौतीपूर्ण हो सकता है। फिर भी, कुछ प्रमुख तत्व हैं जो आपके प्रस्ताव को उभरने में मदद कर सकते हैं। यहां एक सफल सम्मेलन प्रस्ताव के पांच आवश्यक घटक हैं।
 
-## The topic and why it's interesting
-The first component of a good conference proposal is a clear and compelling description of the topic you plan to discuss. Communicating why your topic is relevant and exciting to the conference audience is essential. Be sure to highlight any unique or innovative aspects of your topic and any challenges or opportunities it presents.
+## विषय और यह क्यों रोचक है
 
-## The audience that will benefit from attending this talk/tutorial
-Identifying your [target audience](/resources/find-target-audience/) is crucial in creating a successful conference proposal.
+एक अच्छे सम्मेलन प्रस्ताव का पहला घटक उस विषय का स्पष्ट और आकर्षक विवरण है जिस पर आप चर्चा करने की योजना बना रहे हैं। यह बताना आवश्यक है कि आपका विषय सम्मेलन के दर्शकों के लिए क्यों प्रासंगिक और रोमांचक है। अपने विषय के किसी भी अद्वितीय या नवीन पहलू और किसी भी चुनौती या अवसर को उजागर करना सुनिश्चित करें।
 
-Be specific about who will benefit from your talk or tutorial and what they will learn.
+## वह दर्शक जो इस वार्ता/ट्यूटोरियल में भाग लेने से लाभान्वित होंगे
 
-Understanding your audience will help you tailor your content and ensure that you're providing valuable insights and takeaways.
+अपने लक्षित दर्शकों की पहचान करना एक सफल सम्मेलन प्रस्ताव बनाने में महत्वपूर्ण है।
 
-## The takeaway for the audience
-What can attendees expect to gain from your talk or tutorial? Be clear about the key takeaways you hope to provide.
+इस बारे में विशिष्ट रहें कि आपकी वार्ता या ट्यूटोरियल से कौन लाभान्वित होगा और वे क्या सीखेंगे।
 
-This will help attendees evaluate whether your presentation aligns with their interests and needs.
+अपने दर्शकों को समझने से आपको अपनी सामग्री को अनुकूलित करने और यह सुनिश्चित करने में मदद मिलेगी कि आप मूल्यवान अंतर्दृष्टि और निष्कर्ष प्रदान कर रहे हैं।
 
-It will also help you structure your talk and stay on track to deliver the promised value.
+## दर्शकों के लिए क्या लाभ है
 
-## Any background knowledge needed to understand the talk/tutorial
-When crafting your proposal, it's important to consider what background knowledge your audience will need to understand and engage with your content.
+प्रतिभागी आपकी वार्ता या ट्यूटोरियल से क्या प्राप्त करने की उम्मीद कर सकते हैं? उन प्रमुख निष्कर्षों के बारे में स्पष्ट रहें जिन्हें आप प्रदान करने की आशा करते हैं।
 
-Be clear about any prerequisites, and provide links or resources that attendees can use to brush up on their knowledge before attending.
+यह प्रतिभागियों को यह मूल्यांकन करने में मदद करेगा कि क्या आपकी प्रस्तुति उनके हितों और जरूरतों के अनुरूप है।
 
-## Approximate time breakdowns of how the material will be covered
-A detailed breakdown of how you plan to cover your material is vital to help attendees understand what they can expect from your talk or tutorial.
+यह आपको अपनी वार्ता को संरचित करने और वादा किए गए मूल्य को प्रदान करने के लिए ट्रैक पर रहने में भी मदद करेगा।
 
-By outlining a clear structure and timeline for your presentation, you will help attendees stay engaged and focused on your content. It will also help you stay on track and cover all the key points you want to make.
+## वार्ता/ट्यूटोरियल को समझने के लिए आवश्यक कोई पूर्व ज्ञान
 
-## Conclusion
-In conclusion, a good conference proposal should provide a clear and compelling description of the topic, identify the [target audience](/resources/find-target-audience/) and their needs, clearly communicate the takeaways and any background knowledge required, and provide a detailed breakdown of the material. Including these essential components will increase the chances of your proposal being accepted and delivering a successful presentation at the conference.
+अपना प्रस्ताव तैयार करते समय, यह विचार करना महत्वपूर्ण है कि आपके दर्शकों को आपकी सामग्री को समझने और उसमें संलग्न होने के लिए किस पृष्ठभूमि ज्ञान की आवश्यकता होगी।
 
-_This list expands on excellent points made by the [Pydata Global conference](https://pydata.org/global2022/present/)._
+किसी भी पूर्वापेक्षा के बारे में स्पष्ट रहें, और ऐसे लिंक या संसाधन प्रदान करें जिन्हें प्रतिभागी भाग लेने से पहले अपने ज्ञान को ताज़ा करने के लिए उपयोग कर सकते हैं।
+
+## सामग्री को कैसे कवर किया जाएगा, इसका अनुमानित समय विभाजन
+
+आप अपनी सामग्री को कैसे कवर करने की योजना बनाते हैं, इसका विस्तृत विवरण प्रतिभागियों को यह समझने में मदद करने के लिए महत्वपूर्ण है कि वे आपकी वार्ता या ट्यूटोरियल से क्या उम्मीद कर सकते हैं।
+
+अपनी प्रस्तुति के लिए एक स्पष्ट संरचना और समयरेखा की रूपरेखा तैयार करके, आप प्रतिभागियों को आपकी सामग्री में संलग्न और केंद्रित रहने में मदद करेंगे। यह आपको ट्रैक पर रहने और उन सभी प्रमुख बिंदुओं को कवर करने में भी मदद करेगा जिन्हें आप बनाना चाहते हैं।
+
+## निष्कर्ष
+
+निष्कर्ष में, एक अच्छा सम्मेलन प्रस्ताव विषय का स्पष्ट और आकर्षक विवरण प्रदान करना चाहिए, लक्षित दर्शकों और उनकी जरूरतों की पहचान करना चाहिए, निष्कर्षों और किसी भी आवश्यक पूर्व ज्ञान को स्पष्ट रूप से संप्रेषित करना चाहिए, और सामग्री का विस्तृत विवरण प्रदान करना चाहिए। इन आवश्यक घटकों को शामिल करने से आपके प्रस्ताव के स्वीकार होने और सम्मेलन में सफल प्रस्तुति देने की संभावना बढ़ जाएगी।
+
+_यह सूची [Pydata Global सम्मेलन](https://pydata.org/global2022/present/) द्वारा किए गए उत्कृष्ट बिंदुओं का विस्तार करती है।_

@@ -1,40 +1,46 @@
 ---
-title: How to write a great Python Conference Talk Proposal
+title: Cómo escribir una gran propuesta de charla para conferencias Python
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "conference", "CfP", "audience"]
+tags: ['Python', 'conference', 'CfP', 'audience']
 ---
 
-Writing a good conference proposal can be challenging. Still, some key elements can help make your proposal stand out. Here are five essential components of a successful conference proposal.
+Escribir una buena propuesta de conferencia puede ser desafiante. Sin embargo, hay algunos elementos clave que pueden ayudar a que tu propuesta destaque. Aquí hay cinco componentes esenciales de una propuesta de conferencia exitosa.
 
-## The topic and why it's interesting
-The first component of a good conference proposal is a clear and compelling description of the topic you plan to discuss. Communicating why your topic is relevant and exciting to the conference audience is essential. Be sure to highlight any unique or innovative aspects of your topic and any challenges or opportunities it presents.
+## El tema y por qué es interesante
 
-## The audience that will benefit from attending this talk/tutorial
-Identifying your [target audience](/resources/find-target-audience/) is crucial in creating a successful conference proposal.
+El primer componente de una buena propuesta de conferencia es una descripción clara y convincente del tema que planeas discutir. Es esencial comunicar por qué tu tema es relevante y emocionante para la audiencia de la conferencia. Asegúrate de resaltar cualquier aspecto único o innovador de tu tema y cualquier desafío u oportunidad que presente.
 
-Be specific about who will benefit from your talk or tutorial and what they will learn.
+## La audiencia que se beneficiará de asistir a esta charla/tutorial
 
-Understanding your audience will help you tailor your content and ensure that you're providing valuable insights and takeaways.
+Identificar a tu audiencia objetivo es crucial para crear una propuesta de conferencia exitosa.
 
-## The takeaway for the audience
-What can attendees expect to gain from your talk or tutorial? Be clear about the key takeaways you hope to provide.
+Sé específico sobre quién se beneficiará de tu charla o tutorial y qué aprenderán.
 
-This will help attendees evaluate whether your presentation aligns with their interests and needs.
+Comprender a tu audiencia te ayudará a adaptar tu contenido y asegurar que estás proporcionando ideas valiosas y conclusiones útiles.
 
-It will also help you structure your talk and stay on track to deliver the promised value.
+## El beneficio para la audiencia
 
-## Any background knowledge needed to understand the talk/tutorial
-When crafting your proposal, it's important to consider what background knowledge your audience will need to understand and engage with your content.
+¿Qué pueden esperar obtener los asistentes de tu charla o tutorial? Sé claro sobre las conclusiones clave que esperas proporcionar.
 
-Be clear about any prerequisites, and provide links or resources that attendees can use to brush up on their knowledge before attending.
+Esto ayudará a los asistentes a evaluar si tu presentación se alinea con sus intereses y necesidades.
 
-## Approximate time breakdowns of how the material will be covered
-A detailed breakdown of how you plan to cover your material is vital to help attendees understand what they can expect from your talk or tutorial.
+También te ayudará a estructurar tu charla y a mantenerte enfocado en entregar el valor prometido.
 
-By outlining a clear structure and timeline for your presentation, you will help attendees stay engaged and focused on your content. It will also help you stay on track and cover all the key points you want to make.
+## Cualquier conocimiento previo necesario para entender la charla/tutorial
 
-## Conclusion
-In conclusion, a good conference proposal should provide a clear and compelling description of the topic, identify the [target audience](/resources/find-target-audience/) and their needs, clearly communicate the takeaways and any background knowledge required, and provide a detailed breakdown of the material. Including these essential components will increase the chances of your proposal being accepted and delivering a successful presentation at the conference.
+Al elaborar tu propuesta, es importante considerar qué conocimiento previo necesitará tu audiencia para entender y participar en tu contenido.
 
-_This list expands on excellent points made by the [Pydata Global conference](https://pydata.org/global2022/present/)._
+Sé claro sobre cualquier prerrequisito, y proporciona enlaces o recursos que los asistentes puedan usar para repasar sus conocimientos antes de asistir.
+
+## Desglose aproximado del tiempo de cómo se cubrirá el material
+
+Un desglose detallado de cómo planeas cubrir tu material es vital para ayudar a los asistentes a entender qué pueden esperar de tu charla o tutorial.
+
+Al esbozar una estructura clara y una línea de tiempo para tu presentación, ayudarás a los asistentes a mantenerse comprometidos y enfocados en tu contenido. También te ayudará a mantenerte en el camino correcto y cubrir todos los puntos clave que quieres hacer.
+
+## Conclusión
+
+En conclusión, una buena propuesta de conferencia debe proporcionar una descripción clara y convincente del tema, identificar a la audiencia objetivo y sus necesidades, comunicar claramente las conclusiones y cualquier conocimiento previo requerido, y proporcionar un desglose detallado del material. Incluir estos componentes esenciales aumentará las posibilidades de que tu propuesta sea aceptada y de que entregues una presentación exitosa en la conferencia.
+
+_Esta lista amplía excelentes puntos hechos por la [conferencia Pydata Global](https://pydata.org/global2022/present/)._

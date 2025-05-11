@@ -1,40 +1,46 @@
 ---
-title: How to write a great Python Conference Talk Proposal
+title: Wie man einen großartigen Python-Konferenz-Vortragsvorschlag schreibt
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "conference", "CfP", "audience"]
+tags: ['Python', 'conference', 'CfP', 'audience']
 ---
 
-Writing a good conference proposal can be challenging. Still, some key elements can help make your proposal stand out. Here are five essential components of a successful conference proposal.
+Das Schreiben eines guten Konferenzvorschlags kann herausfordernd sein. Dennoch gibt es einige Schlüsselelemente, die helfen können, Ihren Vorschlag hervorzuheben. Hier sind fünf wesentliche Komponenten eines erfolgreichen Konferenzvorschlags.
 
-## The topic and why it's interesting
-The first component of a good conference proposal is a clear and compelling description of the topic you plan to discuss. Communicating why your topic is relevant and exciting to the conference audience is essential. Be sure to highlight any unique or innovative aspects of your topic and any challenges or opportunities it presents.
+## Das Thema und warum es interessant ist
 
-## The audience that will benefit from attending this talk/tutorial
-Identifying your [target audience](/resources/find-target-audience/) is crucial in creating a successful conference proposal.
+Die erste Komponente eines guten Konferenzvorschlags ist eine klare und überzeugende Beschreibung des Themas, das Sie diskutieren möchten. Es ist wichtig, zu vermitteln, warum Ihr Thema für das Konferenzpublikum relevant und spannend ist. Achten Sie darauf, alle einzigartigen oder innovativen Aspekte Ihres Themas sowie alle Herausforderungen oder Chancen, die es bietet, hervorzuheben.
 
-Be specific about who will benefit from your talk or tutorial and what they will learn.
+## Das Publikum, das vom Besuch dieses Vortrags/Tutorials profitieren wird
 
-Understanding your audience will help you tailor your content and ensure that you're providing valuable insights and takeaways.
+Die Identifizierung Ihrer Zielgruppe ist entscheidend für die Erstellung eines erfolgreichen Konferenzvorschlags.
 
-## The takeaway for the audience
-What can attendees expect to gain from your talk or tutorial? Be clear about the key takeaways you hope to provide.
+Seien Sie präzise darüber, wer von Ihrem Vortrag oder Tutorial profitieren wird und was sie lernen werden.
 
-This will help attendees evaluate whether your presentation aligns with their interests and needs.
+Das Verständnis Ihres Publikums wird Ihnen helfen, Ihre Inhalte anzupassen und sicherzustellen, dass Sie wertvolle Erkenntnisse und Takeaways bieten.
 
-It will also help you structure your talk and stay on track to deliver the promised value.
+## Der Mehrwert für das Publikum
 
-## Any background knowledge needed to understand the talk/tutorial
-When crafting your proposal, it's important to consider what background knowledge your audience will need to understand and engage with your content.
+Was können die Teilnehmer von Ihrem Vortrag oder Tutorial erwarten? Seien Sie klar über die wichtigsten Erkenntnisse, die Sie vermitteln möchten.
 
-Be clear about any prerequisites, and provide links or resources that attendees can use to brush up on their knowledge before attending.
+Dies wird den Teilnehmern helfen, zu bewerten, ob Ihre Präsentation mit ihren Interessen und Bedürfnissen übereinstimmt.
 
-## Approximate time breakdowns of how the material will be covered
-A detailed breakdown of how you plan to cover your material is vital to help attendees understand what they can expect from your talk or tutorial.
+Es wird Ihnen auch helfen, Ihren Vortrag zu strukturieren und auf Kurs zu bleiben, um den versprochenen Mehrwert zu liefern.
 
-By outlining a clear structure and timeline for your presentation, you will help attendees stay engaged and focused on your content. It will also help you stay on track and cover all the key points you want to make.
+## Erforderliches Hintergrundwissen zum Verständnis des Vortrags/Tutorials
 
-## Conclusion
-In conclusion, a good conference proposal should provide a clear and compelling description of the topic, identify the [target audience](/resources/find-target-audience/) and their needs, clearly communicate the takeaways and any background knowledge required, and provide a detailed breakdown of the material. Including these essential components will increase the chances of your proposal being accepted and delivering a successful presentation at the conference.
+Bei der Erstellung Ihres Vorschlags ist es wichtig zu berücksichtigen, welches Hintergrundwissen Ihr Publikum benötigen wird, um Ihre Inhalte zu verstehen und sich damit auseinanderzusetzen.
 
-_This list expands on excellent points made by the [Pydata Global conference](https://pydata.org/global2022/present/)._
+Seien Sie klar über alle Voraussetzungen und stellen Sie Links oder Ressourcen zur Verfügung, die die Teilnehmer nutzen können, um ihr Wissen vor der Teilnahme aufzufrischen.
+
+## Ungefähre Zeitaufteilung, wie das Material behandelt wird
+
+Eine detaillierte Aufschlüsselung, wie Sie Ihr Material abdecken möchten, ist wichtig, um den Teilnehmern zu helfen, zu verstehen, was sie von Ihrem Vortrag oder Tutorial erwarten können.
+
+Indem Sie eine klare Struktur und einen Zeitplan für Ihre Präsentation skizzieren, werden Sie den Teilnehmern helfen, engagiert und auf Ihre Inhalte fokussiert zu bleiben. Es wird Ihnen auch helfen, auf Kurs zu bleiben und alle wichtigen Punkte zu behandeln, die Sie ansprechen möchten.
+
+## Fazit
+
+Zusammenfassend sollte ein guter Konferenzvorschlag eine klare und überzeugende Beschreibung des Themas liefern, die Zielgruppe und ihre Bedürfnisse identifizieren, die Takeaways und erforderliches Hintergrundwissen klar kommunizieren sowie eine detaillierte Aufschlüsselung des Materials bieten. Die Einbeziehung dieser wesentlichen Komponenten wird die Chancen erhöhen, dass Ihr Vorschlag angenommen wird und Sie eine erfolgreiche Präsentation auf der Konferenz halten.
+
+_Diese Liste erweitert die ausgezeichneten Punkte, die von der [Pydata Global Conference](https://pydata.org/global2022/present/) gemacht wurden._

@@ -1,35 +1,38 @@
 ---
-title: What is a Python conference CfP?
+title: Что такое CfP конференции Python?
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "CfP", "conference"]
+tags: ['Python', 'CfP', 'conference']
 ---
 
-A Call for Proposals (CfP) or Call for Participation is a common term used in academic, research, and professional communities to invite individuals or groups to submit proposals or abstracts for conferences, workshops, symposiums, and other events.
+Call for Proposals (CfP) или Призыв к участию - это распространенный термин, используемый в академических, исследовательских и профессиональных сообществах для приглашения отдельных лиц или групп к подаче предложений или тезисов для конференций, семинаров, симпозиумов и других мероприятий.
 
-Since the Python community is a bunch of lovely nerds, this same terminology made it into the Python vernacular.
+Поскольку сообщество Python - это группа замечательных гиков, эта же терминология вошла в обиход Python.
 
-## What's a CfP?
-In simple terms, a CfP is an open invitation to experts, scholars, researchers, and practitioners to present their ideas, research findings, and case studies in a particular field or area of interest.
+## Что такое CfP?
 
-A CfP is typically issued by event organizers, conference committees, or academic institutions to solicit submissions from interested individuals or groups.
+Простыми словами, CfP - это открытое приглашение экспертам, ученым, исследователям и практикам представить свои идеи, результаты исследований и тематические исследования в определенной области или сфере интересов.
 
-## What are CfPs for?
-The purpose of a CfP is to encourage a broad range of participants to engage with an event or a conference, ensuring a diversity of perspectives and ideas.
+CfP обычно выпускается организаторами мероприятий, программными комитетами конференций или академическими учреждениями для привлечения материалов от заинтересованных лиц или групп.
 
-CfPs often outline the event's theme, the topics of interest, and the submission guidelines. They also specify the types of submissions that are accepted, such as research papers, case studies, posters, or workshops.
+## Для чего нужны CfP?
 
-## How do you participate in a CfP?
-The submission process for a CfP typically involves preparing a proposal or abstract that includes a summary of the proposed topic, the research methodology or approach, and the expected outcomes.
+Цель CfP - поощрить широкий круг участников к участию в мероприятии или конференции, обеспечивая разнообразие взглядов и идей.
 
-Some academic CfPs may require a full paper submission, while others may ask for a short abstract or a summary.
+CfP часто описывают тему мероприятия, интересующие темы и правила подачи материалов. Они также указывают типы принимаемых материалов, такие как исследовательские статьи, тематические исследования, постеры или семинары.
 
-Python CfPs rarely require the submission of full materials, as they do not publish papers. However, it is vital to avoid the [common pitfall](/resources/common-pitfalls/) of promising solely future work.
+## Как принять участие в CfP?
 
-## Conclusion
+Процесс подачи для CfP обычно включает подготовку предложения или аннотации, содержащей резюме предлагаемой темы, методологию исследования или подход, и ожидаемые результаты.
 
-In summary, a CfP invites experts, scholars, researchers, and practitioners to submit proposals or abstracts for an event or conference.
+Некоторые академические CfP могут требовать подачи полной статьи, в то время как другие могут запрашивать короткую аннотацию или резюме.
 
-It plays a vital role in facilitating the sharing of knowledge and expertise, promoting discussions, and creating opportunities for networking among professionals in a particular field.
+CfP Python редко требуют подачи полных материалов, так как они не публикуют статьи. Однако важно избегать распространенной ошибки - обещать исключительно будущую работу.
 
-If you are interested in attending or presenting at a conference or event, [keep an eye out for CfPs](https://pythondeadlin.es)!
+## Заключение
+
+В итоге, CfP приглашает экспертов, ученых, исследователей и практиков подавать предложения или аннотации для мероприятия или конференции.
+
+Он играет важную роль в облегчении обмена знаниями и опытом, содействии обсуждениям и создании возможностей для налаживания контактов среди профессионалов в определенной области.
+
+Если вы заинтересованы в посещении или выступлении на конференции или мероприятии, следите за объявлениями CfP!

@@ -1,35 +1,35 @@
 ---
-title: What is a Python conference CfP?
+title: O que é um CfP de conferência Python?
 author: Jesper Dramsch
 layout: post
 tags: ["Python", "CfP", "conference"]
 ---
 
-A Call for Proposals (CfP) or Call for Participation is a common term used in academic, research, and professional communities to invite individuals or groups to submit proposals or abstracts for conferences, workshops, symposiums, and other events.
+Chamada de Propostas (CfP) ou Chamada para Participação é um termo comum usado em comunidades acadêmicas, de pesquisa e profissionais para convidar indivíduos ou grupos a submeterem propostas ou resumos para conferências, workshops, simpósios e outros eventos.
 
-Since the Python community is a bunch of lovely nerds, this same terminology made it into the Python vernacular.
+Como a comunidade Python é um grupo de adoráveis nerds, essa mesma terminologia foi incorporada ao vocabulário Python.
 
-## What's a CfP?
-In simple terms, a CfP is an open invitation to experts, scholars, researchers, and practitioners to present their ideas, research findings, and case studies in a particular field or area of interest.
+## O que é um CfP?
+Em termos simples, um CfP é um convite aberto a especialistas, acadêmicos, pesquisadores e profissionais para apresentarem suas ideias, resultados de pesquisas e estudos de caso em um campo ou área de interesse específica.
 
-A CfP is typically issued by event organizers, conference committees, or academic institutions to solicit submissions from interested individuals or groups.
+Um CfP é tipicamente emitido por organizadores de eventos, comitês de conferências ou instituições acadêmicas para solicitar submissões de indivíduos ou grupos interessados.
 
-## What are CfPs for?
-The purpose of a CfP is to encourage a broad range of participants to engage with an event or a conference, ensuring a diversity of perspectives and ideas.
+## Para que servem os CfPs?
+O objetivo de um CfP é incentivar uma ampla gama de participantes a se envolverem com um evento ou conferência, garantindo diversidade de perspectivas e ideias.
 
-CfPs often outline the event's theme, the topics of interest, and the submission guidelines. They also specify the types of submissions that are accepted, such as research papers, case studies, posters, or workshops.
+CfPs geralmente descrevem o tema do evento, os tópicos de interesse e as diretrizes para submissão. Eles também especificam os tipos de submissões aceitas, como artigos de pesquisa, estudos de caso, pôsteres ou workshops.
 
-## How do you participate in a CfP?
-The submission process for a CfP typically involves preparing a proposal or abstract that includes a summary of the proposed topic, the research methodology or approach, and the expected outcomes.
+## Como participar de um CfP?
+O processo de submissão para um CfP geralmente envolve a preparação de uma proposta ou resumo que inclui um sumário do tópico proposto, a metodologia de pesquisa ou abordagem, e os resultados esperados.
 
-Some academic CfPs may require a full paper submission, while others may ask for a short abstract or a summary.
+Alguns CfPs acadêmicos podem exigir a submissão de um artigo completo, enquanto outros podem pedir apenas um breve resumo.
 
-Python CfPs rarely require the submission of full materials, as they do not publish papers. However, it is vital to avoid the [common pitfall](/resources/common-pitfalls/) of promising solely future work.
+CfPs Python raramente exigem a submissão de materiais completos, pois não publicam artigos. No entanto, é vital evitar a armadilha comum de prometer apenas trabalho futuro.
 
-## Conclusion
+## Conclusão
 
-In summary, a CfP invites experts, scholars, researchers, and practitioners to submit proposals or abstracts for an event or conference.
+Em resumo, um CfP convida especialistas, acadêmicos, pesquisadores e profissionais a submeterem propostas ou resumos para um evento ou conferência.
 
-It plays a vital role in facilitating the sharing of knowledge and expertise, promoting discussions, and creating opportunities for networking among professionals in a particular field.
+Ele desempenha um papel vital na facilitação do compartilhamento de conhecimento e expertise, promovendo discussões e criando oportunidades para networking entre profissionais em um campo específico.
 
-If you are interested in attending or presenting at a conference or event, [keep an eye out for CfPs](https://pythondeadlin.es)!
+Se você está interessado em participar ou apresentar em uma conferência ou evento, fique atento aos CfPs!

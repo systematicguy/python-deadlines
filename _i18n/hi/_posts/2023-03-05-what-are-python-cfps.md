@@ -1,35 +1,38 @@
 ---
-title: What is a Python conference CfP?
+title: पायथन सम्मेलन CfP क्या है?
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "CfP", "conference"]
+tags: ['Python', 'CfP', 'conference']
 ---
 
-A Call for Proposals (CfP) or Call for Participation is a common term used in academic, research, and professional communities to invite individuals or groups to submit proposals or abstracts for conferences, workshops, symposiums, and other events.
+कॉल फॉर प्रपोजल्स (CfP) या कॉल फॉर पार्टिसिपेशन एक सामान्य शब्द है जो शैक्षणिक, अनुसंधान और पेशेवर समुदायों में व्यक्तियों या समूहों को सम्मेलनों, कार्यशालाओं, संगोष्ठियों और अन्य कार्यक्रमों के लिए प्रस्ताव या सारांश प्रस्तुत करने के लिए आमंत्रित करने के लिए उपयोग किया जाता है।
 
-Since the Python community is a bunch of lovely nerds, this same terminology made it into the Python vernacular.
+चूंकि पायथन समुदाय प्यारे नर्ड्स का एक समूह है, यही शब्दावली पायथन की बोलचाल में भी शामिल हो गई है।
 
-## What's a CfP?
-In simple terms, a CfP is an open invitation to experts, scholars, researchers, and practitioners to present their ideas, research findings, and case studies in a particular field or area of interest.
+## CfP क्या है?
 
-A CfP is typically issued by event organizers, conference committees, or academic institutions to solicit submissions from interested individuals or groups.
+सरल शब्दों में, CfP विशेषज्ञों, विद्वानों, शोधकर्ताओं और प्रैक्टिशनर्स को किसी विशेष क्षेत्र या रुचि के क्षेत्र में अपने विचार, शोध निष्कर्ष और केस स्टडी प्रस्तुत करने के लिए एक खुला निमंत्रण है।
 
-## What are CfPs for?
-The purpose of a CfP is to encourage a broad range of participants to engage with an event or a conference, ensuring a diversity of perspectives and ideas.
+CfP आमतौर पर कार्यक्रम आयोजकों, सम्मेलन समितियों या शैक्षिक संस्थानों द्वारा इच्छुक व्यक्तियों या समूहों से प्रस्तुतियां आमंत्रित करने के लिए जारी किया जाता है।
 
-CfPs often outline the event's theme, the topics of interest, and the submission guidelines. They also specify the types of submissions that are accepted, such as research papers, case studies, posters, or workshops.
+## CfP किसलिए होते हैं?
 
-## How do you participate in a CfP?
-The submission process for a CfP typically involves preparing a proposal or abstract that includes a summary of the proposed topic, the research methodology or approach, and the expected outcomes.
+CfP का उद्देश्य प्रतिभागियों के एक विस्तृत दायरे को किसी कार्यक्रम या सम्मेलन में भाग लेने के लिए प्रोत्साहित करना है, जिससे दृष्टिकोणों और विचारों की विविधता सुनिश्चित होती है।
 
-Some academic CfPs may require a full paper submission, while others may ask for a short abstract or a summary.
+CfP अक्सर कार्यक्रम का विषय, रुचि के विषयों और प्रस्तुति दिशानिर्देशों की रूपरेखा प्रस्तुत करते हैं। वे स्वीकार किए जाने वाले प्रस्तुतियों के प्रकारों को भी निर्दिष्ट करते हैं, जैसे शोध पत्र, केस स्टडी, पोस्टर या कार्यशालाएं।
 
-Python CfPs rarely require the submission of full materials, as they do not publish papers. However, it is vital to avoid the [common pitfall](/resources/common-pitfalls/) of promising solely future work.
+## आप CfP में कैसे भाग लेते हैं?
 
-## Conclusion
+CfP के लिए प्रस्तुति प्रक्रिया में आमतौर पर एक प्रस्ताव या सारांश तैयार करना शामिल होता है जिसमें प्रस्तावित विषय का सारांश, शोध पद्धति या दृष्टिकोण और अपेक्षित परिणाम शामिल होते हैं।
 
-In summary, a CfP invites experts, scholars, researchers, and practitioners to submit proposals or abstracts for an event or conference.
+कुछ शैक्षिक CfP पूर्ण पेपर प्रस्तुति की आवश्यकता हो सकती है, जबकि अन्य एक संक्षिप्त सारांश या सारांश मांग सकते हैं।
 
-It plays a vital role in facilitating the sharing of knowledge and expertise, promoting discussions, and creating opportunities for networking among professionals in a particular field.
+पायथन CfP शायद ही कभी पूर्ण सामग्री की प्रस्तुति की आवश्यकता होती है, क्योंकि वे पेपर प्रकाशित नहीं करते हैं। हालांकि, केवल भविष्य के काम का वादा करने की आम गलती से बचना महत्वपूर्ण है।
 
-If you are interested in attending or presenting at a conference or event, [keep an eye out for CfPs](https://pythondeadlin.es)!
+## निष्कर्ष
+
+संक्षेप में, एक CfP विशेषज्ञों, विद्वानों, शोधकर्ताओं और प्रैक्टिशनर्स को किसी कार्यक्रम या सम्मेलन के लिए प्रस्ताव या सारांश प्रस्तुत करने के लिए आमंत्रित करता है।
+
+यह ज्ञान और विशेषज्ञता के आदान-प्रदान को सुविधाजनक बनाने, चर्चाओं को बढ़ावा देने और किसी विशेष क्षेत्र में पेशेवरों के बीच नेटवर्किंग के अवसर बनाने में महत्वपूर्ण भूमिका निभाता है।
+
+अगर आप किसी सम्मेलन या कार्यक्रम में भाग लेने या प्रस्तुति देने में रुचि रखते हैं, तो CfP के लिए नज़र रखें!

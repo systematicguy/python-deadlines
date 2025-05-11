@@ -1,44 +1,49 @@
 ---
-title: How to get to talk at Python conferences?
+title: Wie kann man auf Python-Konferenzen sprechen?
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "CfP"]
+tags: ['Python', 'CfP']
 ---
 
-Python conferences are an excellent platform for sharing knowledge, networking with peers, and staying up-to-date with the latest developments in the Python community. Speaking at a Python conference can be a great opportunity if you're passionate about Python and want to share your insights with a wider audience. In this blog post, we'll explore how to get to speak at Python conferences.
+Python-Konferenzen sind eine ausgezeichnete Plattform zum Teilen von Wissen, zum Networking mit Kollegen und um über die neuesten Entwicklungen in der Python-Community auf dem Laufenden zu bleiben. Wenn Sie leidenschaftlich an Python interessiert sind und Ihre Erkenntnisse mit einem breiteren Publikum teilen möchten, kann ein Vortrag auf einer Python-Konferenz eine großartige Gelegenheit sein. In diesem Blogbeitrag werden wir untersuchen, wie Sie auf Python-Konferenzen sprechen können.
 
-## Be Invited
-One way to get invited to speak at Python conferences is to have an established reputation in the community. Suppose you've contributed to open-source projects, written articles or blog posts about Python, or spoken at smaller meetups or events. In that case, you may catch the attention of conference organizers.
+### Eingeladen werden
 
-Additionally, if you're an expert in a specific field, such as machine learning or web development, you may be invited to speak at conferences that focus on those topics. To increase your chances of being invited, attend conferences and meetups, participate in online discussions, and contribute to the Python community in any way you can.
+Eine Möglichkeit, zu Python-Konferenzen eingeladen zu werden, besteht darin, einen etablierten Ruf in der Community zu haben. Angenommen, Sie haben zu Open-Source-Projekten beigetragen, Artikel oder Blogbeiträge über Python geschrieben oder bei kleineren Meetups oder Veranstaltungen gesprochen. In diesem Fall könnten Sie die Aufmerksamkeit von Konferenzorganisatoren auf sich ziehen.
 
-## Submit a Proposal to a Call for Proposal (CfP)
+Wenn Sie zudem Experte auf einem bestimmten Gebiet sind, wie maschinelles Lernen oder Webentwicklung, könnten Sie zu Konferenzen eingeladen werden, die sich auf diese Themen konzentrieren. Um Ihre Chancen auf eine Einladung zu erhöhen, besuchen Sie Konferenzen und Meetups, beteiligen Sie sich an Online-Diskussionen und tragen Sie auf jede mögliche Weise zur Python-Community bei.
 
-Another way to get to speak at Python conferences is to submit a proposal to a Call for Proposals (CfP). Most conferences open up CfPs several months before the event, and anyone can submit a proposal.
-When submitting a proposal, it's essential to remember that conference organizers seek original and engaging talks that appeal to a diverse audience. Ensure your submission is well-written, clear, and concise and addresses a topic relevant and interesting to the Python community.
+### Einen Vorschlag bei einem Call for Proposal (CfP) einreichen
 
-Here are a few [tips for submitting a successful proposal](/resources/good-conference-talk-proposals/):
-- Choose a topic you're passionate about and have expertise in.
-- Make sure your proposal is relevant to the conference theme or focus.
-- Write a compelling title and summary that will grab the attention of conference organizers and attendees.
-- Outline your talk in detail, including what you'll cover and how you'll present it.
-- Include any supporting materials, such as code samples or slides, to give organizers a better sense of your presentation style and content.
+Eine weitere Möglichkeit, auf Python-Konferenzen zu sprechen, besteht darin, einen Vorschlag bei einem Call for Proposals (CfP) einzureichen. Die meisten Konferenzen eröffnen CfPs mehrere Monate vor der Veranstaltung, und jeder kann einen Vorschlag einreichen.
+Bei der Einreichung eines Vorschlags ist es wichtig zu beachten, dass Konferenzorganisatoren nach originellen und ansprechenden Vorträgen suchen, die ein vielfältiges Publikum ansprechen. Stellen Sie sicher, dass Ihre Einreichung gut geschrieben, klar und präzise ist und ein Thema behandelt, das für die Python-Community relevant und interessant ist.
 
-## Build Your Speaking Skills
-If you're new to public speaking, it's a good idea to start small by speaking at local meetups or events.
+Hier sind einige Tipps für die Einreichung eines erfolgreichen Vorschlags:
 
-This will help you build your confidence and refine your presentation skills. As you gain more experience, you can branch out and speak at larger events, such as regional or national conferences.
+-   Wählen Sie ein Thema, für das Sie sich begeistern und in dem Sie Expertise haben.
+-   Stellen Sie sicher, dass Ihr Vorschlag zum Konferenzthema oder -schwerpunkt passt.
+-   Schreiben Sie einen überzeugenden Titel und eine Zusammenfassung, die die Aufmerksamkeit der Konferenzorganisatoren und Teilnehmer auf sich ziehen.
+-   Skizzieren Sie Ihren Vortrag detailliert, einschließlich dessen, was Sie behandeln und wie Sie es präsentieren werden.
+-   Fügen Sie unterstützende Materialien wie Codebeispiele oder Folien bei, um den Organisatoren einen besseren Eindruck von Ihrem Präsentationsstil und -inhalt zu vermitteln.
 
-Ask for feedback from attendees and organizers after each talk, and use that feedback to improve your speaking skills.
+### Ihre Rednerkompetenzen entwickeln
 
-## Network with Other Speakers and Attendees
-Finally, networking is vital to getting to speak at Python conferences.
+Wenn Sie neu im öffentlichen Sprechen sind, ist es eine gute Idee, klein anzufangen, indem Sie bei lokalen Meetups oder Veranstaltungen sprechen.
 
-Attend as many conferences and meetups as possible, and try to connect with other speakers and attendees.
+Dies wird Ihnen helfen, Ihr Selbstvertrauen aufzubauen und Ihre Präsentationsfähigkeiten zu verfeinern. Mit zunehmender Erfahrung können Sie sich ausweiten und bei größeren Veranstaltungen wie regionalen oder nationalen Konferenzen sprechen.
 
-By building relationships with other members of the Python community, you'll increase your visibility and credibility, which can lead to more speaking opportunities in the future.
+Bitten Sie nach jedem Vortrag um Feedback von Teilnehmern und Organisatoren und nutzen Sie dieses Feedback, um Ihre Sprechfähigkeiten zu verbessern.
 
-## Conclusion
-In conclusion, getting to speak at Python conferences requires a combination of expertise, preparation, and networking.
+### Netzwerken mit anderen Sprechern und Teilnehmern
 
-By following these tips, you can increase your chances of being invited to speak or successfully submitting a proposal to a CfP and ultimately sharing your knowledge with the broader Python community.
+Schließlich ist Networking entscheidend, um auf Python-Konferenzen sprechen zu können.
+
+Besuchen Sie so viele Konferenzen und Meetups wie möglich und versuchen Sie, sich mit anderen Sprechern und Teilnehmern zu vernetzen.
+
+Indem Sie Beziehungen zu anderen Mitgliedern der Python-Community aufbauen, erhöhen Sie Ihre Sichtbarkeit und Glaubwürdigkeit, was in Zukunft zu mehr Sprechmöglichkeiten führen kann.
+
+### Fazit
+
+Zusammenfassend erfordert das Sprechen auf Python-Konferenzen eine Kombination aus Fachwissen, Vorbereitung und Networking.
+
+Indem Sie diese Tipps befolgen, können Sie Ihre Chancen erhöhen, zum Sprechen eingeladen zu werden oder erfolgreich einen Vorschlag bei einem CfP einzureichen und letztendlich Ihr Wissen mit der breiteren Python-Community zu teilen.
