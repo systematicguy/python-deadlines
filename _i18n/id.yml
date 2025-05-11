@@ -188,3 +188,10 @@ about:
     visit_button: "Kunjungi Situs"
     github_button: "Berkontribusi di GitHub"
     qr_alt: "Kode QR untuk pythondeadlin.es"
+languages:
+  native_speaker: 'Penutur asli'
+  language_learner: 'Pembelajar bahasa'
+  ai_translated: 'Diterjemahkan oleh AI'
+  switch_to: 'Beralih'
+  translated_by: 'Diterjemahkan oleh:'
+  legend: 'Legenda'

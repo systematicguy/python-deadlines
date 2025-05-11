@@ -60,15 +60,69 @@ social:
 
 languages: [ "en", "es", "de", "fr", "pt-br", "zh-cn", "hi", "id", "ru" ]
 languages_available:
-  en: English
-  es: Español
-  de: Deutsch
-  fr: Français
-  pt-br: Português Brasileiro
-  zh-cn: 简体中文
-  ru: Русский
-  hi: हिन्दी
-  id: Bahasa Indonesia
+  en:
+    name: English
+    status: native
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: native
+  es:
+    name: Español
+    status: non-native
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: non-native
+  de:
+    name: Deutsch
+    status: native
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: native
+  fr:
+    name: Français
+    status: ai
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: ai
+  pt-br:
+    name: Português Brasileiro
+    status: ai
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: ai
+  zh-cn:
+    name: 简体中文
+    status: ai
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: ai
+  ru:
+    name: Русский
+    status: ai
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: ai
+  hi:
+    name: हिन्दी
+    status: ai
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: ai
+  id:
+    name: Bahasa Indonesia
+    status: ai
+    translators:
+    - name: Jesper Dramsch
+      url: https://dramsch.net
+      level: ai
 
 exclude_from_localizations:
 - 'static'

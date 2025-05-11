@@ -185,3 +185,9 @@ about:
     visit_button: "访问网站"
     github_button: "在GitHub上贡献"
     qr_alt: "pythondeadlin.es的二维码"
+languages:
+  native_speaker: '母语者'
+  language_learner: '语言学习者'
+  ai_translated: '由AI翻译'
+  switch_to: '切换到'
+  translated_by: '翻译者:'

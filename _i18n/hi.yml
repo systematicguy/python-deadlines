@@ -179,3 +179,10 @@ about:
     visit_button: "वेबसाइट पर जाएँ"
     github_button: "GitHub पर योगदान करें"
     qr_alt: "pythondeadlin.es के लिए QR कोड"
+languages:
+  native_speaker: 'भाषा के मूल वक्ता'
+  language_learner: 'भाषा सीखने वाला'
+  ai_translated: 'एआई द्वारा अनुवादित'
+  switch_to: 'पर स्विच करें'
+  translated_by: 'अनुवादक:'
+  legend: 'दिग्दर्शक'

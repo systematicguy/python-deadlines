@@ -185,3 +185,10 @@ about:
     visit_button: "Visiter le site"
     github_button: "Contribuer sur GitHub"
     qr_alt: "Code QR pour pythondeadlin.es"
+languages:
+  native_speaker: 'Locuteur natif'
+  language_learner: 'Apprenant de langue'
+  ai_translated: 'Traduit par IA'
+  switch_to: 'Passer'
+  translated_by: 'Traduit par:'
+  legend: 'Légende'

@@ -76,7 +76,7 @@
 							class="dropdown-item{% if site.lang == lang %} active{% endif %}"
 							href="{{ site.baseurl_root }}{% if lang != 'en' %}/{{ lang }}{% endif %}{% if page[lang_permalink] %}{{ page[lang_permalink] }}{% else %}{{ page.url }}{% endif %}"
 						>
-							{{ site.languages_available[lang] }}
+							{{ site.languages_available[lang].name }}
 						</a>
 						{% endfor %}
 					</div>
