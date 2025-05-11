@@ -70,8 +70,8 @@
 					</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
 						<h6 class="dropdown-header">{% t global.choose %}</h6>
-						{% for lang in {{site.languages | sort}} %} {% capture lang_permalink %}permalink_{{ lang }}{%
-						endcapture %}
+						{% for lang in {{site.languages | sort}} %} {% capture lang_permalink %}{% if lang != 'en'
+						%}permalink_{{ lang }}{% else %}permalink{% endif%}{% endcapture %}
 						<a
 							class="dropdown-item{% if site.lang == lang %} active{% endif %}"
 							href="{{ site.baseurl_root }}{% if lang != 'en' %}/{{ lang }}{% endif %}{% if page[lang_permalink] %}{{ page[lang_permalink] }}{% else %}{{ page.url }}{% endif %}"
