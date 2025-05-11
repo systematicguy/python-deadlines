@@ -1,50 +1,51 @@
 ---
-title: Exploring Additional Resources for Conference Deadlines
+title: Menjelajahi Sumber Daya Tambahan untuk Tenggat Waktu Konferensi
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "conferences"]
+tags: ['Python', 'conferences']
 ---
 
-Pythondeadlin.es has been a popular destination for the Python community to find conference deadlines in one convenient location for the last year.
+Pythondeadlin.es telah menjadi tujuan populer bagi komunitas Python untuk menemukan tenggat waktu konferensi di satu lokasi yang nyaman selama setahun terakhir.
 
-However, it's important to be aware of other valuable resources that can enhance your conference planning experience and foster collaboration within the Python community.
+Namun, penting untuk mengetahui sumber daya berharga lainnya yang dapat meningkatkan pengalaman perencanaan konferensi Anda dan mendorong kolaborasi dalam komunitas Python.
 
-In this blog post, we will delve into two such resources that play a vital role in aggregating conference information and uniting the Python community. Let's dive in!
+Dalam posting blog ini, kita akan mempelajari dua sumber daya yang berperan penting dalam mengumpulkan informasi konferensi dan menyatukan komunitas Python. Mari kita mulai!
 
-## Python-Organizers GitHub: A Treasure Trove of Information
+## GitHub Python-Organizers: Sumber Informasi Berharga
 
-The [Python-Organizers GitHub repository](https://github.com/python-organizers/conferences) is a valuable resource for conference organizers, attendees, and speakers alike.
+[Repositori GitHub Python-Organizers](https://github.com/python-organizers/conferences) adalah sumber daya berharga bagi penyelenggara konferensi, peserta, dan pembicara.
 
-It serves as a centralized hub of conference data, providing an organized collection of conferences, submission deadlines, event dates, sponsor information, and location details. This collaborative platform encourages event organizers to share their conference information and contribute to the accuracy and comprehensiveness of the data.
+Ini berfungsi sebagai pusat data konferensi terpusat, menyediakan koleksi konferensi, tenggat waktu pengajuan, tanggal acara, informasi sponsor, dan detail lokasi yang terorganisir. Platform kolaboratif ini mendorong penyelenggara acara untuk berbagi informasi konferensi mereka dan berkontribusi pada akurasi dan kelengkapan data.
 
-By leveraging the Python-Organizers GitHub, you can tap into a wealth of knowledge and collaborate with fellow organizers.
+Dengan memanfaatkan GitHub Python-Organizers, Anda dapat mengakses banyak pengetahuan dan berkolaborasi dengan penyelenggara lainnya.
 
-Whether you are planning to attend or present at a Python conference, this resource empowers you to make informed decisions and stay up to date with the latest conference deadlines.
+Baik Anda berencana untuk menghadiri atau mempresentasikan di konferensi Python, sumber daya ini memungkinkan Anda membuat keputusan yang tepat dan tetap up to date dengan tenggat waktu konferensi terbaru.
 
-The GitHub repository makes interaction easy and fosters community engagement and encourages individuals to actively participate in the promotion, growth and success of Python conferences worldwide.
+Repositori GitHub memudahkan interaksi dan mendorong keterlibatan komunitas, mendorong individu untuk berpartisipasi aktif dalam promosi, pertumbuhan, dan keberhasilan konferensi Python di seluruh dunia.
 
-## The Official Python Event List: Uniting the Community
+## Daftar Acara Python Resmi: Menyatukan Komunitas
 
-The [official Python event list](https://www.python.org/events/) managed over the Python mailing list serves as a unifying platform for the Python community.
+[Daftar acara Python resmi](https://www.python.org/events/) yang dikelola melalui mailing list Python berfungsi sebagai platform pemersatu bagi komunitas Python.
 
-This comprehensive resource provides an overview of upcoming Python events, including conferences, meetups, workshops, and more. While it offers information on deadlines, it goes beyond that to promote collaboration, networking, and idea sharing within the community.
+Sumber daya komprehensif ini memberikan gambaran tentang acara Python yang akan datang, termasuk konferensi, meetup, workshop, dan lainnya. Sementara menawarkan informasi tentang tenggat waktu, situs ini juga mempromosikan kolaborasi, jaringan, dan berbagi ide dalam komunitas.
 
-You can subscribe to the mailing list, but the webpage offers you a map and a Google calendar you can easily subscribe to to get updates. This allows you to visualize and plan your conference schedule more effectively.
+Anda dapat berlangganan mailing list, tetapi halaman web menawarkan peta dan kalender Google yang dapat Anda langganan dengan mudah untuk mendapatkan pembaruan. Ini memungkinkan Anda memvisualisasikan dan merencanakan jadwal konferensi Anda secara lebih efektif.
 
-This inclusive platform brings together Python enthusiasts from diverse backgrounds and encourages them to connect, learn, and contribute to the vibrant Python ecosystem.
+Platform inklusif ini mempertemukan penggemar Python dari berbagai latar belakang dan mendorong mereka untuk terhubung, belajar, dan berkontribusi pada ekosistem Python yang dinamis.
 
-## Embracing Collaboration for Enhanced Conference Planning
+## Merangkul Kolaborasi untuk Perencanaan Konferensi yang Lebih Baik
 
-While Pythondeadlin.es remains a valuable resource, it's important to explore the wider landscape of conference information aggregation.
+Sementara Pythondeadlin.es tetap menjadi sumber daya berharga, penting untuk menjelajahi lanskap yang lebih luas dari agregasi informasi konferensi.
 
-The Python-Organizers GitHub repository and the official Python event list are instrumental in uniting the Python community and fostering collaboration.
+Repositori GitHub Python-Organizers dan daftar acara Python resmi sangat penting dalam menyatukan komunitas Python dan mendorong kolaborasi.
 
-By utilizing these resources, you can stay up to date with upcoming Python events, connect with like-minded individuals, and actively contribute to the growth and success of Python conferences. Embracing collaboration enables us to create stronger, more vibrant conferences that cater to the diverse needs and interests of the Python community.
+Dengan memanfaatkan sumber daya ini, Anda dapat tetap up to date dengan acara Python yang akan datang, terhubung dengan individu yang berpikiran sama, dan secara aktif berkontribusi pada pertumbuhan dan keberhasilan konferensi Python. Merangkul kolaborasi memungkinkan kita menciptakan konferensi yang lebih kuat dan lebih dinamis yang melayani kebutuhan dan minat beragam dari komunitas Python.
 
-Make sure to check out the following resources for more information:
-- [Python-Organizers GitHub](https://github.com/python-organizers/conferences)
-- [Official Python Event List](https://www.python.org/events/)
+Pastikan untuk memeriksa sumber daya berikut untuk informasi lebih lanjut:
 
-By utilizing these platforms, we can stay informed about upcoming Python events, connect with like-minded individuals, and actively contribute to the success of our conferences. Let's collaborate, share our knowledge, and forge a stronger Python community.
+-   [GitHub Python-Organizers](https://github.com/python-organizers/conferences)
+-   [Daftar Acara Python Resmi](https://www.python.org/events/)
 
-Together, we can shape the future of Python events and foster an environment where everyone can learn, grow, and thrive.
+Dengan memanfaatkan platform ini, kita dapat tetap mendapatkan informasi tentang acara Python yang akan datang, terhubung dengan individu yang berpikiran sama, dan secara aktif berkontribusi pada keberhasilan konferensi kita. Mari berkolaborasi, berbagi pengetahuan kita, dan membangun komunitas Python yang lebih kuat.
+
+Bersama-sama, kita dapat membentuk masa depan acara Python dan menumbuhkan lingkungan di mana semua orang dapat belajar, berkembang, dan berhasil.

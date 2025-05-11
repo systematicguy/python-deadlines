@@ -1,48 +1,54 @@
 ---
-title: How do you define your target audience for a Python conference talk?
+title: Comment définir votre public cible pour une présentation lors d'une conférence Python ?
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "presentation", "conference", "audience"]
+tags: ['Python', 'presentation', 'conference', 'audience']
 ---
 
-When it comes to submitting a proposal for a conference presentation, it's essential to define your target audience. Knowing who you are speaking to can help you tailor your presentation to the audience's needs, interests, and background knowledge. In this post, we will discuss how to define your target audience for a conference proposal and why it matters.
+Lorsqu'il s'agit de soumettre une proposition pour une présentation de conférence, il est essentiel de définir votre public cible. Savoir à qui vous vous adressez peut vous aider à adapter votre présentation aux besoins, aux intérêts et aux connaissances préalables de l'audience. Dans ce billet, nous discuterons de la manière de définir votre public cible pour une proposition de conférence et pourquoi c'est important.
 
-## Consider their Job Role
-First, you need to consider the job role of your target audience. Are they data scientists, machine learning or software engineers, researchers, or something else?
+## Considérez leur rôle professionnel
 
-Knowing their job role can help you determine what topics and techniques are most relevant to them.
+Tout d'abord, vous devez considérer le rôle professionnel de votre public cible. S'agit-il de data scientists, d'ingénieurs en apprentissage automatique ou logiciel, de chercheurs, ou autre chose ?
 
-For example, if you present a new data visualization technique, data scientists and researchers may be more interested in how it works.
+Connaître leur rôle professionnel peut vous aider à déterminer quels sujets et techniques sont les plus pertinents pour eux.
 
-At the same time, engineers may be more interested in how it can be implemented in their existing systems.
+Par exemple, si vous présentez une nouvelle technique de visualisation de données, les data scientists et les chercheurs peuvent être plus intéressés par son fonctionnement.
 
-## Think about Experience
-Next, consider the experience level of your target audience. Are they beginners, intermediate, or advanced in the subject matter?
+Pendant ce temps, les ingénieurs peuvent être plus intéressés par la façon dont elle peut être mise en œuvre dans leurs systèmes existants.
 
-This will affect how you present your ideas and how much background information you provide.
+## Pensez à l'expérience
 
-For example, suppose your presentation is on a complex algorithm. In that case, an advanced audience may be interested in the technical details and code examples. At the same time, beginners may need a simplified explanation of the concepts to follow the presentation.
+Ensuite, considérez le niveau d'expérience de votre public cible. Sont-ils débutants, intermédiaires ou avancés dans le sujet ?
 
-## Consider a Secondary Niche
-Believe me, I love talking about machine learning. But when people don't know me, they're unlikely to be interested in that talk.
+Cela affectera la façon dont vous présentez vos idées et la quantité d'informations contextuelles que vous fournissez.
 
-However, you could talk about "machine learning in medicine" or "applying neural networks in weather and climate prediction", making the talk a must-watch for certain people who might have missed the proposal otherwise.
+Par exemple, si votre présentation porte sur un algorithme complexe, un public avancé peut être intéressé par les détails techniques et les exemples de code, tandis que les débutants peuvent avoir besoin d'une explication simplifiée des concepts pour suivre la présentation.
 
-This is a way to tell your target audience exactly that a presentation is for them.
+## Envisagez une niche secondaire
 
-## Why do we define our Target Audience?
-Defining your target audience is crucial for two main reasons.
+Croyez-moi, j'aime parler d'apprentissage automatique. Mais lorsque les gens ne me connaissent pas, ils sont peu susceptibles d'être intéressés par cette présentation.
 
-First, it helps you focus your presentation on the most relevant and interesting topics for your audience. This can make your presentation more engaging and valuable for attendees.
+Cependant, vous pourriez parler de "l'apprentissage automatique en médecine" ou "appliquer des réseaux de neurones dans la prévision météorologique et climatique", rendant la présentation incontournable pour certaines personnes qui auraient autrement pu manquer la proposition.
 
-Second, it helps potential attendees decide if your presentation matches their needs and interests.
+C'est une façon de dire exactement à votre public cible qu'une présentation est pour eux.
 
-Suppose they can easily see that your presentation targets their job role and experience level. In that case, they are more likely to attend and find value in your talk.
+## Pourquoi définissons-nous notre public cible ?
 
-## Consider the Conference itself
-When writing your conference proposal, make sure to include information about your target audience.
+Définir votre public cible est crucial pour deux raisons principales.
 
-This could be as simple as including a statement like "This presentation is targeted towards data scientists with intermediate experience level." Providing this information can help reviewers and attendees understand who your talk is for and whether it aligns with the goals of the conference.
+Premièrement, cela vous aide à concentrer votre présentation sur les sujets les plus pertinents et intéressants pour votre audience. Cela peut rendre votre présentation plus engageante et précieuse pour les participants.
+
+Deuxièmement, cela aide les participants potentiels à décider si votre présentation correspond à leurs besoins et intérêts.
+
+S'ils peuvent facilement voir que votre présentation cible leur rôle professionnel et leur niveau d'expérience, ils sont plus susceptibles d'y assister et d'y trouver de la valeur.
+
+## Considérez la conférence elle-même
+
+Lors de la rédaction de votre proposition de conférence, assurez-vous d'inclure des informations sur votre public cible.
+
+Cela pourrait être aussi simple que d'inclure une déclaration comme "Cette présentation est destinée aux data scientists avec un niveau d'expérience intermédiaire." Fournir cette information peut aider les évaluateurs et les participants à comprendre à qui s'adresse votre présentation et si elle s'aligne avec les objectifs de la conférence.
 
 ## Conclusion
-Defining your target audience is an essential step in preparing a conference presentation. By considering your audience's job role and experience level, you can tailor your presentation to their needs and interests, making it more engaging and useful for attendees. Be sure to include information about your target audience in your conference proposal to help reviewers and attendees understand who your talk is for and whether it's a good fit for them.
+
+Définir votre public cible est une étape essentielle dans la préparation d'une présentation de conférence. En considérant le rôle professionnel et le niveau d'expérience de votre audience, vous pouvez adapter votre présentation à leurs besoins et intérêts, la rendant plus engageante et utile pour les participants. Assurez-vous d'inclure des informations sur votre public cible dans votre proposition de conférence pour aider les évaluateurs et les participants à comprendre à qui s'adresse votre présentation et si elle leur convient.

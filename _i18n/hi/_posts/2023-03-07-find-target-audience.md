@@ -1,48 +1,54 @@
 ---
-title: How do you define your target audience for a Python conference talk?
+title: पायथन सम्मेलन वार्ता के लिए अपने लक्षित दर्शकों को कैसे परिभाषित करें?
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "presentation", "conference", "audience"]
+tags: ['Python', 'presentation', 'conference', 'audience']
 ---
 
-When it comes to submitting a proposal for a conference presentation, it's essential to define your target audience. Knowing who you are speaking to can help you tailor your presentation to the audience's needs, interests, and background knowledge. In this post, we will discuss how to define your target audience for a conference proposal and why it matters.
+जब सम्मेलन प्रस्तुति के लिए एक प्रस्ताव जमा करने की बात आती है, तो अपने लक्षित दर्शकों को परिभाषित करना आवश्यक है। जानना कि आप किससे बात कर रहे हैं, आपको अपनी प्रस्तुति को दर्शकों की जरूरतों, रुचियों और पृष्ठभूमि ज्ञान के अनुसार तैयार करने में मदद कर सकता है। इस पोस्ट में, हम सम्मेलन प्रस्ताव के लिए अपने लक्षित दर्शकों को परिभाषित करने के तरीके और इसके महत्व के बारे में चर्चा करेंगे।
 
-## Consider their Job Role
-First, you need to consider the job role of your target audience. Are they data scientists, machine learning or software engineers, researchers, or something else?
+## उनकी नौकरी भूमिका पर विचार करें
 
-Knowing their job role can help you determine what topics and techniques are most relevant to them.
+सबसे पहले, आपको अपने लक्षित दर्शकों की नौकरी भूमिका पर विचार करने की आवश्यकता है। क्या वे डेटा वैज्ञानिक, मशीन लर्निंग या सॉफ्टवेयर इंजीनियर, शोधकर्ता, या कुछ और हैं?
 
-For example, if you present a new data visualization technique, data scientists and researchers may be more interested in how it works.
+उनकी नौकरी भूमिका को जानने से आपको यह निर्धारित करने में मदद मिल सकती है कि कौन से विषय और तकनीकें उनके लिए सबसे अधिक प्रासंगिक हैं।
 
-At the same time, engineers may be more interested in how it can be implemented in their existing systems.
+उदाहरण के लिए, यदि आप एक नई डेटा विज़ुअलाइज़ेशन तकनीक प्रस्तुत कर रहे हैं, तो डेटा वैज्ञानिक और शोधकर्ता इसके काम करने के तरीके में अधिक रुचि रख सकते हैं।
 
-## Think about Experience
-Next, consider the experience level of your target audience. Are they beginners, intermediate, or advanced in the subject matter?
+जबकि, इंजीनियर अधिक रुचि रख सकते हैं कि इसे उनके मौजूदा सिस्टम में कैसे लागू किया जा सकता है।
 
-This will affect how you present your ideas and how much background information you provide.
+## अनुभव के बारे में सोचें
 
-For example, suppose your presentation is on a complex algorithm. In that case, an advanced audience may be interested in the technical details and code examples. At the same time, beginners may need a simplified explanation of the concepts to follow the presentation.
+इसके बाद, अपने लक्षित दर्शकों के अनुभव स्तर पर विचार करें। क्या वे विषय में शुरुआती, मध्यवर्ती, या उन्नत हैं?
 
-## Consider a Secondary Niche
-Believe me, I love talking about machine learning. But when people don't know me, they're unlikely to be interested in that talk.
+यह आपके विचारों को प्रस्तुत करने के तरीके और आपके द्वारा प्रदान की जाने वाली पृष्ठभूमि जानकारी की मात्रा को प्रभावित करेगा।
 
-However, you could talk about "machine learning in medicine" or "applying neural networks in weather and climate prediction", making the talk a must-watch for certain people who might have missed the proposal otherwise.
+उदाहरण के लिए, यदि आपकी प्रस्तुति एक जटिल एल्गोरिदम पर है, तो एक उन्नत दर्शक तकनीकी विवरण और कोड उदाहरणों में रुचि रख सकता है, जबकि शुरुआती लोगों को प्रस्तुति का अनुसरण करने के लिए अवधारणाओं के सरलीकृत स्पष्टीकरण की आवश्यकता हो सकती है।
 
-This is a way to tell your target audience exactly that a presentation is for them.
+## एक द्वितीयक निश से विचार करें
 
-## Why do we define our Target Audience?
-Defining your target audience is crucial for two main reasons.
+मुझ पर विश्वास करें, मुझे मशीन लर्निंग के बारे में बात करना पसंद है। लेकिन जब लोग मुझे नहीं जानते, तो वे उस वार्ता में रुचि रखने की संभावना नहीं रखते।
 
-First, it helps you focus your presentation on the most relevant and interesting topics for your audience. This can make your presentation more engaging and valuable for attendees.
+हालांकि, आप "चिकित्सा में मशीन लर्निंग" या "मौसम और जलवायु पूर्वानुमान में न्यूरल नेटवर्क लागू करना" के बारे में बात कर सकते हैं, जिससे वार्ता कुछ ऐसे लोगों के लिए अनिवार्य हो जाती है जो अन्यथा प्रस्ताव को याद कर सकते थे।
 
-Second, it helps potential attendees decide if your presentation matches their needs and interests.
+यह अपने लक्षित दर्शकों को बिल्कुल यह बताने का एक तरीका है कि एक प्रस्तुति उनके लिए है।
 
-Suppose they can easily see that your presentation targets their job role and experience level. In that case, they are more likely to attend and find value in your talk.
+## हम अपने लक्षित दर्शकों को क्यों परिभाषित करते हैं?
 
-## Consider the Conference itself
-When writing your conference proposal, make sure to include information about your target audience.
+अपने लक्षित दर्शकों को परिभाषित करना दो मुख्य कारणों से महत्वपूर्ण है।
 
-This could be as simple as including a statement like "This presentation is targeted towards data scientists with intermediate experience level." Providing this information can help reviewers and attendees understand who your talk is for and whether it aligns with the goals of the conference.
+पहला, यह आपको अपनी प्रस्तुति को अपने दर्शकों के लिए सबसे अधिक प्रासंगिक और दिलचस्प विषयों पर केंद्रित करने में मदद करता है। यह आपकी प्रस्तुति को प्रतिभागियों के लिए अधिक आकर्षक और मूल्यवान बना सकता है।
 
-## Conclusion
-Defining your target audience is an essential step in preparing a conference presentation. By considering your audience's job role and experience level, you can tailor your presentation to their needs and interests, making it more engaging and useful for attendees. Be sure to include information about your target audience in your conference proposal to help reviewers and attendees understand who your talk is for and whether it's a good fit for them.
+दूसरा, यह संभावित प्रतिभागियों को यह तय करने में मदद करता है कि क्या आपकी प्रस्तुति उनकी जरूरतों और रुचियों से मेल खाती है।
+
+अगर वे आसानी से देख सकते हैं कि आपकी प्रस्तुति उनकी नौकरी भूमिका और अनुभव स्तर को लक्षित करती है, तो वे भाग लेने और आपकी वार्ता में मूल्य पाने की अधिक संभावना रखते हैं।
+
+## सम्मेलन पर ही विचार करें
+
+अपने सम्मेलन प्रस्ताव को लिखते समय, अपने लक्षित दर्शकों के बारे में जानकारी शामिल करना सुनिश्चित करें।
+
+यह "यह प्रस्तुति मध्यवर्ती अनुभव स्तर के डेटा वैज्ञानिकों के लिए लक्षित है" जैसे कथन को शामिल करने जितना सरल हो सकता है। यह जानकारी प्रदान करने से समीक्षकों और प्रतिभागियों को यह समझने में मदद मिल सकती है कि आपकी वार्ता किसके लिए है और क्या यह सम्मेलन के उद्देश्यों के अनुरूप है।
+
+## निष्कर्ष
+
+अपने लक्षित दर्शकों को परिभाषित करना सम्मेलन प्रस्तुति तैयार करने का एक आवश्यक कदम है। अपने दर्शकों की नौकरी भूमिका और अनुभव स्तर पर विचार करके, आप अपनी प्रस्तुति को उनकी जरूरतों और रुचियों के अनुसार तैयार कर सकते हैं, जिससे यह प्रतिभागियों के लिए अधिक आकर्षक और उपयोगी हो सकती है। अपने लक्षित दर्शकों के बारे में जानकारी अपने सम्मेलन प्रस्ताव में शामिल करना सुनिश्चित करें ताकि समीक्षकों और प्रतिभागियों को यह समझने में मदद मिले कि आपकी वार्ता किसके लिए है और क्या यह उनके लिए उपयुक्त है।

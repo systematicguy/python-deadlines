@@ -1,37 +1,46 @@
 ---
-title: 9 Common Pitfalls that get your Python Conference Talk Proposal rejected
+title: 9 pièges courants qui font rejeter votre proposition de présentation pour les conférences Python
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "CfP", "pitfalls"]
+tags: ['Python', 'CfP', 'pitfalls']
 ---
 
-Suppose you're looking to submit a proposal for a conference talk. In that case, knowing what to avoid is essential to increase your chances of acceptance. Here are nine common pitfalls to watch out for:
+Si vous envisagez de soumettre une proposition pour une présentation en conférence, il est essentiel de savoir ce qu'il faut éviter pour augmenter vos chances d'acceptation. Voici neuf pièges courants à surveiller :
 
-## Sales pitches
-Remember that the conference is a community of creators and users of open-source scientific computing tools. While you can reference your closed-source product or platform, the audience will find the talk more interesting if they can try your techniques with the open-source PyData stack. Avoid making a hard sell, and focus on problem definition, proposed strategies, and business domain instead.
+## Les argumentaires de vente
 
-## Repeated talks
-Conferences prefer new talks and new speakers. If your talk is already available online, it will unlikely be accepted for the conference. Try to bring new insights, techniques, or perspectives on a topic that hasn't been covered before.
+N'oubliez pas que la conférence est une communauté de créateurs et d'utilisateurs d'outils de calcul scientifique open-source. Bien que vous puissiez faire référence à votre produit ou plateforme propriétaire, l'audience trouvera la présentation plus intéressante s'ils peuvent essayer vos techniques avec la stack PyData open-source. Évitez de faire une vente agressive et concentrez-vous plutôt sur la définition du problème, les stratégies proposées et le domaine d'activité.
 
-## Lack of clarity
-Your proposal should clearly communicate what your talk is about and what attendees can expect to learn. Suppose your proposal is unclear, rambling, or difficult to follow. In that case, reviewers may be unable to determine if your talk aligns with the conference's goals or is suitable for the intended audience.
+## Les présentations répétées
 
-## Lack of originality
-Reviewers seek unique, insightful, and innovative talks that offer fresh perspectives or new solutions to common problems. If your proposal covers a topic that has already been covered multiple times or doesn't provide any new insights or techniques, reviewers may pass on it. That doesn't mean a case study or new spin on an issue won't be accepted, but it's worth considering that added perspective.
+Les conférences préfèrent les nouvelles présentations et les nouveaux orateurs. Si votre présentation est déjà disponible en ligne, il est peu probable qu'elle soit acceptée pour la conférence. Essayez d'apporter de nouvelles perspectives, techniques ou points de vue sur un sujet qui n'a pas été couvert auparavant.
 
-## Overly long proposals
-Keep your proposal simple and clear. Good proposals typically provide all the vital information within 250 words. This is not a strict limit and varies per conference. This is a suggestion to help you stay focused and avoid losing the attention of the reviewers.
+## Le manque de clarté
 
-## Lack of relevance
-Make sure your talk aligns with the conference's theme or focus. Suppose your proposal is only tangentially related to the conference's goals. In that case, reviewers may not see how it fits into the larger picture or how it would benefit attendees.
+Votre proposition doit communiquer clairement de quoi parle votre présentation et ce que les participants peuvent s'attendre à apprendre. Si votre proposition est peu claire, décousue ou difficile à suivre, les examinateurs peuvent ne pas être en mesure de déterminer si votre présentation s'aligne sur les objectifs de la conférence ou convient à l'audience visée.
 
-## Future work
-While discussing future work is exciting and could be mentioned in your talk, the core content of the talk should already be shaped, and you should be able to describe it in your proposal. Don't rely too heavily on future data collection or future prototyping because things often don't go as expected. Be sure to provide concrete examples and use cases.
+## Le manque d'originalité
 
-## Inappropriate or offensive content
-Keep your language and tone professional and respectful, and avoid controversial or sensitive topics that could offend or alienate attendees. Proposals containing inappropriate, offensive, or discriminatory content will likely be rejected.
+Les examinateurs recherchent des présentations uniques, perspicaces et innovantes qui offrent des perspectives fraîches ou de nouvelles solutions à des problèmes courants. Si votre proposition couvre un sujet qui a déjà été abordé plusieurs fois ou n'apporte pas de nouvelles idées ou techniques, les examinateurs peuvent la rejeter. Cela ne signifie pas qu'une étude de cas ou une nouvelle approche d'un problème ne sera pas acceptée, mais il vaut la peine de considérer cette perspective supplémentaire.
 
-## Poor fit with the conference format
-Conferences have different formats, from lightning talks to workshops to keynote speeches. Ensure your proposal aligns with the format and duration of the conference and can be delivered effectively in that format. Consider any equipment, materials, or resources required for your talk.
+## Les propositions trop longues
 
-By avoiding these common pitfalls, you can increase your chances of submitting a successful proposal for a conference talk that aligns with the conference's goals, is relevant to attendees, and delivers fresh insights or techniques.
+Gardez votre proposition simple et claire. Les bonnes propositions fournissent généralement toutes les informations vitales en 250 mots. Ce n'est pas une limite stricte et varie selon les conférences. C'est une suggestion pour vous aider à rester concentré et à éviter de perdre l'attention des examinateurs.
+
+## Le manque de pertinence
+
+Assurez-vous que votre présentation s'aligne sur le thème ou le focus de la conférence. Si votre proposition n'est que tangentiellement liée aux objectifs de la conférence, les examinateurs peuvent ne pas voir comment elle s'intègre dans le tableau d'ensemble ou comment elle bénéficierait aux participants.
+
+## Les travaux futurs
+
+Bien que la discussion sur les travaux futurs soit passionnante et puisse être mentionnée dans votre présentation, le contenu principal de la présentation devrait déjà être formé, et vous devriez être capable de le décrire dans votre proposition. Ne vous fiez pas trop à la collecte future de données ou au prototypage futur car les choses ne se passent souvent pas comme prévu. Assurez-vous de fournir des exemples concrets et des cas d'utilisation.
+
+## Le contenu inapproprié ou offensant
+
+Gardez votre langage et votre ton professionnels et respectueux, et évitez les sujets controversés ou sensibles qui pourraient offenser ou aliéner les participants. Les propositions contenant du contenu inapproprié, offensant ou discriminatoire seront probablement rejetées.
+
+## La mauvaise adéquation avec le format de la conférence
+
+Les conférences ont différents formats, des lightning talks aux ateliers en passant par les discours d'ouverture. Assurez-vous que votre proposition s'aligne sur le format et la durée de la conférence et peut être livrée efficacement dans ce format. Considérez tout équipement, matériel ou ressource nécessaire pour votre présentation.
+
+En évitant ces pièges courants, vous pouvez augmenter vos chances de soumettre une proposition réussie pour une présentation en conférence qui s'aligne sur les objectifs de la conférence, est pertinente pour les participants et offre de nouvelles perspectives ou techniques.

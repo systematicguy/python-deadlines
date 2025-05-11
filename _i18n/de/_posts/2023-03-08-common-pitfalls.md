@@ -1,37 +1,46 @@
 ---
-title: 9 Common Pitfalls that get your Python Conference Talk Proposal rejected
+title: 9 häufige Fallstricke, die zur Ablehnung Ihres Python-Konferenz-Vortragsvorschlags führen
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "CfP", "pitfalls"]
+tags: ['Python', 'CfP', 'pitfalls']
 ---
 
-Suppose you're looking to submit a proposal for a conference talk. In that case, knowing what to avoid is essential to increase your chances of acceptance. Here are nine common pitfalls to watch out for:
+Wenn Sie einen Vorschlag für einen Konferenzvortrag einreichen möchten, ist es wichtig zu wissen, was zu vermeiden ist, um Ihre Erfolgschancen zu erhöhen. Hier sind neun häufige Fallstricke, auf die Sie achten sollten:
 
-## Sales pitches
-Remember that the conference is a community of creators and users of open-source scientific computing tools. While you can reference your closed-source product or platform, the audience will find the talk more interesting if they can try your techniques with the open-source PyData stack. Avoid making a hard sell, and focus on problem definition, proposed strategies, and business domain instead.
+## Verkaufspräsentationen
 
-## Repeated talks
-Conferences prefer new talks and new speakers. If your talk is already available online, it will unlikely be accepted for the conference. Try to bring new insights, techniques, or perspectives on a topic that hasn't been covered before.
+Denken Sie daran, dass die Konferenz eine Gemeinschaft von Erstellern und Nutzern von Open-Source-Tools für wissenschaftliches Rechnen ist. Während Sie auf Ihr geschlossenes Produkt oder Ihre Plattform verweisen können, wird das Publikum den Vortrag interessanter finden, wenn sie Ihre Techniken mit dem Open-Source PyData-Stack ausprobieren können. Vermeiden Sie harte Verkaufsargumente und konzentrieren Sie sich stattdessen auf Problemdefinition, vorgeschlagene Strategien und Geschäftsdomäne.
 
-## Lack of clarity
-Your proposal should clearly communicate what your talk is about and what attendees can expect to learn. Suppose your proposal is unclear, rambling, or difficult to follow. In that case, reviewers may be unable to determine if your talk aligns with the conference's goals or is suitable for the intended audience.
+## Wiederholte Vorträge
 
-## Lack of originality
-Reviewers seek unique, insightful, and innovative talks that offer fresh perspectives or new solutions to common problems. If your proposal covers a topic that has already been covered multiple times or doesn't provide any new insights or techniques, reviewers may pass on it. That doesn't mean a case study or new spin on an issue won't be accepted, but it's worth considering that added perspective.
+Konferenzen bevorzugen neue Vorträge und neue Redner. Wenn Ihr Vortrag bereits online verfügbar ist, wird er wahrscheinlich nicht für die Konferenz akzeptiert. Versuchen Sie, neue Erkenntnisse, Techniken oder Perspektiven zu einem Thema zu bringen, das noch nicht behandelt wurde.
 
-## Overly long proposals
-Keep your proposal simple and clear. Good proposals typically provide all the vital information within 250 words. This is not a strict limit and varies per conference. This is a suggestion to help you stay focused and avoid losing the attention of the reviewers.
+## Mangel an Klarheit
 
-## Lack of relevance
-Make sure your talk aligns with the conference's theme or focus. Suppose your proposal is only tangentially related to the conference's goals. In that case, reviewers may not see how it fits into the larger picture or how it would benefit attendees.
+Ihr Vorschlag sollte klar kommunizieren, worum es in Ihrem Vortrag geht und was die Teilnehmer erwarten können zu lernen. Wenn Ihr Vorschlag unklar, weitschweifig oder schwer zu verstehen ist, können Gutachter möglicherweise nicht feststellen, ob Ihr Vortrag mit den Zielen der Konferenz übereinstimmt oder für das beabsichtigte Publikum geeignet ist.
 
-## Future work
-While discussing future work is exciting and could be mentioned in your talk, the core content of the talk should already be shaped, and you should be able to describe it in your proposal. Don't rely too heavily on future data collection or future prototyping because things often don't go as expected. Be sure to provide concrete examples and use cases.
+## Mangel an Originalität
 
-## Inappropriate or offensive content
-Keep your language and tone professional and respectful, and avoid controversial or sensitive topics that could offend or alienate attendees. Proposals containing inappropriate, offensive, or discriminatory content will likely be rejected.
+Gutachter suchen nach einzigartigen, aufschlussreichen und innovativen Vorträgen, die frische Perspektiven oder neue Lösungen für häufige Probleme bieten. Wenn Ihr Vorschlag ein Thema behandelt, das bereits mehrfach behandelt wurde oder keine neuen Erkenntnisse oder Techniken bietet, werden Gutachter ihn möglicherweise ablehnen. Das bedeutet nicht, dass eine Fallstudie oder eine neue Sichtweise auf ein Problem nicht akzeptiert wird, aber es lohnt sich, diese zusätzliche Perspektive zu berücksichtigen.
 
-## Poor fit with the conference format
-Conferences have different formats, from lightning talks to workshops to keynote speeches. Ensure your proposal aligns with the format and duration of the conference and can be delivered effectively in that format. Consider any equipment, materials, or resources required for your talk.
+## Übermäßig lange Vorschläge
 
-By avoiding these common pitfalls, you can increase your chances of submitting a successful proposal for a conference talk that aligns with the conference's goals, is relevant to attendees, and delivers fresh insights or techniques.
+Halten Sie Ihren Vorschlag einfach und klar. Gute Vorschläge liefern typischerweise alle wichtigen Informationen innerhalb von 250 Wörtern. Dies ist keine strenge Grenze und variiert je nach Konferenz. Dies ist ein Vorschlag, der Ihnen hilft, konzentriert zu bleiben und die Aufmerksamkeit der Gutachter nicht zu verlieren.
+
+## Mangel an Relevanz
+
+Stellen Sie sicher, dass Ihr Vortrag mit dem Thema oder Fokus der Konferenz übereinstimmt. Wenn Ihr Vorschlag nur tangential mit den Zielen der Konferenz zusammenhängt, sehen Gutachter möglicherweise nicht, wie er in das größere Bild passt oder wie er den Teilnehmern nutzen würde.
+
+## Zukünftige Arbeit
+
+Während die Diskussion über zukünftige Arbeit spannend ist und in Ihrem Vortrag erwähnt werden könnte, sollte der Kerninhalt des Vortrags bereits gestaltet sein, und Sie sollten in der Lage sein, ihn in Ihrem Vorschlag zu beschreiben. Verlassen Sie sich nicht zu stark auf zukünftige Datenerfassung oder zukünftige Prototyping, da die Dinge oft nicht wie erwartet verlaufen. Stellen Sie sicher, dass Sie konkrete Beispiele und Anwendungsfälle liefern.
+
+## Unangemessene oder anstößige Inhalte
+
+Halten Sie Ihre Sprache und Ihren Ton professionell und respektvoll, und vermeiden Sie kontroverse oder sensible Themen, die Teilnehmer beleidigen oder entfremden könnten. Vorschläge, die unangemessene, anstößige oder diskriminierende Inhalte enthalten, werden wahrscheinlich abgelehnt.
+
+## Schlechte Übereinstimmung mit dem Konferenzformat
+
+Konferenzen haben unterschiedliche Formate, von Lightning Talks bis hin zu Workshops und Keynote-Reden. Stellen Sie sicher, dass Ihr Vorschlag mit dem Format und der Dauer der Konferenz übereinstimmt und in diesem Format effektiv präsentiert werden kann. Berücksichtigen Sie alle Geräte, Materialien oder Ressourcen, die für Ihren Vortrag benötigt werden.
+
+Indem Sie diese häufigen Fallstricke vermeiden, können Sie Ihre Chancen erhöhen, einen erfolgreichen Vorschlag für einen Konferenzvortrag einzureichen, der mit den Zielen der Konferenz übereinstimmt, für die Teilnehmer relevant ist und frische Erkenntnisse oder Techniken liefert.

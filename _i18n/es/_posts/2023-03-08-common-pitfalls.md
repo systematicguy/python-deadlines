@@ -1,37 +1,46 @@
 ---
-title: 9 Common Pitfalls that get your Python Conference Talk Proposal rejected
+title: 9 errores comunes que hacen que rechacen tu propuesta de charla para conferencias Python
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "CfP", "pitfalls"]
+tags: ['Python', 'CfP', 'pitfalls']
 ---
 
-Suppose you're looking to submit a proposal for a conference talk. In that case, knowing what to avoid is essential to increase your chances of acceptance. Here are nine common pitfalls to watch out for:
+Si estás pensando en enviar una propuesta para una charla en una conferencia, es esencial saber qué evitar para aumentar tus posibilidades de aceptación. Aquí hay nueve errores comunes a tener en cuenta:
 
-## Sales pitches
-Remember that the conference is a community of creators and users of open-source scientific computing tools. While you can reference your closed-source product or platform, the audience will find the talk more interesting if they can try your techniques with the open-source PyData stack. Avoid making a hard sell, and focus on problem definition, proposed strategies, and business domain instead.
+## Presentaciones de ventas
 
-## Repeated talks
-Conferences prefer new talks and new speakers. If your talk is already available online, it will unlikely be accepted for the conference. Try to bring new insights, techniques, or perspectives on a topic that hasn't been covered before.
+Recuerda que la conferencia es una comunidad de creadores y usuarios de herramientas de computación científica de código abierto. Aunque puedes hacer referencia a tu producto o plataforma de código cerrado, la audiencia encontrará la charla más interesante si pueden probar tus técnicas con el stack PyData de código abierto. Evita hacer una venta agresiva y concéntrate en la definición del problema, estrategias propuestas y dominio del negocio.
 
-## Lack of clarity
-Your proposal should clearly communicate what your talk is about and what attendees can expect to learn. Suppose your proposal is unclear, rambling, or difficult to follow. In that case, reviewers may be unable to determine if your talk aligns with the conference's goals or is suitable for the intended audience.
+## Charlas repetidas
 
-## Lack of originality
-Reviewers seek unique, insightful, and innovative talks that offer fresh perspectives or new solutions to common problems. If your proposal covers a topic that has already been covered multiple times or doesn't provide any new insights or techniques, reviewers may pass on it. That doesn't mean a case study or new spin on an issue won't be accepted, but it's worth considering that added perspective.
+Las conferencias prefieren charlas nuevas y oradores nuevos. Si tu charla ya está disponible en línea, es poco probable que sea aceptada para la conferencia. Intenta aportar nuevos conocimientos, técnicas o perspectivas sobre un tema que no se haya cubierto antes.
 
-## Overly long proposals
-Keep your proposal simple and clear. Good proposals typically provide all the vital information within 250 words. This is not a strict limit and varies per conference. This is a suggestion to help you stay focused and avoid losing the attention of the reviewers.
+## Falta de claridad
 
-## Lack of relevance
-Make sure your talk aligns with the conference's theme or focus. Suppose your proposal is only tangentially related to the conference's goals. In that case, reviewers may not see how it fits into the larger picture or how it would benefit attendees.
+Tu propuesta debe comunicar claramente de qué trata tu charla y qué pueden esperar aprender los asistentes. Si tu propuesta es poco clara, divaga o es difícil de seguir, los revisores pueden no ser capaces de determinar si tu charla se alinea con los objetivos de la conferencia o es adecuada para la audiencia prevista.
 
-## Future work
-While discussing future work is exciting and could be mentioned in your talk, the core content of the talk should already be shaped, and you should be able to describe it in your proposal. Don't rely too heavily on future data collection or future prototyping because things often don't go as expected. Be sure to provide concrete examples and use cases.
+## Falta de originalidad
 
-## Inappropriate or offensive content
-Keep your language and tone professional and respectful, and avoid controversial or sensitive topics that could offend or alienate attendees. Proposals containing inappropriate, offensive, or discriminatory content will likely be rejected.
+Los revisores buscan charlas únicas, perspicaces e innovadoras que ofrezcan perspectivas frescas o nuevas soluciones a problemas comunes. Si tu propuesta cubre un tema que ya ha sido tratado varias veces o no proporciona nuevos conocimientos o técnicas, los revisores pueden rechazarla. Esto no significa que un caso de estudio o un nuevo enfoque sobre un problema no sea aceptado, pero vale la pena considerar esa perspectiva adicional.
 
-## Poor fit with the conference format
-Conferences have different formats, from lightning talks to workshops to keynote speeches. Ensure your proposal aligns with the format and duration of the conference and can be delivered effectively in that format. Consider any equipment, materials, or resources required for your talk.
+## Propuestas demasiado largas
 
-By avoiding these common pitfalls, you can increase your chances of submitting a successful proposal for a conference talk that aligns with the conference's goals, is relevant to attendees, and delivers fresh insights or techniques.
+Mantén tu propuesta simple y clara. Las buenas propuestas típicamente proporcionan toda la información vital dentro de 250 palabras. Este no es un límite estricto y varía según la conferencia. Es una sugerencia para ayudarte a mantenerte enfocado y evitar perder la atención de los revisores.
+
+## Falta de relevancia
+
+Asegúrate de que tu charla se alinee con el tema o enfoque de la conferencia. Si tu propuesta está solo tangencialmente relacionada con los objetivos de la conferencia, los revisores pueden no ver cómo encaja en el panorama más amplio o cómo beneficiaría a los asistentes.
+
+## Trabajo futuro
+
+Aunque hablar de trabajo futuro es emocionante y podría mencionarse en tu charla, el contenido principal de la charla ya debería estar formado, y deberías poder describirlo en tu propuesta. No confíes demasiado en la recopilación de datos futuros o prototipos futuros porque las cosas a menudo no salen como se espera. Asegúrate de proporcionar ejemplos concretos y casos de uso.
+
+## Contenido inapropiado u ofensivo
+
+Mantén tu lenguaje y tono profesional y respetuoso, y evita temas controvertidos o sensibles que podrían ofender o alienar a los asistentes. Las propuestas que contengan contenido inapropiado, ofensivo o discriminatorio probablemente serán rechazadas.
+
+## Mal ajuste con el formato de la conferencia
+
+Las conferencias tienen diferentes formatos, desde charlas relámpago hasta talleres y discursos principales. Asegúrate de que tu propuesta se alinee con el formato y duración de la conferencia y pueda ser entregada efectivamente en ese formato. Considera cualquier equipo, materiales o recursos requeridos para tu charla.
+
+Al evitar estos errores comunes, puedes aumentar tus posibilidades de enviar una propuesta exitosa para una charla de conferencia que se alinee con los objetivos de la conferencia, sea relevante para los asistentes y ofrezca nuevos conocimientos o técnicas.

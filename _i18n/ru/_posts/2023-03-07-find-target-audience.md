@@ -1,48 +1,54 @@
 ---
-title: How do you define your target audience for a Python conference talk?
+title: Как определить целевую аудиторию для доклада на конференции Python?
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "presentation", "conference", "audience"]
+tags: ['Python', 'presentation', 'conference', 'audience']
 ---
 
-When it comes to submitting a proposal for a conference presentation, it's essential to define your target audience. Knowing who you are speaking to can help you tailor your presentation to the audience's needs, interests, and background knowledge. In this post, we will discuss how to define your target audience for a conference proposal and why it matters.
+Когда дело доходит до подачи заявки на выступление на конференции, важно определить вашу целевую аудиторию. Знание того, с кем вы говорите, может помочь вам адаптировать вашу презентацию к потребностям, интересам и фоновым знаниям аудитории. В этом посте мы обсудим, как определить вашу целевую аудиторию для заявки на конференцию и почему это важно.
 
-## Consider their Job Role
-First, you need to consider the job role of your target audience. Are they data scientists, machine learning or software engineers, researchers, or something else?
+## Учитывайте их профессиональную роль
 
-Knowing their job role can help you determine what topics and techniques are most relevant to them.
+Сначала вам нужно учесть профессиональную роль вашей целевой аудитории. Это data scientists, инженеры машинного обучения или программного обеспечения, исследователи или кто-то другой?
 
-For example, if you present a new data visualization technique, data scientists and researchers may be more interested in how it works.
+Знание их профессиональной роли может помочь вам определить, какие темы и техники наиболее релевантны для них.
 
-At the same time, engineers may be more interested in how it can be implemented in their existing systems.
+Например, если вы представляете новую технику визуализации данных, data scientists и исследователи могут больше интересоваться тем, как она работает.
 
-## Think about Experience
-Next, consider the experience level of your target audience. Are they beginners, intermediate, or advanced in the subject matter?
+В то же время инженеры могут больше интересоваться тем, как ее можно внедрить в их существующие системы.
 
-This will affect how you present your ideas and how much background information you provide.
+## Подумайте об опыте
 
-For example, suppose your presentation is on a complex algorithm. In that case, an advanced audience may be interested in the technical details and code examples. At the same time, beginners may need a simplified explanation of the concepts to follow the presentation.
+Далее, учитывайте уровень опыта вашей целевой аудитории. Они начинающие, среднего уровня или продвинутые в данной теме?
 
-## Consider a Secondary Niche
-Believe me, I love talking about machine learning. But when people don't know me, they're unlikely to be interested in that talk.
+Это повлияет на то, как вы будете представлять свои идеи и сколько фоновой информации вы предоставите.
 
-However, you could talk about "machine learning in medicine" or "applying neural networks in weather and climate prediction", making the talk a must-watch for certain people who might have missed the proposal otherwise.
+Например, если ваша презентация посвящена сложному алгоритму, продвинутая аудитория может быть заинтересована в технических деталях и примерах кода, в то время как начинающие могут нуждаться в упрощенном объяснении концепций, чтобы следить за презентацией.
 
-This is a way to tell your target audience exactly that a presentation is for them.
+## Рассмотрите вторичную нишу
 
-## Why do we define our Target Audience?
-Defining your target audience is crucial for two main reasons.
+Поверьте мне, я люблю говорить о машинном обучении. Но когда люди меня не знают, они вряд ли заинтересуются этим докладом.
 
-First, it helps you focus your presentation on the most relevant and interesting topics for your audience. This can make your presentation more engaging and valuable for attendees.
+Однако вы могли бы говорить о "машинном обучении в медицине" или "применении нейронных сетей в прогнозировании погоды и климата", делая доклад необходимым для определенных людей, которые иначе могли бы пропустить вашу заявку.
 
-Second, it helps potential attendees decide if your presentation matches their needs and interests.
+Это способ точно сказать вашей целевой аудитории, что презентация предназначена для них.
 
-Suppose they can easily see that your presentation targets their job role and experience level. In that case, they are more likely to attend and find value in your talk.
+## Почему мы определяем нашу целевую аудиторию?
 
-## Consider the Conference itself
-When writing your conference proposal, make sure to include information about your target audience.
+Определение вашей целевой аудитории важно по двум основным причинам.
 
-This could be as simple as including a statement like "This presentation is targeted towards data scientists with intermediate experience level." Providing this information can help reviewers and attendees understand who your talk is for and whether it aligns with the goals of the conference.
+Во-первых, это помогает вам сфокусировать вашу презентацию на наиболее релевантных и интересных темах для вашей аудитории. Это может сделать вашу презентацию более увлекательной и ценной для участников.
 
-## Conclusion
-Defining your target audience is an essential step in preparing a conference presentation. By considering your audience's job role and experience level, you can tailor your presentation to their needs and interests, making it more engaging and useful for attendees. Be sure to include information about your target audience in your conference proposal to help reviewers and attendees understand who your talk is for and whether it's a good fit for them.
+Во-вторых, это помогает потенциальным участникам решить, соответствует ли ваша презентация их потребностям и интересам.
+
+Если они могут легко увидеть, что ваша презентация нацелена на их профессиональную роль и уровень опыта, они с большей вероятностью посетят ее и найдут ценность в вашем докладе.
+
+## Учитывайте саму конференцию
+
+При написании вашей заявки на конференцию, обязательно включите информацию о вашей целевой аудитории.
+
+Это может быть так просто, как включение утверждения типа "Эта презентация нацелена на data scientists со средним уровнем опыта." Предоставление этой информации может помочь рецензентам и участникам понять, для кого предназначен ваш доклад и соответствует ли он целям конференции.
+
+## Заключение
+
+Определение вашей целевой аудитории - важный шаг в подготовке презентации для конференции. Учитывая профессиональную роль и уровень опыта вашей аудитории, вы можете адаптировать вашу презентацию к их потребностям и интересам, делая ее более увлекательной и полезной для участников. Обязательно включите информацию о вашей целевой аудитории в вашу заявку на конференцию, чтобы помочь рецензентам и участникам понять, для кого предназначен ваш доклад и подходит ли он для них.

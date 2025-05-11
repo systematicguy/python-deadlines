@@ -1,48 +1,54 @@
 ---
-title: How do you define your target audience for a Python conference talk?
+title: Wie definieren Sie Ihre Zielgruppe für einen Python-Konferenzvortrag?
 author: Jesper Dramsch
 layout: post
-tags: ["Python", "presentation", "conference", "audience"]
+tags: ['Python', 'presentation', 'conference', 'audience']
 ---
 
-When it comes to submitting a proposal for a conference presentation, it's essential to define your target audience. Knowing who you are speaking to can help you tailor your presentation to the audience's needs, interests, and background knowledge. In this post, we will discuss how to define your target audience for a conference proposal and why it matters.
+Bei der Einreichung eines Vorschlags für eine Konferenzpräsentation ist es wichtig, Ihre Zielgruppe zu definieren. Zu wissen, mit wem Sie sprechen, kann Ihnen helfen, Ihre Präsentation auf die Bedürfnisse, Interessen und das Hintergrundwissen des Publikums zuzuschneiden. In diesem Beitrag besprechen wir, wie Sie Ihre Zielgruppe für einen Konferenzvorschlag definieren und warum dies wichtig ist.
 
-## Consider their Job Role
-First, you need to consider the job role of your target audience. Are they data scientists, machine learning or software engineers, researchers, or something else?
+## Betrachten Sie ihre Berufsrolle
 
-Knowing their job role can help you determine what topics and techniques are most relevant to them.
+Zunächst müssen Sie die Berufsrolle Ihrer Zielgruppe berücksichtigen. Handelt es sich um Data Scientists, Machine Learning- oder Softwareingenieure, Forscher oder etwas anderes?
 
-For example, if you present a new data visualization technique, data scientists and researchers may be more interested in how it works.
+Das Wissen um ihre Berufsrolle kann Ihnen helfen zu bestimmen, welche Themen und Techniken für sie am relevantesten sind.
 
-At the same time, engineers may be more interested in how it can be implemented in their existing systems.
+Wenn Sie beispielsweise eine neue Datenvisualisierungstechnik vorstellen, könnten Data Scientists und Forscher mehr daran interessiert sein, wie sie funktioniert.
 
-## Think about Experience
-Next, consider the experience level of your target audience. Are they beginners, intermediate, or advanced in the subject matter?
+Gleichzeitig könnten Ingenieure mehr daran interessiert sein, wie sie in ihre bestehenden Systeme implementiert werden kann.
 
-This will affect how you present your ideas and how much background information you provide.
+## Denken Sie über die Erfahrung nach
 
-For example, suppose your presentation is on a complex algorithm. In that case, an advanced audience may be interested in the technical details and code examples. At the same time, beginners may need a simplified explanation of the concepts to follow the presentation.
+Als Nächstes sollten Sie das Erfahrungsniveau Ihrer Zielgruppe berücksichtigen. Sind sie Anfänger, Fortgeschrittene oder Experten in dem Themengebiet?
 
-## Consider a Secondary Niche
-Believe me, I love talking about machine learning. But when people don't know me, they're unlikely to be interested in that talk.
+Dies wird beeinflussen, wie Sie Ihre Ideen präsentieren und wie viel Hintergrundinformation Sie liefern.
 
-However, you could talk about "machine learning in medicine" or "applying neural networks in weather and climate prediction", making the talk a must-watch for certain people who might have missed the proposal otherwise.
+Wenn Ihre Präsentation beispielsweise einen komplexen Algorithmus behandelt, könnte ein fortgeschrittenes Publikum an den technischen Details und Codebeispielen interessiert sein, während Anfänger eine vereinfachte Erklärung der Konzepte benötigen könnten, um der Präsentation folgen zu können.
 
-This is a way to tell your target audience exactly that a presentation is for them.
+## Betrachten Sie eine sekundäre Nische
 
-## Why do we define our Target Audience?
-Defining your target audience is crucial for two main reasons.
+Glauben Sie mir, ich spreche gerne über maschinelles Lernen. Aber wenn die Leute mich nicht kennen, werden sie sich wahrscheinlich nicht für diesen Vortrag interessieren.
 
-First, it helps you focus your presentation on the most relevant and interesting topics for your audience. This can make your presentation more engaging and valuable for attendees.
+Sie könnten jedoch über "maschinelles Lernen in der Medizin" oder "Anwendung neuronaler Netze in der Wetter- und Klimavorhersage" sprechen, was den Vortrag für bestimmte Personen, die den Vorschlag sonst vielleicht übersehen hätten, zu einem Muss macht.
 
-Second, it helps potential attendees decide if your presentation matches their needs and interests.
+So können Sie Ihrer Zielgruppe genau mitteilen, dass eine Präsentation für sie bestimmt ist.
 
-Suppose they can easily see that your presentation targets their job role and experience level. In that case, they are more likely to attend and find value in your talk.
+## Warum definieren wir unsere Zielgruppe?
 
-## Consider the Conference itself
-When writing your conference proposal, make sure to include information about your target audience.
+Die Definition Ihrer Zielgruppe ist aus zwei Hauptgründen wichtig.
 
-This could be as simple as including a statement like "This presentation is targeted towards data scientists with intermediate experience level." Providing this information can help reviewers and attendees understand who your talk is for and whether it aligns with the goals of the conference.
+Erstens hilft es Ihnen, Ihre Präsentation auf die relevantesten und interessantesten Themen für Ihr Publikum zu konzentrieren. Dies kann Ihre Präsentation ansprechender und wertvoller für die Teilnehmer machen.
 
-## Conclusion
-Defining your target audience is an essential step in preparing a conference presentation. By considering your audience's job role and experience level, you can tailor your presentation to their needs and interests, making it more engaging and useful for attendees. Be sure to include information about your target audience in your conference proposal to help reviewers and attendees understand who your talk is for and whether it's a good fit for them.
+Zweitens hilft es potenziellen Teilnehmern zu entscheiden, ob Ihre Präsentation ihren Bedürfnissen und Interessen entspricht.
+
+Wenn sie leicht erkennen können, dass Ihre Präsentation auf ihre Berufsrolle und ihr Erfahrungsniveau abzielt, werden sie eher teilnehmen und Wert in Ihrem Vortrag finden.
+
+## Berücksichtigen Sie die Konferenz selbst
+
+Wenn Sie Ihren Konferenzvorschlag schreiben, stellen Sie sicher, dass Sie Informationen über Ihre Zielgruppe einfügen.
+
+Dies könnte so einfach sein wie eine Aussage wie "Diese Präsentation richtet sich an Data Scientists mit mittlerem Erfahrungsniveau." Die Bereitstellung dieser Informationen kann Gutachtern und Teilnehmern helfen zu verstehen, für wen Ihr Vortrag gedacht ist und ob er mit den Zielen der Konferenz übereinstimmt.
+
+## Fazit
+
+Die Definition Ihrer Zielgruppe ist ein wesentlicher Schritt bei der Vorbereitung einer Konferenzpräsentation. Indem Sie die Berufsrolle und das Erfahrungsniveau Ihres Publikums berücksichtigen, können Sie Ihre Präsentation auf deren Bedürfnisse und Interessen zuschneiden, was sie ansprechender und nützlicher für die Teilnehmer macht. Stellen Sie sicher, dass Sie Informationen über Ihre Zielgruppe in Ihrem Konferenzvorschlag aufnehmen, um Gutachtern und Teilnehmern zu helfen, zu verstehen, für wen Ihr Vortrag gedacht ist und ob er für sie geeignet ist.
