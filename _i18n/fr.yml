@@ -26,6 +26,7 @@ titles:
   past_cfps: 'Appels à participation passés'
   search: 'Rechercher'
   about: 'À propos des échéances des conférences Python'
+  languages: 'Langues disponibles'
 buttons:
   ical: Obtenir l'iCal
   google: Ajouter à Google Agenda

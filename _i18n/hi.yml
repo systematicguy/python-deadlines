@@ -20,6 +20,7 @@ titles:
   past_cfps: 'पिछले आमंत्रण'
   search: 'खोजें'
   about: 'पायथन सम्मेलन समय सीमाओं के बारे में'
+  languages: 'उपलब्ध भाषाएँ'
 buttons:
   ical: iCal प्राप्त करें
   google: Google कैलेंडर में जोड़ें

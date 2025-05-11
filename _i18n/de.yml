@@ -20,6 +20,7 @@ titles:
   past_cfps: 'Vergangene CfPs'
   search: 'Suche'
   about: 'Über Python-Konferenz-Deadlines'
+  languages: 'Verfügbare Sprachen'
 buttons:
   ical: Lade iCal runter
   google: Zu Google Kalender hinzufügen

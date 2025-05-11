@@ -20,6 +20,7 @@ titles:
   past_cfps: 'Past Calls for Participation'
   search: 'Search'
   about: 'About Python Conference Deadlines'
+  languages: 'Available Languages'
 description:
   summary: 'Summary of the conference and its instances throughout the years.'
 header:

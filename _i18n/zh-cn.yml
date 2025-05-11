@@ -26,6 +26,7 @@ titles:
   past_cfps: '往期征集'
   search: '搜索'
   about: '关于Python会议截止日期'
+  languages: '可用语言'
 buttons:
   ical: 获取iCal日历
   google: 添加到Google日历

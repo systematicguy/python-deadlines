@@ -29,6 +29,7 @@ titles:
   past_cfps: 'Undangan Sebelumnya'
   search: 'Cari'
   about: 'Tentang Tenggat Waktu Konferensi Python'
+  languages: 'Bahasa yang Tersedia'
 buttons:
   ical: Dapatkan iCal
   google: Tambahkan ke Google Calendar

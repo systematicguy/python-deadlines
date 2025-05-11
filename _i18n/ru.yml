@@ -29,6 +29,7 @@ titles:
   past_cfps: 'Прошедшие приглашения'
   search: 'Поиск'
   about: 'О дедлайнах конференций Python'
+  languages: 'Доступные языки'
 buttons:
   ical: Получить iCal
   google: Добавить в Google Календарь

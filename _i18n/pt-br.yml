@@ -26,6 +26,7 @@ titles:
   past_cfps: 'Chamadas para participação passadas'
   search: 'Pesquisar'
   about: 'Sobre os prazos de conferências Python'
+  languages: 'Idiomas disponíveis'
 buttons:
   ical: Obter o iCal
   google: Adicionar ao Google Calendar
