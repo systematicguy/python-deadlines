@@ -38,10 +38,22 @@
 				<li>
 					<a href="{% tl series %}" class="nav-link" style="border-bottom: none">{% t header.series %}</a>
 				</li>
-				<li>
-					<a href="{% tl resources %}" class="nav-link" style="border-bottom: none"
-						>{% t header.resources %}</a
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="resourcesDropdown"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"
+						style="border-bottom: none"
 					>
+						{% t header.resources %}
+					</a>
+					<div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+						<a class="dropdown-item" href="{% tl resources %}">{% t header.articles %}</a>
+						<a class="dropdown-item" href="{% tl formatter %}">{% t header.formatter %}</a>
+					</div>
 				</li>
 			</ul>
 

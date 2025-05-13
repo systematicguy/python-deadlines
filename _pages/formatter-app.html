@@ -1,0 +1,887 @@
+---
+title: titles.formatter
+author: Jesper Dramsch
+description: 'Create Python conference submissions in multiple formats across the community'
+namespace: formatter
+permalink: /app/formatter
+permalink_de: /app/formatter
+permalink_es: /app/formatter
+permalink_fr: /app/formatter
+permalink_pt-br: /app/formatter
+permalink_id: /app/formatter
+permalink_hi: /app/formatter
+permalink_zh-cn: /app/formatter
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include head.html %}
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+		<style>
+			.card-header {
+				cursor: pointer;
+			}
+			.output-section {
+				margin-top: 20px;
+			}
+			.output-container {
+				margin-bottom: 20px;
+			}
+			.output-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 10px;
+			}
+			pre {
+				max-height: 300px;
+				overflow-y: auto;
+				background-color: #f8f9fa;
+				padding: 15px;
+				border-radius: 4px;
+			}
+			.required-marker {
+				color: #dc3545;
+			}
+			.help-text {
+				font-size: 0.875rem;
+				color: #6c757d;
+				margin-top: 2px;
+			}
+			.twitter-typeahead {
+				width: 100%;
+			}
+			.tt-menu {
+				width: 100%;
+				margin-top: 2px;
+				padding: 5px 0;
+				background-color: #fff;
+				border: 1px solid rgba(0, 0, 0, 0.125);
+				border-radius: 4px;
+				box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+				max-height: 300px;
+				overflow-y: auto;
+			}
+			.tt-suggestion {
+				padding: 0.5rem 1rem;
+				cursor: pointer;
+			}
+			.tt-suggestion:hover,
+			.tt-suggestion.tt-cursor {
+				color: #fff;
+				background-color: #007bff;
+			}
+			.flag-emoji {
+				font-size: 1.2em;
+				margin-right: 5px;
+			}
+			.cfp-options {
+				margin-top: 10px;
+			}
+			.cfp-options label {
+				margin-right: 15px;
+				font-weight: normal;
+			}
+			.submission-guidelines {
+				background-color: #f8f9fa;
+				border-left: 4px solid #17a2b8;
+				padding: 15px;
+				margin-bottom: 20px;
+			}
+			.submission-step {
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		{% include header.html %}
+
+		<div class="container mt-4">
+			<div class="jumbotron">
+				<h1 class="display-4">{% t titles.formatter%}</h1>
+				<p class="lead">{% t formatter.description %}</p>
+			</div>
+
+			<div class="accordion" id="accordion">
+				<!-- Basic Information Section -->
+				<div class="card mb-3">
+					<div
+						class="card-header d-flex justify-content-between align-items-center"
+						id="headingOne"
+						data-toggle="collapse"
+						data-target="#collapseOne"
+						aria-expanded="true"
+						aria-controls="collapseOne"
+					>
+						<h5 class="mb-0"><i class="fas fa-info-circle mr-2"></i>{% t formatter.basic.title %}</h5>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<label for="conference"
+										>{% t formatter.basic.name %} <span class="required-marker">*</span></label
+									>
+									<input
+										type="text"
+										class="form-control"
+										id="conference"
+										placeholder="BestConf"
+										required
+									/>
+								</div>
+								<div class="col-md-6 form-group">
+									<label for="year"
+										>{% t formatter.basic.year %} <span class="required-marker">*</span></label
+									>
+									<input
+										type="number"
+										class="form-control"
+										id="year"
+										placeholder="2025"
+										min="2000"
+										max="2100"
+										required
+									/>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<label for="sub"
+										>{% t formatter.basic.type %}Conference Type
+										<span class="required-marker">*</span></label
+									>
+									<select class="form-control" id="sub" required>
+										{% for sub in site.data.types %}
+										<option value="{{ sub.sub }}">
+											{% t 'subs.{{sub.sub | strip}}' %} ({{ sub.sub }})
+										</option>
+										{% endfor %}
+									</select>
+								</div>
+								<div class="col-md-6 form-group">
+									<label for="attendees"
+										>{% t formatter.basic.attendees %} <span class="required-marker">*</span></label
+									>
+									<input
+										type="number"
+										class="form-control"
+										id="attendees"
+										placeholder="e.g. 100"
+										required
+									/>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 form-group">
+									<label for="link"
+										>{% t formatter.basic.url %} <span class="required-marker">*</span></label
+									>
+									<input
+										type="url"
+										class="form-control"
+										id="link"
+										placeholder="https://www.bestconf.xyz"
+										required
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Location & Date Section -->
+				<div class="card mb-3">
+					<div
+						class="card-header d-flex justify-content-between align-items-center"
+						id="headingTwo"
+						data-toggle="collapse"
+						data-target="#collapseTwo"
+						aria-expanded="false"
+						aria-controls="collapseTwo"
+					>
+						<h5 class="mb-0">
+							<i class="fas fa-map-marker-alt mr-2"></i>{% t formatter.location_date.title %}
+						</h5>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<label for="place"
+										>{% t formatter.location_date.city %}
+										<span class="required-marker">*</span></label
+									>
+									<input type="text" class="form-control" id="place" placeholder="Hamburg" required />
+									<p class="help-text">{% t formatter.location_date.city_help %}</p>
+								</div>
+								<div class="col-md-6 form-group">
+									<label for="country"
+										>{% t formatter.location_date.country %}
+										<span class="required-marker">*</span></label
+									>
+									<input
+										type="text"
+										class="form-control"
+										id="country"
+										placeholder="{% t formatter.location_date.country_help %}..."
+										autocomplete="off"
+										required
+									/>
+									<input type="hidden" id="country_code" />
+									<p class="help-text">{% t formatter.location_date.country_help %}</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<label for="venue">{% t formatter.location_date.venue %}</label>
+									<input
+										type="text"
+										class="form-control"
+										id="venue"
+										placeholder="e.g. Conference Center"
+									/>
+								</div>
+								<div class="col-md-6 form-group">
+									<label for="extra_places">{% t formatter.location_date.extra_places %}</label>
+									<input type="text" class="form-control" id="extra_places" placeholder="Edinburgh" />
+									<p class="help-text">{% t formatter.location_date.extra_help %}</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 form-group">
+									<label for="start"
+										>{% t formatter.location_date.start_date %}
+										<span class="required-marker">*</span></label
+									>
+									<input type="date" class="form-control" id="start" required />
+								</div>
+								<div class="col-md-4 form-group">
+									<label for="end"
+										>{% t formatter.location_date.start_date %}
+										<span class="required-marker">*</span></label
+									>
+									<input type="date" class="form-control" id="end" required />
+								</div>
+								<div class="col-md-4 form-group">
+									<label for="timezone">{% t formatter.location_date.timezone %}</label>
+									<input
+										type="text"
+										class="form-control"
+										id="timezone"
+										placeholder="{% t formatter.location_date.timezone_help %}..."
+										autocomplete="off"
+									/>
+									<p class="help-text">{% t formatter.location_date.timezone_help %}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Call for Proposals Section -->
+				<div class="card mb-3">
+					<div
+						class="card-header d-flex justify-content-between align-items-center"
+						id="headingThree"
+						data-toggle="collapse"
+						data-target="#collapseThree"
+						aria-expanded="false"
+						aria-controls="collapseThree"
+					>
+						<h5 class="mb-0"><i class="far fa-calendar-alt mr-2"></i> {% t formatter.cfp.title %}</h5>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<label for="cfp-status">{% t formatter.cfp.status %}</label>
+									<div class="cfp-options">
+										<div class="custom-control custom-radio custom-control-inline">
+											<input
+												type="radio"
+												id="cfp-tba"
+												name="cfp-status"
+												value="tba"
+												checked
+												class="custom-control-input"
+											/>
+											<label class="custom-control-label" for="cfp-tba"
+												>{% t formatter.cfp.tba %}</label
+											>
+										</div>
+										<div class="custom-control custom-radio custom-control-inline">
+											<input
+												type="radio"
+												id="cfp-none"
+												name="cfp-status"
+												value="none"
+												class="custom-control-input"
+											/>
+											<label class="custom-control-label" for="cfp-none"
+												>{% t formatter.cfp.none %}</label
+											>
+										</div>
+										<div class="custom-control custom-radio custom-control-inline">
+											<input
+												type="radio"
+												id="cfp-date"
+												name="cfp-status"
+												value="date"
+												class="custom-control-input"
+											/>
+											<label class="custom-control-label" for="cfp-date"
+												>{% t formatter.cfp.date %} 🠒</label
+											>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 form-group" id="cfp-date-group" style="display: none">
+									<label for="cfp">{% t formatter.cfp.deadline %}</label>
+									<input type="datetime-local" class="form-control" id="cfp" />
+									<p class="help-text">{% t formatter.cfp.deadline_help %}</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 form-group">
+									<label for="cfp_link">{% t formatter.cfp.link %}</label>
+									<input
+										type="url"
+										class="form-control"
+										id="cfp_link"
+										placeholder="https://www.papercall.io/BestConf2011"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Additional Information Section -->
+				<div class="card mb-3">
+					<div
+						class="card-header d-flex justify-content-between align-items-center"
+						id="headingFour"
+						data-toggle="collapse"
+						data-target="#collapseFour"
+						aria-expanded="false"
+						aria-controls="collapseFour"
+					>
+						<h5 class="mb-0">
+							<i class="fas fa-plus-circle mr-2"></i> {% t formatter.additional_info.title %}
+						</h5>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<label for="sponsor">{% t formatter.additional_info.sponsor %}</label>
+									<input
+										type="url"
+										class="form-control"
+										id="sponsor"
+										placeholder="https://www.bestconf.xyz/sponsorship"
+									/>
+								</div>
+								<div class="col-md-6 form-group">
+									<label for="finaid">{% t formatter.additional_info.finaid %}</label>
+									<input
+										type="url"
+										class="form-control"
+										id="finaid"
+										placeholder="https://www.bestconf.xyz/finaid"
+									/>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<label for="mastodon">{% t formatter.additional_info.mastodon %}</label>
+									<input
+										type="url"
+										class="form-control"
+										id="mastodon"
+										placeholder="https://mastodon.social/@bestconf"
+									/>
+								</div>
+								<div class="col-md-6 form-group">
+									<label for="bluesky">{% t formatter.additional_info.bsky %}</label>
+									<input
+										type="url"
+										class="form-control"
+										id="bluesky"
+										placeholder="https://bsky.app/@bestconf"
+									/>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 form-group">
+									<label for="note">{% t formatter.additional_info.notes %}</label>
+									<input
+										type="text"
+										class="form-control"
+										id="note"
+										placeholder="{% t formatter.additional_info.notes_place %}"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Submission Guidelines Section -->
+				<div class="card mb-3">
+					<div
+						class="card-header d-flex justify-content-between align-items-center"
+						id="headingFive"
+						data-toggle="collapse"
+						data-target="#collapseFive"
+						aria-expanded="false"
+						aria-controls="collapseFive"
+					>
+						<h5 class="mb-0">
+							<i class="fas fa-info-circle mr-2"></i> {% t formatter.submission_guidelines %}
+						</h5>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+						<div class="card-body">{% tf formatter/submission.html %}</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group text-center my-4">
+				<button type="button" id="generate-btn" class="btn btn-primary btn-lg">
+					<i class="fas fa-sync-alt mr-2"></i> {% t formatter.generate_output %}
+				</button>
+			</div>
+
+			<!-- Output Section (initially hidden) -->
+			<div id="output-section" class="output-section" style="display: none">
+				<h2 class="mb-4">{% t formatter.generated_outputs %}</h2>
+
+				<!-- CSV Output -->
+				<div class="output-container">
+					<div class="output-header">
+						<h3>
+							<span class="badge badge-secondary">{% t formatter.csv_format %}</span>
+							python-organizers/conferences
+						</h3>
+						<button type="button" class="btn btn-outline-secondary copy-btn" data-target="csv-output">
+							<i class="far fa-copy mr-2"></i> {% t formatter.copy %}
+						</button>
+					</div>
+					<pre id="csv-output"></pre>
+				</div>
+
+				<!-- YAML Output -->
+				<div class="output-container">
+					<div class="output-header">
+						<h3>
+							<span class="badge badge-secondary">{% t formatter.yaml_format %}</span>
+							jesperdramsch/python-deadlines
+						</h3>
+						<button type="button" class="btn btn-outline-secondary copy-btn" data-target="yaml-output">
+							<i class="far fa-copy mr-2"></i> {% t formatter.copy %}
+						</button>
+					</div>
+					<pre id="yaml-output"></pre>
+				</div>
+
+				<!-- Calendar Output -->
+				<div class="output-container">
+					<div class="output-header">
+						<h3>
+							<span class="badge badge-secondary">{% t formatter.calendar_format %}</span>
+							python.org/events
+						</h3>
+						<button type="button" class="btn btn-outline-secondary copy-btn" data-target="calendar-output">
+							<i class="far fa-copy mr-2"></i> {% t formatter.copy %}
+						</button>
+					</div>
+					<pre id="calendar-output"></pre>
+				</div>
+			</div>
+		</div>
+		<footer class="mt-5">{% include_cached footer.html %}</footer>
+
+		<!-- Bootstrap 4.6 JS and dependencies -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				// Set default year to current year
+				$('#year').val(new Date().getFullYear());
+
+				// Show/hide CFP date input based on selection
+				$('input[name="cfp-status"]').change(function () {
+					if ($(this).val() === 'date') {
+						$('#cfp-date-group').show();
+					} else {
+						$('#cfp-date-group').hide();
+					}
+				});
+
+				// Toggle chevron icon on collapse
+				$('.card-header').on('click', function () {
+					$(this).find('i.fas.fa-chevron-down').toggleClass('fa-chevron-up');
+				});
+
+				// Country data for typeahead with emoji flags
+				const countries = [
+					{% tf formatter/countries.html %}
+				];
+
+				// Timezone data for typeahead
+				const timezones = [
+					{ name: 'AoE (Anywhere on Earth)', zone: '' },
+					{ name: 'UTC', zone: 'UTC' },
+					{ name: 'America/New_York (Eastern Time)', zone: 'America/New_York' },
+					{ name: 'America/Chicago (Central Time)', zone: 'America/Chicago' },
+					{ name: 'America/Denver (Mountain Time)', zone: 'America/Denver' },
+					{ name: 'America/Los_Angeles (Pacific Time)', zone: 'America/Los_Angeles' },
+					{ name: 'America/Anchorage (Alaska Time)', zone: 'America/Anchorage' },
+					{ name: 'America/Adak (Hawaii-Aleutian Time)', zone: 'America/Adak' },
+					{ name: 'America/Phoenix (Arizona Time)', zone: 'America/Phoenix' },
+					{ name: 'America/Toronto (Eastern Canada Time)', zone: 'America/Toronto' },
+					{ name: 'America/Vancouver (Pacific Canada Time)', zone: 'America/Vancouver' },
+					{ name: 'Europe/London (GMT/BST)', zone: 'Europe/London' },
+					{ name: 'Europe/Paris (Central European Time)', zone: 'Europe/Paris' },
+					{ name: 'Europe/Berlin (Central European Time)', zone: 'Europe/Berlin' },
+					{ name: 'Europe/Athens (Eastern European Time)', zone: 'Europe/Athens' },
+					{ name: 'Europe/Moscow (Moscow Time)', zone: 'Europe/Moscow' },
+					{ name: 'Asia/Dubai (Gulf Standard Time)', zone: 'Asia/Dubai' },
+					{ name: 'Asia/Tokyo (Japan Standard Time)', zone: 'Asia/Tokyo' },
+					{ name: 'Asia/Seoul (Korea Standard Time)', zone: 'Asia/Seoul' },
+					{ name: 'Asia/Shanghai (China Standard Time)', zone: 'Asia/Shanghai' },
+					{ name: 'Asia/Singapore (Singapore Time)', zone: 'Asia/Singapore' },
+					{ name: 'Asia/Kolkata (India Standard Time)', zone: 'Asia/Kolkata' },
+					{ name: 'Australia/Sydney (Eastern Australia Time)', zone: 'Australia/Sydney' },
+					{ name: 'Australia/Perth (Western Australia Time)', zone: 'Australia/Perth' },
+					{ name: 'Pacific/Auckland (New Zealand Time)', zone: 'Pacific/Auckland' },
+				];
+
+				// Initialize typeahead for country selection
+				const countryTypeahead = new Bloodhound({
+					datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+					queryTokenizer: Bloodhound.tokenizers.whitespace,
+					local: countries,
+				});
+
+				$('#country')
+					.typeahead(
+						{
+							hint: true,
+							highlight: true,
+							minLength: 1,
+						},
+						{
+							name: 'countries',
+							displayKey: 'name',
+							source: countryTypeahead.ttAdapter(),
+							templates: {
+								suggestion: function (data) {
+									return (
+										'<div>' +
+										data.flag +
+										' ' +
+										data.name +
+										' <span class="text-muted">(' +
+										data.code +
+										')</span></div>'
+									);
+								},
+							},
+						}
+					)
+					.on('typeahead:selected', function (event, selection) {
+						$('#country_code').val(selection.code);
+					});
+
+				// Initialize typeahead for timezone selection
+				const timezoneTypeahead = new Bloodhound({
+					datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+					queryTokenizer: Bloodhound.tokenizers.whitespace,
+					local: timezones,
+				});
+
+				$('#timezone')
+					.typeahead(
+						{
+							hint: true,
+							highlight: true,
+							minLength: 1,
+						},
+						{
+							name: 'timezones',
+							displayKey: 'name',
+							source: timezoneTypeahead.ttAdapter(),
+							templates: {
+								suggestion: function (data) {
+									return '<div>' + data.name + '</div>';
+								},
+							},
+						}
+					)
+					.on('typeahead:selected', function (event, selection) {
+						$('#timezone').data('zone', selection.zone);
+					});
+
+				// Generate outputs when the button is clicked
+				$('#generate-btn').click(function () {
+					// Basic validation
+					let valid = true;
+					$('input[required]').each(function () {
+						if (!$(this).val()) {
+							$(this).addClass('is-invalid');
+							valid = false;
+						} else {
+							$(this).removeClass('is-invalid');
+						}
+					});
+
+					if (!valid) {
+						alert('{% t formatter.required %}');
+						return;
+					}
+
+					// Get form data
+					const formData = {
+						conference: $('#conference').val(),
+						year: $('#year').val(),
+						link: $('#link').val(),
+						cfp_link: $('#cfp_link').val(),
+						cfp:
+							$('input[name="cfp-status"]:checked').val() === 'date'
+								? $('#cfp').val()
+								: $('input[name="cfp-status"]:checked').val() === 'tba'
+								? 'TBA'
+								: 'None',
+						timezone: $('#timezone').data('zone') || '',
+						place: $('#place').val(),
+						country: $('#country').val(),
+						country_code: $('#country_code').val(),
+						venue: $('#venue').val(),
+						extra_places: $('#extra_places').val(),
+						start: $('#start').val(),
+						end: $('#end').val(),
+						sponsor: $('#sponsor').val(),
+						finaid: $('#finaid').val(),
+						mastodon: $('#mastodon').val(),
+						bluesky: $('#bluesky').val(),
+						sub: $('#sub').val(),
+						note: $('#note').val(),
+						attendees: $('#attendees').val(),
+					};
+
+					// Generate outputs
+					generateOutputs(formData);
+
+					// Show output section
+					$('#output-section').show();
+
+					// Scroll to output section
+					$('html, body').animate(
+						{
+							scrollTop: $('#output-section').offset().top,
+						},
+						500
+					);
+				});
+
+				// Copy buttons functionality
+				$('.copy-btn').click(function () {
+					const targetId = $(this).data('target');
+					const text = $('#' + targetId).text();
+					copyToClipboard(text);
+
+					// Visual feedback
+					const originalText = $(this).html();
+					$(this).html('<i class="fas fa-check mr-2"></i> Copied!');
+					setTimeout(() => {
+						$(this).html(originalText);
+					}, 2000);
+				});
+
+				// Helper function to copy text to clipboard
+				function copyToClipboard(text) {
+					const textarea = document.createElement('textarea');
+					textarea.value = text;
+					document.body.appendChild(textarea);
+					textarea.select();
+					document.execCommand('copy');
+					document.body.removeChild(textarea);
+				}
+
+				// Generate all three output formats
+				function generateOutputs(data) {
+					// Format dates properly
+					const cfpFormatted = data.cfp !== 'TBA' && data.cfp !== 'None' ? formatTime(data.cfp) : data.cfp;
+
+					// Extract country code
+					const countryCode = data.country_code || '';
+
+					// Construct the place with city and country
+					const fullPlace = data.country ? `${data.place}, ${data.country}` : data.place;
+
+					// Generate CSV output
+					const csvHeader =
+						'Subject,Start Date,End Date,Location,Country,Venue,Tutorial Deadline,Talk Deadline,Website URL,Proposal URL,Sponsorship URL';
+					const csvRow = [
+						data.conference,
+						data.start,
+						data.end,
+						fullPlace,
+						countryCode,
+						data.venue,
+						'',
+						cfpFormatted !== 'TBA' && cfpFormatted !== 'None' ? cfpFormatted.split(' ')[0] : '',
+						data.link,
+						data.cfp_link,
+						data.sponsor,
+					]
+						.map((value) => `"${value || ''}"`)
+						.join(',');
+
+					$('#csv-output').text(`${csvHeader}\n${csvRow}`);
+
+					// Generate YAML output
+					let yaml = `- conference: ${data.conference} # Title of conference\n`;
+					yaml += `  year: ${data.year} # Year\n`;
+					yaml += `  link: ${data.link} # URL to conference\n`;
+					if (data.cfp_link) yaml += `  cfp_link: ${data.cfp_link} # URL to call for proposals\n`;
+					yaml += `  cfp: '${cfpFormatted}' # Deadline for Call for Participation\n`;
+					if (data.timezone) yaml += `  timezone: ${data.timezone} # Timezone\n`;
+					yaml += `  place: ${fullPlace} # City, Country\n`;
+					if (data.extra_places)
+						yaml += `  extra_places: [${data.extra_places}] # Extra places for hybrid conferences\n`;
+					yaml += `  start: ${data.start} # Start date of conference\n`;
+					yaml += `  end: ${data.end} # End date of conference\n`;
+					if (data.sponsor) yaml += `  sponsor: ${data.sponsor} # URL to Sponsorship page\n`;
+					if (data.finaid) yaml += `  finaid: ${data.finaid} # URL to Financial Aid page\n`;
+					if (data.mastodon) yaml += `  mastodon: ${data.mastodon} # Mastodon handle\n`;
+					if (data.bluesky) yaml += `  bluesky: ${data.bluesky} # Bluesky handle\n`;
+					yaml += `  sub: ${data.sub} # Type of conference\n`;
+					if (data.note) yaml += `  note: ${data.note} # Note\n`;
+
+					$('#yaml-output').text(yaml);
+
+					// Generate Calendar output
+					let calendar = ` * name of the event: ${data.conference} ${data.year}\n`;
+					calendar += `  * type of event: Conference\n`;
+					calendar += `  * focus on Python: ${getFocusLabel(data.sub)}\n`;
+					calendar += `  * approximate number of attendees: ${data.attendees || 'Unknown'}\n`;
+					calendar += `  * location (incl. country): ${fullPlace}\n`;
+					calendar += `  * dates/times/recurrence (incl. time zone): ${formatDateRange(
+						data.start,
+						data.end
+					)} ${data.timezone || 'AoE'}\n`;
+					calendar += `  * HTML link using the format <a href="${data.link}">${data.conference} ${data.year}</a>`;
+
+					$('#calendar-output').text(calendar);
+				}
+
+				// Helper function to format time
+				function formatTime(dateString) {
+					if (!dateString) return '';
+
+					// For dates without time, append default time
+					if (dateString.length === 10) {
+						return `${dateString} 23:59:00`;
+					}
+
+					// Replace 'T' with space in datetime-local format
+					return dateString.replace('T', ' ');
+				}
+
+				// Helper function to get the focus label
+				function getFocusLabel(sub) {
+					const subLabels = {
+						PY: '{% t subs.PY %}',
+						SCIPY: '{% t subs.SCIPY %}',
+						DATA: '{% t subs.DATA %}',
+						WEB: '{% t subs.WEB %}',
+						BIZ: '{% t subs.BIZ %}',
+						GEO: '{% t subs.GEO %}',
+						CAMP: '{% t subs.CAMP %}',
+						DAY: '{% t subs.DAY %}',
+					};
+
+					return subLabels[sub] || 'Python Conference';
+				}
+
+				// Helper function to format date range for calendar
+				function formatDateRange(start, end) {
+					if (start === end) {
+						return formatSingleDate(start);
+					}
+
+					const startDate = new Date(start);
+					const endDate = new Date(end);
+					const months = [
+						'{% t times.months.January %}',
+						'{% t times.months.February %}',
+						'{% t times.months.March %}',
+						'{% t times.months.April %}',
+						'{% t times.months.May %}',
+						'{% t times.months.June %}',
+						'{% t times.months.July %}',
+						'{% t times.months.August %}',
+						'{% t times.months.September %}',
+						'{% t times.months.October %}',
+						'{% t times.months.November %}',
+						'{% t times.months.December %}',
+					];
+
+					if (
+						startDate.getFullYear() === endDate.getFullYear() &&
+						startDate.getMonth() === endDate.getMonth()
+					) {
+						// Same month and year
+						return `${
+							months[startDate.getMonth()]
+						} ${startDate.getDate()}-${endDate.getDate()}, ${startDate.getFullYear()}`;
+					} else if (startDate.getFullYear() === endDate.getFullYear()) {
+						// Same year, different month
+						return `${months[startDate.getMonth()]} ${startDate.getDate()}-${
+							months[endDate.getMonth()]
+						} ${endDate.getDate()}, ${startDate.getFullYear()}`;
+					} else {
+						// Different years
+						return `${months[startDate.getMonth()]} ${startDate.getDate()}, ${startDate.getFullYear()}-${
+							months[endDate.getMonth()]
+						} ${endDate.getDate()}, ${endDate.getFullYear()}`;
+					}
+				}
+
+				// Helper function to format a single date
+				function formatSingleDate(dateString) {
+					const date = new Date(dateString);
+					const months = [
+						'{% t times.months.January %}',
+						'{% t times.months.February %}',
+						'{% t times.months.March %}',
+						'{% t times.months.April %}',
+						'{% t times.months.May %}',
+						'{% t times.months.June %}',
+						'{% t times.months.July %}',
+						'{% t times.months.August %}',
+						'{% t times.months.September %}',
+						'{% t times.months.October %}',
+						'{% t times.months.November %}',
+						'{% t times.months.December %}',
+					];
+					return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+				}
+			});
+		</script>
+	</body>
+</html>

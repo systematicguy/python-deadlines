@@ -30,6 +30,7 @@ titles:
   search: 'Поиск'
   about: 'О дедлайнах конференций Python'
   languages: 'Доступные языки'
+  formatter: 'Форматировщик конференций Python'
 buttons:
   ical: Получить iCal
   google: Добавить в Google Календарь
@@ -44,6 +45,8 @@ header:
   maps: 'Карта'
   series: 'Серии'
   resources: 'Ресурсы'
+  formatter: 'Форматировщик приложения'
+  articles: 'Статьи для начала'
 conference:
   title: 'Дедлайны конференций'
   finaid: 'Финансовая помощь'
@@ -195,3 +198,49 @@ languages:
   switch_to: 'Переключиться'
   translated_by: 'Переведено:'
   legend: 'Легенда'
+formatter:
+  description: 'Отправка сроков проведения конференций Python в различных форматах'
+  basic:
+    title: 'Основная информация'
+    name: 'Название конференции'
+    year: 'Год'
+    type: 'Тип конференции'
+    attendees: 'Ожидаемое количество участников'
+    url: 'URL веб-сайта'
+  location_date:
+    title: 'Место и дата'
+    city: 'Город'
+    city_help: 'Введите только название города'
+    country: 'Страна'
+    country_help: 'Начните вводить, чтобы увидеть соответствующие страны с флагами'
+    venue: 'Место проведения'
+    extra_places: "Дополнительные места"
+    extra_help: "Для гибридных или онлайн-мероприятий добавьте дополнительные места через запятую."
+    start_date: 'Дата начала'
+    end_date: 'Дата окончания'
+    timezone: 'Часовой пояс'
+    timezone_help: 'Начните вводить, чтобы выбрать часовой пояс конференции'
+  cfp:
+    title: 'Приём заявок'
+    status: 'Статус CfP'
+    tba: 'Будет объявлено'
+    none: 'Нет CfP'
+    date: 'Использовать дату'
+    deadline: 'Срок подачи'
+    deadline_help: 'Крайний срок подачи предложений докладов'
+    link: 'Ссылка на CfP'
+  additional_info:
+    title: 'Дополнительная информация'
+    sponsor: 'URL для спонсоров'
+    finaid: 'URL финансовой помощи'
+    mastodon: 'URL в Mastodon'
+    bsky: 'URL в Bluesky'
+    notes: 'Дополнительные примечания'
+    notes_place: 'Дополнительные примечания о конференции'
+  submission_guidelines: 'Руководство по подаче заявок'
+  generate_output: 'Сгенерировать вывод'
+  generated_outputs: 'Сгенерированные выводы'
+  csv_format: 'Формат CSV'
+  yaml_format: 'Формат YAML'
+  copy: 'Скопировать в буфер обмена'
+  calendar_format: 'Формат календаря'
