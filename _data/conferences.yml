@@ -131,6 +131,23 @@
   year: 2025
   link: https://www.pycon.ke/
   cfp_link: https://sessionize.com/pycon-kenya-2025/
+  cfp: '2025-06-22 23:59:59'
+  timezone: Africa/Nairobi
+  place: Nairobi, Kenia
+  start: 2025-08-28
+  end: 2025-08-30
+  sponsor: https://www.pycon.ke/sponsors
+  twitter: pythonairobi
+  sub: PY
+  location:
+  - title: PyCon Kenya 2025
+    latitude: -1.2832533
+    longitude: 36.8172449
+
+- conference: PyCon Kenya
+  year: 2025
+  link: https://www.pycon.ke/
+  cfp_link: https://sessionize.com/pycon-kenya-2025/
   cfp: '2025-06-22 23:59:00'
   timezone: Africa/Nairobi
   place: Nairobi, Kenya
