@@ -159,6 +159,23 @@
     latitude: -1.2136405
     longitude: 36.87930533266044
 
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2025
+  link: https://pycon.hk/2025/
+  cfp_link: https://pretalx.com/pyconhk2025/cfp
+  cfp: '2025-06-22 23:59:00'
+  timezone: Asia/Hong_Kong
+  place: Hong Kong, China
+  start: 2025-11-08
+  end: 2025-11-08
+  twitter: pyconhk
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2025
+    latitude: 22.2793278
+    longitude: 114.1628131
+
 - conference: PyCon Thailand
   year: 2025
   link: https://th.pycon.org/
