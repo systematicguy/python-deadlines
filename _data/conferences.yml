@@ -665,6 +665,21 @@
     latitude: 59.9606739
     longitude: 30.1586551
 
+- conference: EARL
+  year: 2025
+  link: https://earl-conference.com/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdF0OHmG6UH4OcQLPkLTGyR7aOCxoYkiw1kzlewh1pxKHmIgA/closedform
+  cfp: '2025-02-28 23:59:00'
+  timezone: Europe/London
+  place: Brighton, UK
+  start: 2025-10-14
+  end: 2025-10-16
+  sub: BIZ
+  location:
+  - title: EARL 2025
+    latitude: 50.8214626
+    longitude: -0.1400561
+
 - conference: SciPy US
   alt_name: SciPy
   year: 2025
