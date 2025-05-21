@@ -882,6 +882,21 @@
     latitude: 49.872775
     longitude: 8.651177
 
+- conference: PyCascades
+  year: 2026
+  link: https://2026.pycascades.com/
+  cfp: TBA
+  place: Vancouver, Canada
+  start: 2026-03-20
+  end: 2026-03-21
+  sponsor: https://2026.pycascades.com/sponsors/become-a-sponsor/
+  mastodon: https://fosstodon.org/@pycascades
+  sub: PY
+  location:
+  - title: PyCascades 2026
+    latitude: 49.27213705
+    longitude: -123.13439461006233
+
 - conference: Kiwi PyCon
   alt_name: Kiwi PyCon XIV
   year: 2025
@@ -1006,7 +1021,7 @@
 - conference: AfroPython Conf
   year: 2025
   link: https://afropythonconf.org/
-  cfp: TBA
+  cfp: None
   place: Salvador, Brazil
   start: 2025-06-07
   end: 2025-06-07
