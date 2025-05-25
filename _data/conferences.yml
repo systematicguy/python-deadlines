@@ -10,6 +10,25 @@
   sponsor: https://xtremepython.dev/2025/sponsors/
   sub: PY
 
+- conference: Kiwi PyCon
+  year: 2025
+  link: https://kiwipycon.nz/
+  cfp_link: https://kiwipycon.nz/present/submitting-a-talk
+  cfp: '2025-08-21 23:59:00'
+  timezone: Pacific/Auckland
+  place: Te Whanganui-a-Tara Wellington, New Zealand
+  start: 2025-11-21
+  end: 2025-11-23
+  sponsor: https://kiwipycon.nz/sponsors/become-a-sponsor
+  finaid: https://kiwipycon.nz/attend/financial-aid
+  mastodon: https://mastodon.social/@kiwipycon
+  bluesky: https://bsky.app/profile/kiwipycon.nz
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2025
+    latitude: -41.2887953
+    longitude: 174.7772114
+
 - conference: PyCon Ireland
   alt_name: PyCon IE
   year: 2025
@@ -946,23 +965,6 @@
   - title: PyCascades 2026
     latitude: 49.27213705
     longitude: -123.13439461006233
-
-- conference: Kiwi PyCon
-  alt_name: Kiwi PyCon XIV
-  year: 2025
-  link: https://kiwipycon.nz/
-  cfp: TBA
-  timezone: Pacific/Auckland
-  place: Te Whanganui-a-Tara Wellington, New Zealand
-  start: 2025-11-21
-  end: 2025-11-23
-  mastodon: https://mastodon.social/@kiwipycon
-  bluesky: https://bsky.app/profile/kiwipycon.nz
-  sub: PY
-  location:
-  - title: Kiwi PyCon 2025
-    latitude: -41.2887953
-    longitude: 174.7772114
 
 - conference: Python Sul
   alt_name: Python Sul (Brazil)
