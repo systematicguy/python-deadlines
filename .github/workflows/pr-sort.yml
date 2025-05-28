@@ -31,7 +31,7 @@ jobs:
     # And skip if PR was merged by a bot
     if: >-
       (github.event_name != 'pull_request' ||
-      (github.event.pull_request.merged == true &&
+       (github.event.pull_request.merged == true &&
        !contains(github.event.pull_request.user.login, '[bot]') &&
        !contains(github.event.pull_request.user.login, '-bot') &&
        github.event.pull_request.user.login != 'dependabot' &&
@@ -48,7 +48,7 @@ jobs:
     - name: Set variables
       id: vars
       run: |
-        if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+        if [[ "${{ github.event_name }}" == "pull_request" || "${{ github.event_name }}" == "pull_request_target" ]]; then
           # For PR-triggered workflow
           echo "pr_number=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
           echo "contributor=${{ github.event.pull_request.user.login }}" >> $GITHUB_OUTPUT
